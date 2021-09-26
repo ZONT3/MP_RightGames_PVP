@@ -5,14 +5,14 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=1025;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=8466;
+		nextID=8475;
 	};
 	class MarkerIDProvider
 	{
@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=520;
+		nextID=564;
 	};
 	class Camera
 	{
-		pos[]={4823.2778,90.38382,2350.915};
-		dir[]={0.56202328,-0.59608054,0.57343251};
-		up[]={0.41723704,0.80292243,0.42570728};
-		aside[]={0.71417838,-2.2619497e-007,-0.69996816};
+		pos[]={12060.107,365.66547,12736.584};
+		dir[]={-0.13057123,-0.81985992,-0.5574891};
+		up[]={-0.18696253,0.57256168,-0.79825819};
+		aside[]={-0.97365636,1.15484e-007,0.228043};
 	};
 };
 binarizationWanted=0;
-sourceName="MP_RightGames";
+sourceName="MP_RightGames_PVP";
 addons[]=
 {
 	"A3_Modules_F",
@@ -194,7 +194,6 @@ addons[]=
 	"csa38ii_tracked_c",
 	"WW2_Assets_c_Characters_Civilians_c_CIV_Civilians_Gear",
 	"A3_Modules_F_Curator_Curator",
-	"task_force_radio_items",
 	"A3_Modules_F_Multiplayer",
 	"kss",
 	"A3_Roads_F",
@@ -207,7 +206,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=133;
+		items=132;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -923,35 +922,28 @@ class AddonsMetaData
 		};
 		class Item127
 		{
-			className="task_force_radio_items";
-			name="task_force_radio_items";
-			author="[TF]Nkey";
-			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
-		};
-		class Item128
-		{
 			className="KSS";
 			name="Kurt's Survival System";
 			author="Kurt";
 		};
-		class Item129
+		class Item128
 		{
 			className="A3_Roads_F";
 			name="Arma 3 - Roads";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item130
+		class Item129
 		{
 			className="K9_Module";
 			name="K9_Module";
 		};
-		class Item131
+		class Item130
 		{
 			className="uia_uniform";
 			name="uia_uniform";
 		};
-		class Item132
+		class Item131
 		{
 			className="fow_weapons_c";
 			name="fow_weapons_c";
@@ -6223,7 +6215,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="this execVM ""init_vvs.sqf""";
+						init="this execVM ""init_vvs_west.sqf""";
 						disableSimulation=1;
 						class Inventory
 						{
@@ -10137,7 +10129,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="this execVM ""init_vvs.sqf""";
+						init="this execVM ""init_vvs_east.sqf""";
 						disableSimulation=1;
 						class Inventory
 						{
@@ -10867,7 +10859,7 @@ class Mission
 					flags=3;
 					class Attributes
 					{
-						init="this execVM ""init_arsenals.sqf""";
+						init="this execVM ""init_arsenals_east.sqf""";
 						disableSimulation=1;
 						class Inventory
 						{
@@ -12974,7 +12966,7 @@ class Mission
 					flags=3;
 					class Attributes
 					{
-						init="this execVM ""init_arsenals.sqf""";
+						init="this execVM ""init_arsenals_west.sqf""";
 						disableSimulation=1;
 						class Inventory
 						{
@@ -50128,154 +50120,6 @@ class Mission
 		};
 		class Item606
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={4748.3384,39.463921,2488.283};
-				angles[]={6.272521,0,0.0026520467};
-			};
-			id=8272;
-			type="tfar_ModuleTaskForceRadioEnforceUsage";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="tfar_ModuleTaskForceRadioEnforceUsage_radio_channel_password";
-					expression="_this setVariable ['radio_channel_password',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="123";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="tfar_ModuleTaskForceRadioEnforceUsage_RiflemanRadio";
-					expression="_this setVariable ['RiflemanRadio',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="tfar_ModuleTaskForceRadioEnforceUsage_radio_channel_name";
-					expression="_this setVariable ['radio_channel_name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="TaskForceRadio";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="tfar_ModuleTaskForceRadioEnforceUsage_same_sw_frequencies_for_side";
-					expression="_this setVariable ['same_sw_frequencies_for_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="tfar_ModuleTaskForceRadioEnforceUsage_TeamLeaderRadio";
-					expression="_this setVariable ['TeamLeaderRadio',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="tfar_ModuleTaskForceRadioEnforceUsage_same_lr_frequencies_for_side";
-					expression="_this setVariable ['same_lr_frequencies_for_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="tfar_ModuleTaskForceRadioEnforceUsage_terrain_interception_coefficient";
-					expression="_this setVariable ['terrain_interception_coefficient',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=7;
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item607
-		{
 			dataType="Comment";
 			class PositionInfo
 			{
@@ -50286,7 +50130,7 @@ class Mission
 			description="Channel name - Название канала в ТС для TaskForceRadio " \n "Channel Password - Его Пароль";
 			id=8274;
 		};
-		class Item608
+		class Item607
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -50396,7 +50240,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item609
+		class Item608
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -50408,7 +50252,7 @@ class Mission
 			id=8276;
 			type="VirtualAISquad";
 		};
-		class Item610
+		class Item609
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -50420,7 +50264,7 @@ class Mission
 			id=8277;
 			type="VirtualAISquad";
 		};
-		class Item611
+		class Item610
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -50432,7 +50276,7 @@ class Mission
 			id=8278;
 			type="VirtualAISquad";
 		};
-		class Item612
+		class Item611
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -50522,7 +50366,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item613
+		class Item612
 		{
 			dataType="Layer";
 			name="[A3MM] Runway Edge lights.";
@@ -51359,19 +51203,19 @@ class Mission
 			id=8321;
 			atlOffset=-20.580437;
 		};
-		class Item614
+		class Item613
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
 				position[]={12105.191,189.47105,12647.169};
-				angles[]={6.2778587,0,6.2805109};
+				angles[]={6.2778621,0,6.2805147};
 			};
-			name="MP_spawn_easr";
+			name="MP_spawn_east";
 			id=8337;
 			type="VirtualAISquad";
 		};
-		class Item615
+		class Item614
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -51480,7 +51324,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item616
+		class Item615
 		{
 			dataType="Object";
 			class PositionInfo
@@ -51498,7 +51342,7 @@ class Mission
 			id=8339;
 			type="GraveCross2";
 		};
-		class Item617
+		class Item616
 		{
 			dataType="Object";
 			class PositionInfo
@@ -51516,7 +51360,7 @@ class Mission
 			id=8340;
 			type="GraveCross2";
 		};
-		class Item618
+		class Item617
 		{
 			dataType="Object";
 			class PositionInfo
@@ -51534,7 +51378,7 @@ class Mission
 			id=8341;
 			type="GraveCross2";
 		};
-		class Item619
+		class Item618
 		{
 			dataType="Object";
 			class PositionInfo
@@ -51552,19 +51396,19 @@ class Mission
 			id=8342;
 			type="GraveCross2";
 		};
-		class Item620
+		class Item619
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
 				position[]={11970.997,189.38228,12648.849};
-				angles[]={6.2805333,0,6.2751846};
+				angles[]={6.2805333,0.12835772,6.2751846};
 			};
 			name="VVS_East_Land";
 			id=8343;
 			type="VirtualAISquad";
 		};
-		class Item621
+		class Item620
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -51636,7 +51480,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item622
+		class Item621
 		{
 			dataType="Group";
 			side="West";
@@ -51961,7 +51805,7 @@ class Mission
 			};
 			id=8347;
 		};
-		class Item623
+		class Item622
 		{
 			dataType="Group";
 			side="West";
@@ -52286,7 +52130,7 @@ class Mission
 			};
 			id=8349;
 		};
-		class Item624
+		class Item623
 		{
 			dataType="Group";
 			side="West";
@@ -55528,7 +55372,7 @@ class Mission
 			id=8362;
 			atlOffset=-0.00018310547;
 		};
-		class Item625
+		class Item624
 		{
 			dataType="Group";
 			side="East";
@@ -58627,29 +58471,17 @@ class Mission
 			};
 			id=8411;
 		};
-		class Item626
+		class Item625
 		{
 			dataType="Comment";
 			class PositionInfo
 			{
-				position[]={4886.707,39.466194,2405.3169};
-				angles[]={6.2751846,0,0.0080009829};
+				position[]={4461.9961,36.48,2378.4509};
 			};
-			title="Z: На всю территорию аэродрома триггер";
+			title="Y: Ктрл+ц, ктрл+в эти триггеры. в переменной должно быть TPB_";
 			id=8463;
 		};
-		class Item627
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={12112.13,189.43512,12712.115};
-				angles[]={0.013327583,0,0};
-			};
-			title="Z: На всю территорию аэродрома триггер";
-			id=8464;
-		};
-		class Item628
+		class Item626
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -58659,6 +58491,101 @@ class Mission
 			};
 			title="зачем я его поставил? я не знаю";
 			id=8465;
+		};
+		class Item627
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={12072.498,189.48,12701.217};
+				angles[]={0.0026744273,0,0};
+			};
+			title="Y: Ктрл+ц, ктрл+в эти триггеры. в переменной должно быть TPB_";
+			id=8468;
+			atlOffset=-9.1552734e-005;
+		};
+		class Item628
+		{
+			dataType="Layer";
+			name="Third Person BLock";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Trigger";
+					position[]={4913.3398,39.1805,2460.7383};
+					angle=5.2262316;
+					class Attributes
+					{
+						name="TPB_1";
+						sizeA=128.93132;
+						sizeB=415.91455;
+						repeatable=1;
+						activationBy="ANYPLAYER";
+						isRectangle=1;
+					};
+					id=8466;
+					type="EmptyDetector";
+					atlOffset=-0.31726074;
+				};
+				class Item1
+				{
+					dataType="Trigger";
+					position[]={4452.5469,36.201565,2406.4683};
+					angle=5.2262316;
+					class Attributes
+					{
+						name="TPB_2";
+						sizeA=155.83244;
+						sizeB=213.93924;
+						repeatable=1;
+						activationBy="ANYPLAYER";
+						isRectangle=1;
+					};
+					id=8467;
+					type="EmptyDetector";
+					atlOffset=-0.27843475;
+				};
+				class Item2
+				{
+					dataType="Trigger";
+					position[]={12088.81,189.21207,12687.002};
+					angle=5.2262316;
+					class Attributes
+					{
+						name="TPB_3";
+						sizeA=172.96201;
+						sizeB=393.55301;
+						repeatable=1;
+						activationBy="ANYPLAYER";
+						isRectangle=1;
+					};
+					id=8471;
+					type="EmptyDetector";
+					atlOffset=-0.11599731;
+				};
+				class Item3
+				{
+					dataType="Trigger";
+					position[]={11741.721,192.78494,12483.771};
+					angle=5.1121397;
+					class Attributes
+					{
+						name="TPB_4";
+						sizeA=194.61012;
+						sizeB=198.36961;
+						repeatable=1;
+						activationBy="ANYPLAYER";
+						isRectangle=1;
+					};
+					id=8472;
+					type="EmptyDetector";
+					atlOffset=3.0391998;
+				};
+			};
+			id=8470;
+			atlOffset=-41.59462;
 		};
 	};
 };

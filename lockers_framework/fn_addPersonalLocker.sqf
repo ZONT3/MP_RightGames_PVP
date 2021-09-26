@@ -31,7 +31,7 @@ _this spawn {
         private _until = time + 120;
         while {_until > time and { _player distance _hol < 2 }} do {
           sleep 5;
-          _hol spawn ZONT_fnc_updPersonalLocker;
+          [getPlayerUID _player, _hol] spawn ZONT_fnc_updPersonalLocker;
         };
         _hol setPos _holPos;
       }] remoteExec ["bis_fnc_call", 2];

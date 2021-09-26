@@ -6,6 +6,7 @@ try {
   _ret = _content;
 } catch {
   [MPS_BDL_locker, "addLocker", [_this]] call ZONT_fnc_bd_customRequest;
+  [MPS_BDL_locker, "updLocker", [_ret, _this]] call ZONT_fnc_bd_customRequest
 };
 
 _ret;

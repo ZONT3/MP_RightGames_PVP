@@ -30,6 +30,9 @@ class CfgFunctions {
       class hookahEffect { };
       class setContainerGear { };
       class getContainerGear { };
+      class ZZL_initPlayer { };
+      class ZZL_initServer { };
+      class addTPB { };
     };
     class Lockers {
       file = "lockers_framework";
@@ -71,7 +74,7 @@ class CfgSounds {
 };
 
 author			  = "RG Team";
-onLoadName		= "Syria RP | Right Games";
+onLoadName		= "WW2 RP | Right Games";
 onLoadMission	= "";
 loadScreen = "pic\loading.paa";
 class Header {
