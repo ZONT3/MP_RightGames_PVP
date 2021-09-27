@@ -1049,3 +1049,7 @@ zen_faction_filter_3_EdCat_NORTH_NOR_Civ = true;
 zen_faction_filter_3_GEISTCivils = true;
 zen_faction_filter_3_IND_L_F = true;
 zen_faction_filter_3_LIB_CIV = true;
+
+
+force TFAR_Teamspeak_Channel_Name = "RGPVP";
+force TFAR_Teamspeak_Channel_Password = "lsjhwo53af35a35a3w543hhsg2";
