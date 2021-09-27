@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=564;
+		nextID=586;
 	};
 	class Camera
 	{
-		pos[]={12060.107,365.66547,12736.584};
-		dir[]={-0.13057123,-0.81985992,-0.5574891};
-		up[]={-0.18696253,0.57256168,-0.79825819};
-		aside[]={-0.97365636,1.15484e-007,0.228043};
+		pos[]={12198.225,365.66547,12576.827};
+		dir[]={0.4043763,-0.65848637,-0.63473946};
+		up[]={0.35380891,0.75258702,-0.55536515};
+		aside[]={-0.84339559,4.8137736e-008,-0.53730613};
 	};
 };
 binarizationWanted=0;
@@ -5385,8 +5385,8 @@ class Mission
 						};
 						class Attribute2
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -5395,10 +5395,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="ff_steiner_01";
 								};
 							};
 						};
@@ -5442,8 +5442,8 @@ class Mission
 						};
 						class Attribute5
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -5452,10 +5452,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="ff_steiner_01";
+									value=0;
 								};
 							};
 						};
