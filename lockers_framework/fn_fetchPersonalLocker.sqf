@@ -1,12 +1,12 @@
-private _res = [MPS_BDL_locker, "getLocker", [_this]] call ZONT_fnc_bd_customRequest;
+private _res = [MPS_BDL_lockers, "getLocker", [_this]] call ZONT_fnc_bd_customRequest;
 
 private _ret = [[[],[]],[[],[]],[[],[]],[[],[]]];
 try {
   private _content = _res select 0 select 0;
   _ret = _content;
 } catch {
-  [MPS_BDL_locker, "addLocker", [_this]] call ZONT_fnc_bd_customRequest;
-  [MPS_BDL_locker, "updLocker", [_ret, _this]] call ZONT_fnc_bd_customRequest
+  [MPS_BDL_lockers, "addLocker", [_this]] call ZONT_fnc_bd_customRequest;
+  [MPS_BDL_lockers, "updLocker", [_ret, _this]] call ZONT_fnc_bd_customRequest
 };
 
 _ret;
