@@ -103,7 +103,7 @@ force ace_grenades_convertExplosives = true;
 force ace_hearing_autoAddEarplugsToUnits = false;
 force ace_hearing_disableEarRinging = false;
 force ace_hearing_earplugsVolume = 0.407484;
-force ace_hearing_enableCombatDeafness = true;
+force ace_hearing_enableCombatDeafness = false;
 force ace_hearing_enabledForZeusUnits = false;
 force ace_hearing_unconsciousnessVolume = 0.0774792;
 
