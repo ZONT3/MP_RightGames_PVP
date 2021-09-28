@@ -1,19 +1,21 @@
+#include "macro.ext"
 
 ZZL_CLIENT_NEXT = 0;
 ["ZZL_CLIENT_LOOP", "onEachFrame", {
   if (time < ZZL_CLIENT_NEXT) exitWith {};
 
-  if (not isNil "ZZL_PUBLIC_TEXT" and { typeName "" == typeName ZZL_PUBLIC_TEXT }) then {
+  private _closed = isNull findDisplay 312;
+  if (not _closed and {not isNil "ZZL_PUBLIC_TEXT" and { typeName "" == typeName ZZL_PUBLIC_TEXT }}) then {
     hintSilent parseText ZZL_PUBLIC_TEXT;
   };
 
-  private _state = "UNKNOWN";
+  private _state = ZZL_STATE_UNKNOWN;
   private _uid = getPlayerUID player;
   private _var = "";
   if (_uid find "7656" >= 0) then { _var = format ["ZZL_STATE_%1", _uid]; };
   if (count _var > 0) then {
-    _state = (if (isNull findDisplay 312) then { "CLOSED" } else { "OPEN" });
-    if (_state != (missionNamespace getVariable [_var, "UNKNOWN"])) then {
+    _state = (if _closed then { ZZL_STATE_CLOSED } else { ZZL_STATE_OPEN });
+    if (_state != (missionNamespace getVariable [_var, ZZL_STATE_UNKNOWN])) then {
       missionNamespace setVariable [_var, _state];
       publicVariableServer _var;
     };
