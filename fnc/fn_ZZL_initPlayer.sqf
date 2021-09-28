@@ -1,5 +1,3 @@
-#include "macro.ext"
-
 ZZL_CLIENT_NEXT = 0;
 ["ZZL_CLIENT_LOOP", "onEachFrame", {
   if (time < ZZL_CLIENT_NEXT) exitWith {};
@@ -14,8 +12,8 @@ ZZL_CLIENT_NEXT = 0;
   private _var = "";
   if (_uid find "7656" >= 0) then { _var = format ["ZZL_STATE_%1", _uid]; };
   if (count _var > 0) then {
-    _state = (if _closed then { ZZL_STATE_CLOSED } else { ZZL_STATE_OPEN });
-    if (_state != (missionNamespace getVariable [_var, ZZL_STATE_UNKNOWN])) then {
+    _state = (if _closed then { "CLOSED" } else { "OPEN" });
+    if (_state != (missionNamespace getVariable [_var, "UNKNOWN"])) then {
       missionNamespace setVariable [_var, _state];
       publicVariableServer _var;
     };
