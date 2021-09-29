@@ -140,7 +140,7 @@ class CfgConsts {
 
 class CfgDiscordRichPresence {
 	applicationID="765658821909151805";
-	defaultDetails="Military RP";
+	defaultDetails="WW2 PVP";
 	defaultState="rgsv.xyz (Visit on Web)";
 	defaultLargeImageKey="rgad";
 	defaultLargeImageText="Right Games";
