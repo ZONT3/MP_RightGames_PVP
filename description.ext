@@ -74,7 +74,7 @@ class CfgSounds {
 };
 
 author			  = "RG Team";
-onLoadName		= "WW2 RP | Right Games";
+onLoadName		= "Donbass RP | Right Games";
 onLoadMission	= "";
 loadScreen = "pic\loading.paa";
 class Header {

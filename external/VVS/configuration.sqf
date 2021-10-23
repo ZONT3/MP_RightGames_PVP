@@ -67,7 +67,7 @@ VVS_BMO = [
   "UK3CB_ARD_O_Hilux_Open",
   "UK3CB_ARD_O_Hilux_Pkm",
   "UK3CB_ARD_O_Hilux_Spg9",
-  "UK3CB_ARD_O_Hilux_Zu23"
+  "UK3CB_ARD_O_Hilux_Zu23",
   "RHS_Ural_MSV_01",
   "RHS_Ural_Fuel_MSV_01",
   "RHS_Ural_Open_VMF_01",
