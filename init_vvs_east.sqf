@@ -8,19 +8,19 @@ _this addAction [
   true,
   true,
   "",
-  "[['C569', 'NKVD', 'MR', 'TV', 'VVS']] call ZONT_fnc_checkRole",
+  "[['C100', 'MGB']] call ZONT_fnc_checkRole",
   5
 ];
 
 _this addAction [
-  "Запрос Турелей",
+  "Запрос Установок",
   VVS_fnc_openVVS,
   [VVS_east_Land,"Turel1"],
   6,
   true,
   true,
   "",
-  "[['C569', 'NKVD', 'MR', 'TV', 'VVS']] call ZONT_fnc_checkRole",
+  "[['C100', 'MGB']] call ZONT_fnc_checkRole",
   5
 ];
 
@@ -32,7 +32,7 @@ _this addAction [
   true,
   true,
   "",
-  "[['C569', 'NKVD', 'MR', 'TV', 'VVS']] call ZONT_fnc_checkRole",
+  "[['C100', 'MGB']] call ZONT_fnc_checkRole",
   5
 ];
 
@@ -44,6 +44,6 @@ _this addAction [
   true,
   true,
   "",
-  "[['TV']] call ZONT_fnc_checkRole",
+  "[['C100']] call ZONT_fnc_checkRole",
   5
 ];

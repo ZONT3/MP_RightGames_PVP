@@ -2,25 +2,14 @@
 class CfgRoles {
   class Zeus         { id=1 ; hide=true; };
 
-  class HQ           { id=20; name="Штабное подразделение (ШТАБ)"; };
-  class Civilian     { id=21; name="Новоприбывший"; free=true; };
+  class HQ           { id=200; name="Штабное подразделение (ШТАБ)"; };
+  class Civilian     { id=201; name="Новоприбывший"; free=true; };
 
-  class C417         { id=90; name="417 Panzergrenader-Regiment"; };
-  class T501         { id=91; name="501 Schwere Panzer-Abteilung"; };
-  class Med          { id=92; name="Medizinischer Zug"; };
-  class LFT          { id=93; name="Luftwaffe"; };
-  class SS9          { id=94; name="9 SS-Panzergrenadier-Regiment “Deutschland”"; };
-  class SS5          { id=95; name="5 SS-Panzerdivision “Wikinger”"; };
-  class F4           { id=96; name="4 Flugkörper"; };
-  class RMO          { id=82; name="Logistikunternehmen"; };
-  class RONA         { id=97; name="РОНА"; };
+  class C28          { id=202; name="28-ая отдельная механизированная бригада"; };
+  class POGON        { id=203; name="Атрад «Пагоня»"; };
 
-  class C569         { id=80; name="569-й стрелковый полк"; };
-  class NKVD         { id=81; name="НКВД СССР"; };
-  class BMO          { id=82; name="Рота материального обеспечения"; };
-  class MR           { id=83; name="Медицинская рота"; };
-  class TV           { id=84; name="4-я гвардейская танковая бригада"; };
-  class VVS          { id=85; name="6-й истребительный полк"; };
+  class C100         { id=300; name="100-ая отдельная мотострелковая бригада ДНР"; };
+  class MGB          { id=301; name="МГБ ДНР"; };
 
   // НЕ используй ID 100-199, свободные - 200-999
 };

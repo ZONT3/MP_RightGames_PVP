@@ -3,47 +3,47 @@ _this disableAI "move"; _this disableAI "radioprotocol"; _this disableAI "autoco
 _this addAction [
   "Запрос Техники РМО",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"RMO"],
+  [VVS_guer_Land,"RMO"],
   6,
   true,
   true,
   "",
-  "[['T501', 'C417', 'Med', 'F4', 'RONA', 'LFT', 'SS5']] call ZONT_fnc_checkRole",
+  "[['C28', 'POGON']] call ZONT_fnc_checkRole",
   5
 ];
 
 _this addAction [
   "Запрос БТР",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"BTR"],
+  [VVS_guer_Land,"BTR"],
   6,
   true,
   true,
   "",
-  "[['T501', 'C417', 'Med', 'F4', 'RONA', 'LFT', 'SS5']] call ZONT_fnc_checkRole",
+  "[['C28', 'POGON']] call ZONT_fnc_checkRole",
   5
 ];
 
 _this addAction [
-  "Запрос Турелей",
+  "Запрос Установок",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"Turel"],
+  [VVS_guer_Land,"Turel"],
   6,
   true,
   true,
   "",
-  "[['T501', 'C417', 'Med', 'F4', 'RONA', 'SS5']] call ZONT_fnc_checkRole",
+  "[['C28', 'POGON']] call ZONT_fnc_checkRole",
   5
 ];
 
 _this addAction [
   "Запрос Танков",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"Tanks"],
+  [VVS_guer_Land,"Tanks"],
   6,
   true,
   true,
   "",
-  "[['T501', 'SS5']] call ZONT_fnc_checkRole",
+  "[['C28', 'POGON']] call ZONT_fnc_checkRole",
   5
 ];

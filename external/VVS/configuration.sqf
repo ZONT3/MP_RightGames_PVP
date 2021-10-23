@@ -45,74 +45,87 @@ VVS_Wheeled = [
 ];
 
 VVS_Tanks = [
-  "LIB_StuG_III_G_w",
-  "LIB_PzKpfwIV_H_w",
-  "LIB_PzKpfwV_w",
-  "LIB_PzKpfwVI_B_w",
-  "LIB_GER_PzKpfwVI_E_sPA503_Winter",
-  "LIB_FlakPanzerIV_Wirbelwind_w_DLV"
-
+  "LOP_UKR_T72BA",
+  "LOP_UKR_T72BB",
+  "LOP_UKR_2S1"
 ];
 
 VVS_TV = [
-  "LIB_T34_85_w",
-  "LIB_SU85_w",
-  "LIB_JS2_43_w",
-  "LIB_T34_76_w"
-
+  "LOP_NK_T34",
+  "rhs_t72ba_tv"
 ];
 
 VVS_BMO = [
-  "LIB_Willys_MB_Hood_w",
-  "LIB_Willys_MB_Ambulance_w",
-  "LIB_Zis5v_w",
-  "LIB_Zis6_parm_w",
-  "LIB_Zis5v_med_w",
-  "LIB_Zis5v_fuel_w",
-  "LIB_Willys_MB_Unarmed_base",
-  "LIB_Zis5v_61K_DLV"
-
+  "LOP_US_UAZ",
+  "LOP_US_UAZ_AGS",
+  "LOP_US_UAZ_Open",
+  "LOP_US_UAZ_SPG",
+  "LOP_US_UAZ_DshKM",
+  "UK3CB_ARD_O_Hilux_GMG",
+  "UK3CB_ARD_O_Hilux_Dshkm",
+  "UK3CB_ARD_O_Hilux_Closed",
+  "UK3CB_ARD_O_Hilux_Open",
+  "UK3CB_ARD_O_Hilux_Pkm",
+  "UK3CB_ARD_O_Hilux_Spg9",
+  "UK3CB_ARD_O_Hilux_Zu23"
+  "RHS_Ural_MSV_01",
+  "RHS_Ural_Fuel_MSV_01",
+  "RHS_Ural_Open_VMF_01",
+  "RHS_Ural_Repair_VMF_01",
+  "UK3CB_CW_SOV_O_LATE_Kraz255_Open",
+  "UK3CB_CW_SOV_O_EARLY_Kraz255_Fuel"
 ];
 
 VVS_RMO = [
-  "LIB_SdKfz_7_w",
-  "LIB_OpelBlitz_Ambulance_w",
-  "LIB_OpelBlitz_Parm_w",
-  "LIB_Kfz1_MG42",
-  "LIB_GER_KubelGreyHood",
-  "LIB_GER_Kubel",
-  "LIB_GER_Kubel_Medical",
-  "LIB_GER_KubelBeigeHood_Medical",
-  "LIB_ger_opelblitz_medical",
-  "CSA38_opelblitz3_W",
-  "CSA38_opelblitz2_W",
-  "CSA38_opelblitz_W",
-  "CSA38_opelblitz4_W",
-  "CSA38_opelblitz5_W",
-  "CSA38_opelblitz3_W"
+  "LOP_UKR_Ural",
+  "LOP_UKR_Ural_open",
+  "LOP_UA_Ural_fuel",
+  "RHS_Ural_Repair_VMF_01",
+  "rhs_kraz255b1_cargo_open_msv",
+  "rhs_kraz255b1_fuel_msv",
+  "LOP_UKR_UAZ_Open",
+  "LOP_UKR_UAZ",
+  "LOP_UKR_UAZ_AGS",
+  "LOP_UKR_UAZ_DshKM",
+  "LOP_UKR_UAZ_SPG",
+  "UK3CB_ADC_O_LR_Open",
+  "LOP_AM_OPF_Landrover",
+  "UK3CB_ADE_I_LR_AGS30"
 ];
 
 VVS_BTR = [
-  "LIB_SdKfz_7_AA_w",
-  "LIB_SdKfz251_FFV_w",
-  "LIB_Sdkfz251_w",
-  "Lib_ger_SdKfz251IFL_medical"
+  "LOP_UKR_BTR60",
+  "LOP_UKR_BTR70",
+  "LOP_UKR_BTR80",
+  "UK3CB_KDF_O_MTLB_PKT",
+  "LOP_UKR_BMP1",
+  "LOP_UKR_BMP2D"
 ];
 
 VVS_Turel = [
-  "LIB_Pak40_w",
-  "LIB_leFH18",
-  "LIB_leFH18_AT"
+  "rhsgref_nat_d30",
+  "UK3CB_KDF_O_Ural_Zu23",
+  "CUP_O_BMP2_ZU_TKA",
+  "UK3CB_KDF_O_Gaz66_ZU23",
+  "UK3CB_KDF_I_MTLB_ZU23"
 ];
 
 VVVS_BTR1 = [
-  "LIB_SOV_M3_Halftrack_w"
+  "rhs_btr60_msv",
+  "rhs_btr70_msv",
+  "rhs_btr80_msv",
+  "rhs_bmp2e_msv",
+  "rhs_bmp1_msv",
+  "UK3CB_KDF_I_MTLB_PKT",
+  "cdf90_raf_BRDM2"
 ];
 
 VVS_Turel1 = [
-  "NORTH_SOV_45mm1937",
-  "NORTH_SOV_W_76mm1936",
-  "LIB_Zis3_w"
+  "rhs_gaz66_zu23_msv",
+  "RHS_Ural_Zu23_MSV_01",
+  "UK3CB_CW_SOV_O_LATE_MTLB_ZU23",
+  "rhs_D30_msv",
+  "rhs_2s1_tv"
 ];
 
 
