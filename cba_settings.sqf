@@ -1,5 +1,5 @@
 // ACE Advanced Ballistics
-force ace_advanced_ballistics_ammoTemperatureEnabled = false;
+force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
 force ace_advanced_ballistics_bulletTraceEnabled = true;
 force ace_advanced_ballistics_enabled = true;
@@ -34,7 +34,7 @@ ace_arsenal_fontHeight = 4.5;
 
 // ACE Artillery
 force ace_artillerytables_advancedCorrections = true;
-force ace_artillerytables_disableArtilleryComputer = true;
+force ace_artillerytables_disableArtilleryComputer = false;
 force ace_mk6mortar_airResistanceEnabled = false;
 force ace_mk6mortar_allowCompass = true;
 force ace_mk6mortar_allowComputerRangefinder = true;
@@ -479,9 +479,9 @@ force acex_sitting_enable = true;
 // ACEX View Restriction
 force acex_viewrestriction_mode = 1;
 force acex_viewrestriction_modeSelectiveAir = 1;
-force acex_viewrestriction_modeSelectiveFoot = 1;
+force acex_viewrestriction_modeSelectiveFoot = 0;
 force acex_viewrestriction_modeSelectiveLand = 1;
-force acex_viewrestriction_modeSelectiveSea = 1;
+force acex_viewrestriction_modeSelectiveSea = 0;
 acex_viewrestriction_preserveView = false;
 
 // ACEX Volume
