@@ -58,12 +58,8 @@ VVS_TV = [
 VVS_BMO = [
   "LOP_US_UAZ",
   "LOP_US_UAZ_AGS",
-  "LOP_US_UAZ_Open",
-  "LOP_US_UAZ_SPG",
   "LOP_US_UAZ_DshKM",
-  "UK3CB_ARD_O_Hilux_GMG",
   "UK3CB_ARD_O_Hilux_Dshkm",
-  "UK3CB_ARD_O_Hilux_Closed",
   "UK3CB_ARD_O_Hilux_Open",
   "UK3CB_ARD_O_Hilux_Pkm",
   "UK3CB_ARD_O_Hilux_Spg9",
@@ -71,9 +67,7 @@ VVS_BMO = [
   "RHS_Ural_MSV_01",
   "RHS_Ural_Fuel_MSV_01",
   "RHS_Ural_Open_VMF_01",
-  "RHS_Ural_Repair_VMF_01",
-  "UK3CB_CW_SOV_O_LATE_Kraz255_Open",
-  "UK3CB_CW_SOV_O_EARLY_Kraz255_Fuel"
+  "RHS_Ural_Repair_VMF_01"
 ];
 
 VVS_RMO = [
