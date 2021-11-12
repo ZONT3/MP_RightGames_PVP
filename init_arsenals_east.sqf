@@ -11,3 +11,10 @@
 	"Запросить арсенал МГБ",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
+
+[ _this,
+	ars_gru,
+	["GRU"],
+	"Запросить арсенал ГРУ",
+	[["Здарова", "Hello"], ["Бб", "Бывай"]]
+] call ZONT_fnc_attachArsenal;
