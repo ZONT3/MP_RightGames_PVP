@@ -2,15 +2,18 @@
 class CfgRoles {
   class Zeus         { id=1 ; hide=true; };
 
-  class HQ           { id=200; name="Штабное подразделение (ШТАБ)"; };
-  class Civilian     { id=201; name="Новоприбывший"; free=true; };
+  class HQ           { id=10; name="Headquarters"; };
+  class Training     { id=11; name="Training Squad"; free=true; };
+  class A82          { id=72; name="10th Scion Guard Expeditionary Unit"; };
+  class CD           { id=73; name="Armored Fist"; };
+  class Med          { id=74; name="Medical Departament"; };
+  class USAF         { id=75; name="Scion Imperial AirForce"; };
+  class MP           { id=76; name="Military Police"; };
+  class Navy         { id=77; name="Scion Imperial Marines"; };
+  class SOAR         { id=78; name="Scion Imperial Rangers"; };
+  class SpN          { id=79; name="Atlas Corporation"; };
+  class ISAF         { id=80; name="Imperial Departament of Intelligence"; };
+  class Iron         { id=81; name="Iron Enclave"; };
+  class IT           { id=81; name="Inferno Team"; };
 
-  class C28          { id=202; name="28-ая отдельная механизированная бригада"; };
-  class POGON        { id=203; name="Атрад «Пагоня»"; };
-
-  class C100         { id=300; name="100-ая отдельная мотострелковая бригада ДНР"; };
-  class MGB          { id=301; name="МГБ ДНР"; };
-  class GRU          { id=302; name="СпН ГРУ ДНР"; };
-
-  // НЕ используй ID 100-199, свободные - 200-999
 };

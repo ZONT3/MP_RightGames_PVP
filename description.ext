@@ -30,9 +30,8 @@ class CfgFunctions {
       class hookahEffect { };
       class setContainerGear { };
       class getContainerGear { };
-      class ZZL_initPlayer { };
       class ZZL_initServer { };
-      class addTPB { };
+      class ZZL_initPlayer { };
     };
     class Lockers {
       file = "lockers_framework";
@@ -74,7 +73,7 @@ class CfgSounds {
 };
 
 author			  = "RG Team";
-onLoadName		= "Donbass RP | Right Games";
+onLoadName		= "Scion Conflict RP | Right Games";
 onLoadMission	= "";
 loadScreen = "pic\loading.paa";
 class Header {
@@ -140,7 +139,7 @@ class CfgConsts {
 
 class CfgDiscordRichPresence {
 	applicationID="765658821909151805";
-	defaultDetails="Donbass PVP";
+	defaultDetails="Scion Conflict RP";
 	defaultState="rgsv.xyz (Visit on Web)";
 	defaultLargeImageKey="rgad";
 	defaultLargeImageText="Right Games";

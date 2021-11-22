@@ -20,5 +20,16 @@ enableRadio false;
 enableSentences false;
 enableSaving [false, false];
 
-west setFriend [east, 1];
-east setFriend [west, 1];
+west setFriend [east, 0];
+west setFriend [resistance, 0];
+east setFriend [west, 0];
+east setFriend [resistance, 1];
+resistance setFriend [west, 0];
+resistance setFriend [east, 1];
+
+/* Real Weather
+Climates:
+arid, mediterranean, continental, tropical, polar
+*/
+OPEX_mapClimate = "continental";
+execVM "external\OPEX_real_weather.sqf";

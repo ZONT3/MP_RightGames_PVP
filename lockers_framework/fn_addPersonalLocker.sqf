@@ -35,6 +35,7 @@ _this spawn {
         };
         _hol setPos _holPos;
       }] remoteExec ["bis_fnc_call", 2];
+      [_hol, true] remoteExec ["hideObject", -2];
   	},
   	nil,		// arguments
   	15,		// priority

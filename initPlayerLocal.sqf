@@ -11,6 +11,28 @@ waitUntil {vehicle player == player};
 
 [] execVM "chatCommands.sqf";
 
+[] execVM "initPlayerAfterRespawn.sqf";
+
+/******                            Zeus list                             ******/
+/* MCH_ZEUS_LIST = [{
+  if (isnull (finddisplay 312)) exitWith {};
+  mpc_cc_name = format ["%1 (%2)", name player, getPlayerUID player];
+  if (isNil 'mpv_current_curators') then {mpv_current_curators = []};
+
+  if (!(mpc_cc_name in mpv_current_curators)) then {
+      mpv_current_curators pushBack mpc_cc_name;
+      publicVariable 'mpv_current_curators';
+      (finddisplay 312) displayAddEventHandler ["Unload", {
+          mpv_current_curators deleteAt (mpv_current_curators find mpc_cc_name);
+          publicVariable 'mpv_current_curators';
+          hintSilent "";
+      }];
+  };
+  private _str = "<t color='#00FF00'>Активные зевсы:</t>";
+  { _str = format ["%1<br/>%2", _str, _x]; } forEach mpv_current_curators;
+  hintSilent parseText _str;
+}, 1] call CBA_fnc_addPerFrameHandler; */
+
 
 private _fn_checkSlotPermission = {
   waituntil { sleep 0.1; !isNil 'ZPR_roles' };
@@ -38,8 +60,8 @@ private _fn_moveToCustomSpawn = {
   if _vagner exitWith { [_player, true, 'MP_spawn_vagner'] call _fn_moveToSpawn };
   private _rr = [["RR"]] call ZONT_fnc_checkRole;
   if _rr exitWith { [_player, true, 'MP_spawn_rr'] call _fn_moveToSpawn };
-  private _train = [["Civilian"]] call ZONT_fnc_checkRole;
-  if _train exitWith { [_player, true, 'MP_spawn_civ'] call _fn_moveToSpawn };
+  private _train = [["Training"]] call ZONT_fnc_checkRole;
+  if _train exitWith { [_player, true, 'MP_spawn_train'] call _fn_moveToSpawn };
   private _isis = [["ISIS"]] call ZONT_fnc_checkRole;
   if _isis exitWith { [_player, true, 'MP_spawn_isis'] call _fn_moveToSpawn };
 };
@@ -53,7 +75,6 @@ private _fn_moveToSpawn = {
     if (_side == east)       then { _spawn = MP_spawn_east };
     if (_side == west)       then { _spawn = MP_spawn_west };
     if (_side == resistance) then { _spawn = MP_spawn_guer };
-    if (_side == civilian)   then { _spawn = MP_spawn_civ };
   } else {
     _spawn = missionNamespace getVariable _spawnName;
   };
@@ -92,8 +113,8 @@ MPH_DisplyChecker = [{
   };
 }, 1] call CBA_fnc_addPerFrameHandler;
 
-
-/*****                            Remove Agents                            *****
+/*
+// Delete agents
 [] spawn {
   waitUntil {
   	{
@@ -108,8 +129,4 @@ MPH_DisplyChecker = [{
 
   	sleep 0.01; false;
   };
-};
-*/
-
-
-[] execVM "initPlayerAfterRespawn.sqf";
+};*/

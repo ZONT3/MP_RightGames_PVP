@@ -9,16 +9,12 @@ VVS_Premade_List = false;
 ZONT_fnc_filterVVS = {
   switch(_this) do {
   	case "HQ": { VVS_HQ + VVS_Wheeled };
-  	case "BTR": { VVS_BTR };
-    case "Turel": { VVS_Turel };
-    case "RMO": { VVS_RMO };
   	case "BMO": { VVS_BMO };
+  	case "A82": { VVS_82 };
   	case "Wheeled": { VVS_Wheeled };
   	case "SWheeled": { VVS_Wheeled_Spec };
-  	case "Tanks": { VVS_Tanks };
-  	case "TV": { VVS_TV };
-    case "BTR1": { VVS_BTR1 };
-    case "Turel1": { VVS_Turel1 };
+  	case "CD": { VVS_CD };
+    case "USAF": { VVS_USAF };
 
   	default {[]};
   };
@@ -27,7 +23,7 @@ ZONT_fnc_filterVVS = {
 ZONT_fnc_onSpawnVVS = {
   // params ["_mode", "_vehicle"];
   switch(_this) do {
-  	case "TV": { {
+  	case "CD": { {
       _vehicle setVehicleAmmo 0;
       _vehicle setFuel 0
     } };
@@ -38,89 +34,49 @@ ZONT_fnc_onSpawnVVS = {
 
 
 VVS_HQ = [
-
 ];
 
 VVS_Wheeled = [
 ];
 
-VVS_Tanks = [
-  "LOP_UKR_T72BA",
-  "LOP_UKR_T72BB",
-  "LOP_UKR_2S1"
+VVS_CD = [
+  "OPTRE_M808B2",
+  "OPTRE_M808S"
+
 ];
 
-VVS_TV = [
-  "LOP_NK_T34",
-  "rhs_t72ba_tv"
+VVS_A82 = [
+  "SC_SaurusAPC_SE",
+  "SC_SaurusAPC_AA_SE"
+];
+
+VVS_Wheeled_Spec = [
+  "OPTRE_M274_ATV"
 ];
 
 VVS_BMO = [
-  "LOP_US_UAZ",
-  "LOP_US_UAZ_AGS",
-  "LOP_US_UAZ_DshKM",
-  "UK3CB_ARD_O_Hilux_Dshkm",
-  "UK3CB_ARD_O_Hilux_Open",
-  "UK3CB_ARD_O_Hilux_Pkm",
-  "UK3CB_ARD_O_Hilux_Spg9",
-  "UK3CB_ARD_O_Hilux_Zu23",
-  "RHS_Ural_MSV_01",
-  "RHS_Ural_Fuel_MSV_01",
-  "RHS_Ural_Open_VMF_01",
-  "RHS_Ural_Repair_VMF_01"
+  "OPTRE_M12_FAV_APC",
+  "OPTRE_M12_LRV",
+  "OPTRE_M12_FAV",
+  "OPTRE_M12A1_LRV",
+  "OPTRE_M12G1_LRV",
+  "OPTRE_M12R_AA",
+  "OPTRE_M813_TT",
+  "OPTRE_M914_RV",
+  "B_Truck_01_Repair_F",
+  "B_Truck_01_ammo_F",
+  "B_Truck_01_fuel_F"
 ];
 
-VVS_RMO = [
-  "LOP_UKR_Ural",
-  "LOP_UKR_Ural_open",
-  "LOP_UA_Ural_fuel",
-  "RHS_Ural_Repair_VMF_01",
-  "rhs_kraz255b1_cargo_open_msv",
-  "rhs_kraz255b1_fuel_msv",
-  "LOP_UKR_UAZ_Open",
-  "LOP_UKR_UAZ",
-  "LOP_UKR_UAZ_AGS",
-  "LOP_UKR_UAZ_DshKM",
-  "LOP_UKR_UAZ_SPG",
-  "UK3CB_ADC_O_LR_Open",
-  "LOP_AM_OPF_Landrover",
-  "UK3CB_ADE_I_LR_AGS30"
+VVS_MP = [
+  "SC_SaurusAPC_Unarmed_SE"
 ];
 
-VVS_BTR = [
-  "LOP_UKR_BTR60",
-  "LOP_UKR_BTR70",
-  "LOP_UKR_BTR80",
-  "UK3CB_KDF_O_MTLB_PKT",
-  "LOP_UKR_BMP1",
-  "LOP_UKR_BMP2D"
+VVS_USAF = [
+  "HMCS_VW1URB",
+  "JGPT"
 ];
 
-VVS_Turel = [
-  "rhsgref_nat_d30",
-  "UK3CB_KDF_O_Ural_Zu23",
-  "CUP_O_BMP2_ZU_TKA",
-  "UK3CB_KDF_O_Gaz66_ZU23",
-  "UK3CB_KDF_I_MTLB_ZU23"
-];
-
-VVVS_BTR1 = [
-  "rhs_btr60_msv",
-  "rhs_btr70_msv",
-  "rhs_btr80_msv",
-  "rhs_bmp2e_msv",
-  "rhs_bmp1_msv",
-  "UK3CB_KDF_I_MTLB_PKT",
-  "cdf90_raf_BRDM2"
-];
-
-VVS_Turel1 = [
-  "rhs_gaz66_zu23_msv",
-  "RHS_Ural_Zu23_MSV_01",
-  "UK3CB_CW_SOV_O_LATE_MTLB_ZU23",
-  "rhs_D30_msv",
-  "rhs_2s1_tv"
-];
 
 
 VVS_Car = [];
