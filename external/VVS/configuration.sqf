@@ -41,8 +41,10 @@ VVS_Wheeled = [
 
 VVS_CD = [
   "OPTRE_M808B2",
-  "OPTRE_M808S"
-
+  "OPTRE_M808S",
+  "SC_Mantis",
+  "OPTRE_M850_UNSC",
+  "OPTRE_M808B_UNSC"
 ];
 
 VVS_A82 = [
@@ -65,7 +67,10 @@ VVS_BMO = [
   "OPTRE_M914_RV",
   "B_Truck_01_Repair_F",
   "B_Truck_01_ammo_F",
-  "B_Truck_01_fuel_F"
+  "B_Truck_01_fuel_F",
+  "SC_Gator_FB_SE",
+  "SC_Gator_TC_SE",
+  "SC_Gator_TO_SE"
 ];
 
 VVS_MP = [
