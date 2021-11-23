@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1973;
+		nextID=1974;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=51;
+		nextID=54;
 	};
 	class Camera
 	{
-		pos[]={3960.5586,25.749601,3283.0564};
-		dir[]={-0.52050579,-0.78090572,0.34535187};
-		up[]={-0.65070575,0.62464708,0.431739};
-		aside[]={0.55286998,2.210727e-007,0.83327234};
+		pos[]={4681.9033,140.70572,3106.6741};
+		dir[]={-0.81219769,-0.55766594,-0.17163953};
+		up[]={-0.54571903,0.82999396,-0.11532585};
+		aside[]={-0.20677443,3.2910611e-007,0.97845244};
 	};
 };
 binarizationWanted=0;
@@ -74,13 +74,13 @@ addons[]=
 	"ace_dragging",
 	"cba_xeh",
 	"A3_Structures_F_Naval_Piers",
-	"A3_Structures_F_Items_Tools",
 	"A3_Weapons_F_Ammoboxes",
 	"A3_Structures_F_Items_Vessels",
 	"ace_cargo",
 	"A3_Structures_F_EPA_Items_Tools",
 	"ace_explosives",
 	"A3_Structures_F_Heli_Civ_Constructions",
+	"A3_Structures_F_Items_Tools",
 	"A3_Structures_F_Mil_Cargo",
 	"A3_Weapons_F_Exp",
 	"A3_Structures_F_Heli_Items_Tools",
@@ -1979,7 +1979,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5137.0298,7.2900109,3589.2246};
-				angles[]={-0,5.0740075,0};
+				angles[]={0,5.0740075,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2013,7 +2013,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5139.5015,7.0531282,3599.9216};
-				angles[]={-0,5.0726652,0};
+				angles[]={0,5.0726652,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11526,7 +11526,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4371.0264,20.200001,3106.6511};
+				position[]={4373.9199,20.442846,3062.1321};
+				angles[]={0.02999169,0,6.1983886};
 			};
 			name="VVS_west_Land";
 			id=605;
@@ -12180,7 +12181,6 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						disableSimulation=1;
 					};
 					id=614;
 					type="SC_SE_Warbot_Light";
@@ -12348,7 +12348,6 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						disableSimulation=1;
 					};
 					id=615;
 					type="SC_SE_Warbot_Heavy";
@@ -12716,25 +12715,8 @@ class Mission
 					name="Armory";
 					class Entities
 					{
-						items=38;
+						items=37;
 						class Item0
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={4501.3999,15.613689,3083.228};
-								angles[]={0,5.8688669,0};
-							};
-							side="Empty";
-							class Attributes
-							{
-								disableSimulation=1;
-							};
-							id=1751;
-							type="Land_DrillAku_F";
-							atlOffset=0.60167122;
-						};
-						class Item1
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12753,7 +12735,7 @@ class Mission
 							type="Box_NATO_Ammo_F";
 							atlOffset=0.0052099228;
 						};
-						class Item2
+						class Item1
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12771,7 +12753,7 @@ class Mission
 							id=1762;
 							type="Box_NATO_Ammo_F";
 						};
-						class Item3
+						class Item2
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12790,7 +12772,7 @@ class Mission
 							type="Box_NATO_Wps_F";
 							atlOffset=9.5367432e-007;
 						};
-						class Item4
+						class Item3
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12809,7 +12791,7 @@ class Mission
 							type="Box_NATO_Wps_F";
 							atlOffset=9.5367432e-007;
 						};
-						class Item5
+						class Item4
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12826,7 +12808,7 @@ class Mission
 							id=1766;
 							type="Land_Bucket_F";
 						};
-						class Item6
+						class Item5
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12843,7 +12825,7 @@ class Mission
 							type="Land_Bucket_F";
 							atlOffset=0.59723282;
 						};
-						class Item7
+						class Item6
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12860,7 +12842,7 @@ class Mission
 							type="Land_CanisterFuel_F";
 							atlOffset=0.60167122;
 						};
-						class Item8
+						class Item7
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12877,7 +12859,7 @@ class Mission
 							type="Land_DuctTape_F";
 							atlOffset=0.81242275;
 						};
-						class Item9
+						class Item8
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12894,7 +12876,7 @@ class Mission
 							type="Land_DuctTape_F";
 							atlOffset=0.05332756;
 						};
-						class Item10
+						class Item9
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12913,7 +12895,7 @@ class Mission
 							type="Box_NATO_Equip_F";
 							atlOffset=0.0037879944;
 						};
-						class Item11
+						class Item10
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12932,7 +12914,7 @@ class Mission
 							type="Box_NATO_AmmoOrd_F";
 							atlOffset=0.068266869;
 						};
-						class Item12
+						class Item11
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12951,7 +12933,7 @@ class Mission
 							type="Box_NATO_AmmoOrd_F";
 							atlOffset=0.094854355;
 						};
-						class Item13
+						class Item12
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12968,7 +12950,7 @@ class Mission
 							type="Land_FireExtinguisher_F";
 							atlOffset=0.60166931;
 						};
-						class Item14
+						class Item13
 						{
 							dataType="Object";
 							class PositionInfo
@@ -12985,7 +12967,7 @@ class Mission
 							type="Land_FireExtinguisher_F";
 							atlOffset=0.59721565;
 						};
-						class Item15
+						class Item14
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13002,7 +12984,7 @@ class Mission
 							id=1797;
 							type="Land_GasTank_01_khaki_F";
 						};
-						class Item16
+						class Item15
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13020,7 +13002,7 @@ class Mission
 							type="Land_Gloves_F";
 							atlOffset=8.5830688e-005;
 						};
-						class Item17
+						class Item16
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13037,7 +13019,7 @@ class Mission
 							type="Land_Hammer_F";
 							atlOffset=0.77345181;
 						};
-						class Item18
+						class Item17
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13054,7 +13036,7 @@ class Mission
 							type="Box_NATO_WpsLaunch_F";
 							atlOffset=0.72208023;
 						};
-						class Item19
+						class Item18
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13072,7 +13054,7 @@ class Mission
 							type="Box_NATO_WpsLaunch_F";
 							atlOffset=0.72208023;
 						};
-						class Item20
+						class Item19
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13091,7 +13073,7 @@ class Mission
 							type="Box_NATO_WpsLaunch_F";
 							atlOffset=0.015336037;
 						};
-						class Item21
+						class Item20
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13197,7 +13179,7 @@ class Mission
 								nAttributes=2;
 							};
 						};
-						class Item22
+						class Item21
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13214,7 +13196,7 @@ class Mission
 							id=1813;
 							type="Weapon_hgun_P07_blk_F";
 						};
-						class Item23
+						class Item22
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13231,7 +13213,7 @@ class Mission
 							id=1814;
 							type="Weapon_hgun_P07_blk_F";
 						};
-						class Item24
+						class Item23
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13248,7 +13230,7 @@ class Mission
 							id=1815;
 							type="Weapon_hgun_P07_blk_F";
 						};
-						class Item25
+						class Item24
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13265,7 +13247,7 @@ class Mission
 							type="Land_Rope_01_F";
 							atlOffset=0.16122818;
 						};
-						class Item26
+						class Item25
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13281,7 +13263,7 @@ class Mission
 							type="Land_Rug_01_F";
 							atlOffset=0.60167122;
 						};
-						class Item27
+						class Item26
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13298,7 +13280,7 @@ class Mission
 							type="Land_Rug_01_F";
 							atlOffset=0.00028610229;
 						};
-						class Item28
+						class Item27
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13315,7 +13297,7 @@ class Mission
 							id=1823;
 							type="Weapon_arifle_SPAR_01_blk_F";
 						};
-						class Item29
+						class Item28
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13332,7 +13314,7 @@ class Mission
 							id=1824;
 							type="Weapon_arifle_SPAR_02_blk_F";
 						};
-						class Item30
+						class Item29
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13349,7 +13331,7 @@ class Mission
 							id=1825;
 							type="Weapon_arifle_SPAR_03_blk_F";
 						};
-						class Item31
+						class Item30
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13367,7 +13349,7 @@ class Mission
 							id=1826;
 							type="Box_NATO_WpsSpecial_F";
 						};
-						class Item32
+						class Item31
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13379,6 +13361,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								disableSimulation=1;
 							};
 							id=1827;
 							type="Land_SportGround_fence_F";
@@ -13407,7 +13390,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item33
+						class Item32
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13424,7 +13407,7 @@ class Mission
 							type="Land_ToolTrolley_01_F";
 							atlOffset=0.60167027;
 						};
-						class Item34
+						class Item33
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13443,7 +13426,7 @@ class Mission
 							type="Box_NATO_Uniforms_F";
 							atlOffset=0.0069971085;
 						};
-						class Item35
+						class Item34
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13460,7 +13443,7 @@ class Mission
 							type="Land_MapBoard_01_Wall_Altis_F";
 							atlOffset=0.97986889;
 						};
-						class Item36
+						class Item35
 						{
 							dataType="Object";
 							class PositionInfo
@@ -13477,7 +13460,7 @@ class Mission
 							type="Land_Workbench_01_F";
 							atlOffset=0.59747601;
 						};
-						class Item37
+						class Item36
 						{
 							dataType="Object";
 							class PositionInfo
