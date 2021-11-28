@@ -4,16 +4,16 @@ class CfgRoles {
 
   class HQ           { id=10; name="Headquarters"; };
   class Training     { id=11; name="Training Squad"; free=true; };
-  class A82          { id=72; name="10th Scion Guard Expeditionary Unit"; };
-  class CD           { id=73; name="Armored Fist"; };
-  class Med          { id=74; name="Medical Departament"; };
-  class USAF         { id=75; name="Scion Imperial AirForce"; };
-  class MP           { id=76; name="Military Police"; };
-  class Navy         { id=77; name="Scion Imperial Marines"; };
-  class SOAR         { id=78; name="Scion Imperial Rangers"; };
-  class SpN          { id=79; name="Atlas Corporation"; };
-  class ISAF         { id=80; name="Imperial Departament of Intelligence"; };
-  class Iron         { id=81; name="Iron Enclave"; };
-  class IT           { id=81; name="Inferno Team"; };
+  class A82          { id=12; name="10th Scion Guard Expeditionary Unit"; };
+  class CD           { id=13; name="Armored Fist"; };
+  class Med          { id=14; name="Medical Departament"; };
+  class USAF         { id=15; name="Scion Imperial AirForce"; };
+  class MP           { id=16; name="Military Police"; };
+  class Navy         { id=17; name="Scion Imperial Marines"; };
+  class SOAR         { id=18; name="Scion Imperial Rangers"; };
+  class SpN          { id=19; name="Atlas Corporation"; };
+  class ISAF         { id=20; name="Imperial Departament of Intelligence"; };
+  class Iron         { id=21; name="Iron Enclave"; };
+  class IT           { id=22; name="Inferno Team"; };
 
 };
