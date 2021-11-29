@@ -7,7 +7,7 @@
 
 [ _this,
 	ars_10,
-	["A82"],
+	["A10"],
 	"Запросить арсенал 10th Scion Guard Expeditionary Unit",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
@@ -79,5 +79,12 @@
 	ars_inferno,
 	["IT"],
 	"Запросить арсенал Inferno Team",
+	[["Здарова", "Hello"], ["Бб", "Бывай"]]
+] call ZONT_fnc_attachArsenal;
+
+[ _this,
+	ars_cbrn,
+	["CBRN"],
+	"Запросить арсенал CBRN",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;

@@ -39,7 +39,7 @@ _this addAction [
 _this addAction [
   "Запрос Техники 10th SGEU",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"A82"],
+  [VVS_west_Land,"A10"],
   6,
   true,
   true,
