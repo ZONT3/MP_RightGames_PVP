@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3051;
+		nextID=3128;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=82;
+		nextID=90;
 	};
 	class Camera
 	{
-		pos[]={5094.1577,270.85669,3097.165};
-		dir[]={-0.95338511,-0.2547735,0.16170184};
-		up[]={-0.25118619,0.96700072,0.042603217};
-		aside[]={0.16721997,-3.7252903e-009,0.98591971};
+		pos[]={4506.6616,132.68848,2943.3};
+		dir[]={0.076792307,-0.74083179,0.66729319};
+		up[]={0.084696397,0.67168862,0.73597533};
+		aside[]={0.99344677,1.0892109e-008,-0.11432633};
 	};
 };
 binarizationWanted=0;
@@ -116,13 +116,14 @@ addons[]=
 	"achilles_modules_f_achilles",
 	"A3_Structures_F_EPB_Civ_Camping",
 	"A3_expEden",
-	"ace_interaction"
+	"ace_interaction",
+	"zdz_socom_module"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=68;
+		items=69;
 		class Item0
 		{
 			className="OPTRE_Vehicles_Sparrowhawk";
@@ -552,6 +553,12 @@ class AddonsMetaData
 			name="ACE3 - Interaction";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
+		};
+		class Item68
+		{
+			className="ZDZ_SOCOM_Module";
+			name="Zero Dark Zero - SOCOM - Module";
+			author="Richard Von Quest";
 		};
 	};
 };
@@ -1344,7 +1351,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=251;
+		items=249;
 		class Item0
 		{
 			dataType="Object";
@@ -4476,7 +4483,7 @@ class Mission
 			};
 			id=465;
 			type="OPTRE_HEV";
-			atlOffset=1.0490417e-005;
+			atlOffset=1.0251999e-005;
 		};
 		class Item154
 		{
@@ -4685,7 +4692,7 @@ class Mission
 			};
 			id=476;
 			type="OPTRE_HEV";
-			atlOffset=0.00066781044;
+			atlOffset=0.00066804886;
 		};
 		class Item165
 		{
@@ -13991,17 +13998,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4331.166,21.308008,3100.1604};
-				angles[]={0,4.730145,0};
+				position[]={4331.166,21.307756,3100.1599};
+				angles[]={0,4.7301388,0};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
-				init="this addAction [""<t color='#0099FF'>Заросить задание</t>"",""GF_Missions\Missions_call.sqf"",[],10,true,true,"""",""true"", 3];";
+				init="this addAction ['SOCOM - ACTIVATE MISSION',{execVM 'zdz_socom\System\MISSION\mission_activate.sqf'}];";
 			};
 			id=1862;
 			type="OPTRE_RS_ConsoleDoor";
+			atlOffset=0.57600021;
 		};
 		class Item209
 		{
@@ -31007,34 +31015,4308 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5669.5059,3.9029057,3219.4189};
+				position[]={4556.1382,8.8339186,3105.0959};
 			};
-			init="fun = [""z1"",[1,0,0],[],[],[],[2,2,50,0,100,10],[1,1,1,1,1]] spawn DAC_Zone ";
-			id=3048;
-			type="VirtualAISquad";
-			atlOffset=2.3841858e-007;
-		};
-		class Item249
-		{
-			dataType="Logic";
-			class PositionInfo
+			id=3051;
+			type="ZDZ_ModuleSOCOM";
+			class CustomAttributes
 			{
-				position[]={4902.7192,3.79,1417.562};
+				class Attribute0
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_grd_units";
+					expression="_this setVariable ['zdz_module_socom_destroy_grd_units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_RTO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_ATGM_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_MANPADS_Trooper_01";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_stealth_who";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_stealth_who',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GUER D";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_inf_start";
+					expression="_this setVariable ['zdz_module_socom_defend_inf_start',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_grd_units";
+					expression="_this setVariable ['zdz_module_socom_search_grd_units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_Trooper_01, I_Earth_Colonies_FederationColonial_Guard_ECF_Trooper_01";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_rng";
+					expression="_this setVariable ['zdz_module_socom_search_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1000;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_speed";
+					expression="_this setVariable ['zdz_module_socom_convoy_speed',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_prob";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_prob";
+					expression="_this setVariable ['zdz_module_socom_convoy_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_units";
+					expression="_this setVariable ['zdz_module_socom_attack_units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_RTO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_ATGM_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_MANPADS_Trooper_01";
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_aimingaccuracy";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_aimingaccuracy',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.89999998;
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_task";
+					expression="_this setVariable ['zdz_module_socom_destroy_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute11
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_task";
+					expression="_this setVariable ['zdz_module_socom_kill_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute12
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_spottime";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_spottime',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.89999998;
+						};
+					};
+				};
+				class Attribute13
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_object_rng";
+					expression="_this setVariable ['zdz_module_socom_search_object_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-22;
+						};
+					};
+				};
+				class Attribute14
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerE1";
+					expression="_this setVariable ['zdz_module_socom_spacerE1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute15
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_veh";
+					expression="_this setVariable ['zdz_module_socom_convoy_veh',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_Oryx_Ammo_Truck_01  I_Earth_Colonies_FederationColonial_Guard_Oryx_Fuel_Truck_01  I_Earth_Colonies_FederationColonial_Guard_Oryx_Medical_Truck_01  I_Earth_Colonies_FederationColonial_Guard_Oryx_Repair_Truck_01  I_Earth_Colonies_FederationColonial_Guard_Buffalo_IFV_01  I_Earth_Colonies_FederationColonial_Guard_Oryx_Transport_Truck_01";
+						};
+					};
+				};
+				class Attribute16
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_grd_units";
+					expression="_this setVariable ['zdz_module_socom_steal_grd_units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_RTO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_ATGM_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_MANPADS_Trooper_01";
+						};
+					};
+				};
+				class Attribute17
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_blacklist";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_blacklist',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute18
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_object_fil";
+					expression="_this setVariable ['zdz_module_socom_search_object_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute19
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_urban_cnt";
+					expression="_this setVariable ['zdz_module_socom_attack_urban_cnt',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=150;
+						};
+					};
+				};
+				class Attribute20
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_stealth";
+					expression="_this setVariable ['zdz_module_socom_search_stealth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute21
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_blk";
+					expression="_this setVariable ['zdz_module_socom_destroy_blk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute22
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_grd_ptl";
+					expression="_this setVariable ['zdz_module_socom_documents_grd_ptl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute23
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_task";
+					expression="_this setVariable ['zdz_module_socom_steal_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute24
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_stealth_who";
+					expression="_this setVariable ['zdz_module_socom_attack_stealth_who',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GUER D";
+						};
+					};
+				};
+				class Attribute25
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerG1a";
+					expression="_this setVariable ['zdz_module_socom_spacerG1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute26
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerG1b";
+					expression="_this setVariable ['zdz_module_socom_spacerG1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute27
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerG1c";
+					expression="_this setVariable ['zdz_module_socom_spacerG1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute28
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerG1d";
+					expression="_this setVariable ['zdz_module_socom_spacerG1d',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="---------------";
+						};
+					};
+				};
+				class Attribute29
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_ambush_blk";
+					expression="_this setVariable ['zdz_module_socom_ambush_blk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute30
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerG1e";
+					expression="_this setVariable ['zdz_module_socom_spacerG1e',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="---------------";
+						};
+					};
+				};
+				class Attribute31
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_num";
+					expression="_this setVariable ['zdz_module_socom_scout_num',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute32
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerG1f";
+					expression="_this setVariable ['zdz_module_socom_spacerG1f',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="---------------";
+						};
+					};
+				};
+				class Attribute33
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_grd_num";
+					expression="_this setVariable ['zdz_module_socom_destroy_grd_num',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute34
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_inf_path";
+					expression="_this setVariable ['zdz_module_socom_defend_inf_path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=2;
+						};
+					};
+				};
+				class Attribute35
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerG1g";
+					expression="_this setVariable ['zdz_module_socom_spacerG1g',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="---------------";
+						};
+					};
+				};
+				class Attribute36
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerG1h";
+					expression="_this setVariable ['zdz_module_socom_spacerG1h',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="---------------";
+						};
+					};
+				};
+				class Attribute37
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_ambush_stealth";
+					expression="_this setVariable ['zdz_module_socom_ambush_stealth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute38
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerF1";
+					expression="_this setVariable ['zdz_module_socom_spacerF1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute39
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_stealth_rng";
+					expression="_this setVariable ['zdz_module_socom_steal_stealth_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1000;
+						};
+					};
+				};
+				class Attribute40
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_urban_rng";
+					expression="_this setVariable ['zdz_module_socom_attack_urban_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=500;
+						};
+					};
+				};
+				class Attribute41
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_type";
+					expression="_this setVariable ['zdz_module_socom_scout_type',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute42
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_addaction";
+					expression="_this setVariable ['zdz_module_socom_addaction',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="this addAction ['SOCOM - ACTIVATE MISSION',{execVM 'zdz_socom\System\MISSION\mission_activate.sqf'}];";
+						};
+					};
+				};
+				class Attribute43
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_grd";
+					expression="_this setVariable ['zdz_module_socom_destroy_grd',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute44
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_grd_units";
+					expression="_this setVariable ['zdz_module_socom_documents_grd_units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_TL_01  I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_Medic_01  I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_Marksman_01  I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_AT_01  I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_01";
+						};
+					};
+				};
+				class Attribute45
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_prob";
+					expression="_this setVariable ['zdz_module_socom_defend_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute46
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_type";
+					expression="_this setVariable ['zdz_module_socom_destroy_type',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute47
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_blk";
+					expression="_this setVariable ['zdz_module_socom_attack_blk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute48
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerG1";
+					expression="_this setVariable ['zdz_module_socom_spacerG1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute49
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_grd_rng";
+					expression="_this setVariable ['zdz_module_socom_destroy_grd_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=111;
+						};
+					};
+				};
+				class Attribute50
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_grd_fil";
+					expression="_this setVariable ['zdz_module_socom_destroy_grd_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute51
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_grd_units";
+					expression="_this setVariable ['zdz_module_socom_kill_grd_units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_TL_01  I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_Medic_01  I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_Marksman_01  I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_AT_01  I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_01";
+						};
+					};
+				};
+				class Attribute52
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_urban";
+					expression="_this setVariable ['zdz_module_socom_attack_urban',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute53
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_object_center_fil";
+					expression="_this setVariable ['zdz_module_socom_search_object_center_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute54
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerH1a";
+					expression="_this setVariable ['zdz_module_socom_spacerH1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute55
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerH1b";
+					expression="_this setVariable ['zdz_module_socom_spacerH1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute56
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerH1c";
+					expression="_this setVariable ['zdz_module_socom_spacerH1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute57
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_arm_start";
+					expression="_this setVariable ['zdz_module_socom_defend_arm_start',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=900;
+						};
+					};
+				};
+				class Attribute58
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_core_spacer0a";
+					expression="_this setVariable ['zdz_module_core_spacer0a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute59
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_core_spacer0b";
+					expression="_this setVariable ['zdz_module_core_spacer0b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute60
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_ambush_stealth_rng";
+					expression="_this setVariable ['zdz_module_socom_ambush_stealth_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1000;
+						};
+					};
+				};
+				class Attribute61
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerH1";
+					expression="_this setVariable ['zdz_module_socom_spacerH1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute62
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_obj";
+					expression="_this setVariable ['zdz_module_socom_destroy_obj',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Land_ArmoryA_Red";
+						};
+					};
+				};
+				class Attribute63
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_task";
+					expression="_this setVariable ['zdz_module_socom_search_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute64
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerA1a";
+					expression="_this setVariable ['zdz_module_socom_spacerA1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute65
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerA1b";
+					expression="_this setVariable ['zdz_module_socom_spacerA1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute66
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerA1c";
+					expression="_this setVariable ['zdz_module_socom_spacerA1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute67
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_inf";
+					expression="_this setVariable ['zdz_module_socom_defend_inf',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_RTO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_ATGM_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_MANPADS_Trooper_01";
+						};
+					};
+				};
+				class Attribute68
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_stealth_rng";
+					expression="_this setVariable ['zdz_module_socom_destroy_stealth_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1000;
+						};
+					};
+				};
+				class Attribute69
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_stealth_rng";
+					expression="_this setVariable ['zdz_module_socom_scout_stealth_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=500;
+						};
+					};
+				};
+				class Attribute70
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_stealth";
+					expression="_this setVariable ['zdz_module_socom_steal_stealth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute71
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_detection";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_detection',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=500;
+						};
+					};
+				};
+				class Attribute72
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_file";
+					expression="_this setVariable ['zdz_module_socom_steal_file',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute73
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_arm_loop";
+					expression="_this setVariable ['zdz_module_socom_defend_arm_loop',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute74
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_blk";
+					expression="_this setVariable ['zdz_module_socom_steal_blk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute75
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerI1";
+					expression="_this setVariable ['zdz_module_socom_spacerI1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute76
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_glint_num";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_glint_num',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=5;
+						};
+					};
+				};
+				class Attribute77
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_grd_ptl";
+					expression="_this setVariable ['zdz_module_socom_destroy_grd_ptl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute78
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_area";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_area',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=200;
+						};
+					};
+				};
+				class Attribute79
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_task";
+					expression="_this setVariable ['zdz_module_socom_convoy_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute80
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_start";
+					expression="_this setVariable ['zdz_module_socom_defend_start',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=300;
+						};
+					};
+				};
+				class Attribute81
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_grd_file";
+					expression="_this setVariable ['zdz_module_socom_steal_grd_file',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute82
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_inf_loop";
+					expression="_this setVariable ['zdz_module_socom_defend_inf_loop',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-30;
+						};
+					};
+				};
+				class Attribute83
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_task";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute84
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerI1a";
+					expression="_this setVariable ['zdz_module_socom_spacerI1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute85
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerI1b";
+					expression="_this setVariable ['zdz_module_socom_spacerI1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute86
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_law";
+					expression="_this setVariable ['zdz_module_socom_search_law',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute87
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerI1c";
+					expression="_this setVariable ['zdz_module_socom_spacerI1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute88
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_ambush_units";
+					expression="_this setVariable ['zdz_module_socom_ambush_units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_Trooper_01, I_Earth_Colonies_FederationColonial_Guard_ECF_Trooper_01";
+						};
+					};
+				};
+				class Attribute89
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_grd";
+					expression="_this setVariable ['zdz_module_socom_steal_grd',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute90
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerJ1";
+					expression="_this setVariable ['zdz_module_socom_spacerJ1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute91
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_blk";
+					expression="_this setVariable ['zdz_module_socom_documents_blk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute92
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_grd_num";
+					expression="_this setVariable ['zdz_module_socom_kill_grd_num',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute93
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerB1a";
+					expression="_this setVariable ['zdz_module_socom_spacerB1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute94
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerB1b";
+					expression="_this setVariable ['zdz_module_socom_spacerB1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute95
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerB1c";
+					expression="_this setVariable ['zdz_module_socom_spacerB1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute96
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_hvt_rng";
+					expression="_this setVariable ['zdz_module_socom_kill_hvt_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=55;
+						};
+					};
+				};
+				class Attribute97
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_object_center_agl";
+					expression="_this setVariable ['zdz_module_socom_search_object_center_agl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=20;
+						};
+					};
+				};
+				class Attribute98
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_stealth_rng";
+					expression="_this setVariable ['zdz_module_socom_documents_stealth_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1000;
+						};
+					};
+				};
+				class Attribute99
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_hvt_fil";
+					expression="_this setVariable ['zdz_module_socom_kill_hvt_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute100
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_cargo_units";
+					expression="_this setVariable ['zdz_module_socom_convoy_cargo_units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_RTO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_ATGM_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_MANPADS_Trooper_01";
+						};
+					};
+				};
+				class Attribute101
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_glint_rng";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_glint_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1000;
+						};
+					};
+				};
+				class Attribute102
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_prob";
+					expression="_this setVariable ['zdz_module_socom_documents_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute103
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_eny";
+					expression="_this setVariable ['zdz_module_socom_scout_eny',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=10;
+						};
+					};
+				};
+				class Attribute104
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_arm";
+					expression="_this setVariable ['zdz_module_socom_defend_arm',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_Rhino_MBT_01  I_Earth_Colonies_FederationColonial_Guard_Buffalo_IFV_01  I_APC_tracked_03_cannon_F  I_LT_01_AT_F  I_LT_01_cannon_F";
+						};
+					};
+				};
+				class Attribute105
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_veh_loop";
+					expression="_this setVariable ['zdz_module_socom_defend_veh_loop',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-20;
+						};
+					};
+				};
+				class Attribute106
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_stealth_rng";
+					expression="_this setVariable ['zdz_module_socom_search_stealth_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1000;
+						};
+					};
+				};
+				class Attribute107
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_hel_loop";
+					expression="_this setVariable ['zdz_module_socom_defend_hel_loop',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-5;
+						};
+					};
+				};
+				class Attribute108
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_blk";
+					expression="_this setVariable ['zdz_module_socom_kill_blk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute109
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_glint_slp";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_glint_slp',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=180;
+						};
+					};
+				};
+				class Attribute110
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_stealth_who";
+					expression="_this setVariable ['zdz_module_socom_steal_stealth_who',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GUER D";
+						};
+					};
+				};
+				class Attribute111
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_grd";
+					expression="_this setVariable ['zdz_module_socom_documents_grd',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute112
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_track";
+					expression="_this setVariable ['zdz_module_socom_convoy_track',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=300;
+						};
+					};
+				};
+				class Attribute113
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_sniper";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_sniper',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_SIS_Operative_Marksman_01";
+						};
+					};
+				};
+				class Attribute114
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_ambush_fil";
+					expression="_this setVariable ['zdz_module_socom_ambush_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute115
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_stealth";
+					expression="_this setVariable ['zdz_module_socom_documents_stealth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute116
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_area";
+					expression="_this setVariable ['zdz_module_socom_defend_area',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute117
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_eny_file";
+					expression="_this setVariable ['zdz_module_socom_scout_eny_file',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute118
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_grd_rng";
+					expression="_this setVariable ['zdz_module_socom_kill_grd_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=75;
+						};
+					};
+				};
+				class Attribute119
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_intel";
+					expression="_this setVariable ['zdz_module_socom_documents_intel',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Land_Document_01_F";
+						};
+					};
+				};
+				class Attribute120
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_dist";
+					expression="_this setVariable ['zdz_module_socom_scout_dist',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute121
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_cargo";
+					expression="_this setVariable ['zdz_module_socom_convoy_cargo',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				class Attribute122
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_task";
+					expression="_this setVariable ['zdz_module_socom_defend_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute123
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_grd_fil";
+					expression="_this setVariable ['zdz_module_socom_kill_grd_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute124
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_grd_num";
+					expression="_this setVariable ['zdz_module_socom_search_grd_num',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute125
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_object_center";
+					expression="_this setVariable ['zdz_module_socom_search_object_center',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_Raptor_Dropship_01";
+						};
+					};
+				};
+				class Attribute126
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_veh";
+					expression="_this setVariable ['zdz_module_socom_defend_veh',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_Jack_Rabbit_MRAP_HMG_01  I_Earth_Colonies_FederationColonial_Guard_Jack_Rabbit_MRAP_GMG_01  I_Earth_Colonies_FederationColonial_Guard_Jack_Rabbit_MRAP_01  I_Earth_Colonies_FederationColonial_Guard_Oryx_Transport_Truck_01";
+						};
+					};
+				};
+				class Attribute127
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_grd";
+					expression="_this setVariable ['zdz_module_socom_kill_grd',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute128
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerJ1a";
+					expression="_this setVariable ['zdz_module_socom_spacerJ1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute129
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerJ1b";
+					expression="_this setVariable ['zdz_module_socom_spacerJ1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute130
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerJ1c";
+					expression="_this setVariable ['zdz_module_socom_spacerJ1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute131
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_hvt_ptl";
+					expression="_this setVariable ['zdz_module_socom_kill_hvt_ptl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				class Attribute132
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_mines";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_mines',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute133
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_stealth";
+					expression="_this setVariable ['zdz_module_socom_attack_stealth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute134
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerC1a";
+					expression="_this setVariable ['zdz_module_socom_spacerC1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute135
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerC1b";
+					expression="_this setVariable ['zdz_module_socom_spacerC1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute136
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerC1c";
+					expression="_this setVariable ['zdz_module_socom_spacerC1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute137
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_eny_rng";
+					expression="_this setVariable ['zdz_module_socom_scout_eny_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=111;
+						};
+					};
+				};
+				class Attribute138
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_file_l";
+					expression="_this setVariable ['zdz_module_socom_convoy_file_l',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute139
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_file";
+					expression="_this setVariable ['zdz_module_socom_convoy_file',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute140
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_fil";
+					expression="_this setVariable ['zdz_module_socom_attack_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute141
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_hel";
+					expression="_this setVariable ['zdz_module_socom_defend_hel',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_Raptor_Dropship_01";
+						};
+					};
+				};
+				class Attribute142
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_file";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_file',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute143
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_ambush_stealth_who";
+					expression="_this setVariable ['zdz_module_socom_ambush_stealth_who',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GUER D";
+						};
+					};
+				};
+				class Attribute144
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_urban_cnt";
+					expression="_this setVariable ['zdz_module_socom_kill_urban_cnt',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=150;
+						};
+					};
+				};
+				class Attribute145
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_grd_rng";
+					expression="_this setVariable ['zdz_module_socom_search_grd_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=222;
+						};
+					};
+				};
+				class Attribute146
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_stealth_who";
+					expression="_this setVariable ['zdz_module_socom_destroy_stealth_who',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GUER D";
+						};
+					};
+				};
+				class Attribute147
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_stealth_who";
+					expression="_this setVariable ['zdz_module_socom_scout_stealth_who',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GUER D";
+						};
+					};
+				};
+				class Attribute148
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_ambush_prob";
+					expression="_this setVariable ['zdz_module_socom_ambush_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute149
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_grd_fil";
+					expression="_this setVariable ['zdz_module_socom_search_grd_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute150
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_grd_ptl";
+					expression="_this setVariable ['zdz_module_socom_kill_grd_ptl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute151
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_stealth_rng";
+					expression="_this setVariable ['zdz_module_socom_kill_stealth_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1000;
+						};
+					};
+				};
+				class Attribute152
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_safe";
+					expression="_this setVariable ['zdz_module_socom_steal_safe',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="SC_Flag_SE";
+						};
+					};
+				};
+				class Attribute153
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_veh";
+					expression="_this setVariable ['zdz_module_socom_steal_veh',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Typhoon_Truck_03_device_F_U";
+						};
+					};
+				};
+				class Attribute154
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_urban_rng";
+					expression="_this setVariable ['zdz_module_socom_kill_urban_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=500;
+						};
+					};
+				};
+				class Attribute155
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_path";
+					expression="_this setVariable ['zdz_module_socom_attack_path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=2;
+						};
+					};
+				};
+				class Attribute156
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_eny_ptl";
+					expression="_this setVariable ['zdz_module_socom_scout_eny_ptl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				class Attribute157
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_ptl";
+					expression="_this setVariable ['zdz_module_socom_attack_ptl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=30;
+						};
+					};
+				};
+				class Attribute158
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_object_nam";
+					expression="_this setVariable ['zdz_module_socom_search_object_nam',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute159
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_blk";
+					expression="_this setVariable ['zdz_module_socom_search_blk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute160
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerD1a";
+					expression="_this setVariable ['zdz_module_socom_spacerD1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute161
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerD1b";
+					expression="_this setVariable ['zdz_module_socom_spacerD1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute162
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerD1c";
+					expression="_this setVariable ['zdz_module_socom_spacerD1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute163
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_grd_num";
+					expression="_this setVariable ['zdz_module_socom_steal_grd_num',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute164
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_prob";
+					expression="_this setVariable ['zdz_module_socom_scout_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute165
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_prob";
+					expression="_this setVariable ['zdz_module_socom_attack_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute166
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_stealth_rng";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_stealth_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1200;
+						};
+					};
+				};
+				class Attribute167
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_veh_start";
+					expression="_this setVariable ['zdz_module_socom_defend_veh_start',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=600;
+						};
+					};
+				};
+				class Attribute168
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_grd_ptl";
+					expression="_this setVariable ['zdz_module_socom_search_grd_ptl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute169
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_stealth";
+					expression="_this setVariable ['zdz_module_socom_destroy_stealth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute170
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_object";
+					expression="_this setVariable ['zdz_module_socom_search_object',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Land_Document_01_F";
+						};
+					};
+				};
+				class Attribute171
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_hel_start";
+					expression="_this setVariable ['zdz_module_socom_defend_hel_start',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1200;
+						};
+					};
+				};
+				class Attribute172
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_destroy_prob";
+					expression="_this setVariable ['zdz_module_socom_destroy_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute173
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_prob";
+					expression="_this setVariable ['zdz_module_socom_kill_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute174
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_stealth_who";
+					expression="_this setVariable ['zdz_module_socom_documents_stealth_who',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GUER D";
+						};
+					};
+				};
+				class Attribute175
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_blk";
+					expression="_this setVariable ['zdz_module_socom_convoy_blk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute176
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_defend_object";
+					expression="_this setVariable ['zdz_module_socom_defend_object',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="SC_Flag_SE";
+						};
+					};
+				};
+				class Attribute177
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_task";
+					expression="_this setVariable ['zdz_module_socom_documents_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute178
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_reloadspeed";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_reloadspeed',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.1;
+						};
+					};
+				};
+				class Attribute179
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_grd";
+					expression="_this setVariable ['zdz_module_socom_search_grd',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute180
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_stealth_who";
+					expression="_this setVariable ['zdz_module_socom_search_stealth_who',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GUER D";
+						};
+					};
+				};
+				class Attribute181
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_fil";
+					expression="_this setVariable ['zdz_module_socom_documents_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute182
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_spotdistance";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_spotdistance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.89999998;
+						};
+					};
+				};
+				class Attribute183
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_start";
+					expression="_this setVariable ['zdz_module_socom_convoy_start',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=600;
+						};
+					};
+				};
+				class Attribute184
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_grd_rng";
+					expression="_this setVariable ['zdz_module_socom_steal_grd_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=111;
+						};
+					};
+				};
+				class Attribute185
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_stealth_rng";
+					expression="_this setVariable ['zdz_module_socom_attack_stealth_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1000;
+						};
+					};
+				};
+				class Attribute186
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_prob";
+					expression="_this setVariable ['zdz_module_socom_steal_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute187
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacer1a";
+					expression="_this setVariable ['zdz_module_socom_spacer1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute188
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacer1b";
+					expression="_this setVariable ['zdz_module_socom_spacer1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute189
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacer1c";
+					expression="_this setVariable ['zdz_module_socom_spacer1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute190
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_stealth";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_stealth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute191
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerA1";
+					expression="_this setVariable ['zdz_module_socom_spacerA1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute192
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerE1a";
+					expression="_this setVariable ['zdz_module_socom_spacerE1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute193
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerE1b";
+					expression="_this setVariable ['zdz_module_socom_spacerE1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute194
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerE1c";
+					expression="_this setVariable ['zdz_module_socom_spacerE1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute195
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_object_center_nam";
+					expression="_this setVariable ['zdz_module_socom_search_object_center_nam',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute196
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_urban_cnt";
+					expression="_this setVariable ['zdz_module_socom_documents_urban_cnt',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=150;
+						};
+					};
+				};
+				class Attribute197
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_object_center_msc";
+					expression="_this setVariable ['zdz_module_socom_search_object_center_msc',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Land_ShellCrater_02_debris_F";
+						};
+					};
+				};
+				class Attribute198
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_blk";
+					expression="_this setVariable ['zdz_module_socom_scout_blk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute199
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerB1";
+					expression="_this setVariable ['zdz_module_socom_spacerB1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute200
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_urban";
+					expression="_this setVariable ['zdz_module_socom_kill_urban',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=75;
+						};
+					};
+				};
+				class Attribute201
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_grd_num";
+					expression="_this setVariable ['zdz_module_socom_documents_grd_num',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute202
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_lead";
+					expression="_this setVariable ['zdz_module_socom_convoy_lead',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_Jack_Rabbit_MRAP_01";
+						};
+					};
+				};
+				class Attribute203
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_steal_grd_ptl";
+					expression="_this setVariable ['zdz_module_socom_steal_grd_ptl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50;
+						};
+					};
+				};
+				class Attribute204
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_urban_rng";
+					expression="_this setVariable ['zdz_module_socom_documents_urban_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=500;
+						};
+					};
+				};
+				class Attribute205
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_core_spacer0";
+					expression="_this setVariable ['zdz_module_core_spacer0',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="S.O.C.O.M - SIGINT, Objectives, Covert Operations & Missions";
+						};
+					};
+				};
+				class Attribute206
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_ambush_task";
+					expression="_this setVariable ['zdz_module_socom_ambush_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute207
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_eny_units";
+					expression="_this setVariable ['zdz_module_socom_scout_eny_units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_Officer_01, I_Earth_Colonies_FederationColonial_Guard_ECF_Trooper_01, I_Earth_Colonies_FederationColonial_Guard_ECF_Trooper_01, I_Earth_Colonies_FederationColonial_Guard_ECF_Trooper_01";
+						};
+					};
+				};
+				class Attribute208
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerC1";
+					expression="_this setVariable ['zdz_module_socom_spacerC1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute209
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_hvt";
+					expression="_this setVariable ['zdz_module_socom_kill_hvt',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_Staff_Officer_01";
+						};
+					};
+				};
+				class Attribute210
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_search_prob";
+					expression="_this setVariable ['zdz_module_socom_search_prob',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				class Attribute211
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_aimingspeed";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_aimingspeed',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.5;
+						};
+					};
+				};
+				class Attribute212
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerF1a";
+					expression="_this setVariable ['zdz_module_socom_spacerF1a',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute213
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_stealth_who";
+					expression="_this setVariable ['zdz_module_socom_kill_stealth_who',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GUER D";
+						};
+					};
+				};
+				class Attribute214
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerF1b";
+					expression="_this setVariable ['zdz_module_socom_spacerF1b',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute215
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerF1c";
+					expression="_this setVariable ['zdz_module_socom_spacerF1c',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute216
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_hogstooth_aimingshake";
+					expression="_this setVariable ['zdz_module_socom_hogstooth_aimingshake',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.89999998;
+						};
+					};
+				};
+				class Attribute217
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_grd_rng";
+					expression="_this setVariable ['zdz_module_socom_documents_grd_rng',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=111;
+						};
+					};
+				};
+				class Attribute218
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_urban";
+					expression="_this setVariable ['zdz_module_socom_documents_urban',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=75;
+						};
+					};
+				};
+				class Attribute219
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_kill_stealth";
+					expression="_this setVariable ['zdz_module_socom_kill_stealth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute220
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_documents_grd_fil";
+					expression="_this setVariable ['zdz_module_socom_documents_grd_fil',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute221
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_convoy_path";
+					expression="_this setVariable ['zdz_module_socom_convoy_path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute222
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_stealth";
+					expression="_this setVariable ['zdz_module_socom_scout_stealth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute223
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_spacerD1";
+					expression="_this setVariable ['zdz_module_socom_spacerD1',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" ";
+						};
+					};
+				};
+				class Attribute224
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_scout_task";
+					expression="_this setVariable ['zdz_module_socom_scout_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute225
+				{
+					property="ZDZ_ModuleSOCOM_zdz_module_socom_attack_task";
+					expression="_this setVariable ['zdz_module_socom_attack_task',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=226;
 			};
-			init="fun = [""z1"",[1,0,0,0],[3,3,20,6],[3,2,20,6],[],[],[0,0,0,0]] spawn DAC_Zone ";
-			id=3049;
-			type="VirtualAISquad";
-		};
-		class Item250
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={4307.6572,20.709652,1297.12};
-			};
-			init="fun = [""z1"",[1,0,0,0],[3,3,20,6],[3,2,20,6],[],[],[0,0,0,0]] spawn DAC_Zone ";
-			id=3050;
-			type="VirtualAISquad";
 		};
 	};
 };
