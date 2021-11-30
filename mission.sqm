@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3128;
+		nextID=3129;
 	};
 	class MarkerIDProvider
 	{
@@ -25,9 +25,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={4506.6616,132.68848,2943.3};
-		dir[]={0.076792307,-0.74083179,0.66729319};
-		up[]={0.084696397,0.67168862,0.73597533};
-		aside[]={0.99344677,1.0892109e-008,-0.11432633};
+		dir[]={0.07679189,-0.74082839,0.66729027};
+		up[]={0.084695682,0.67169434,0.73597103};
+		aside[]={0.99344337,3.7252903e-009,-0.11432564};
 	};
 };
 binarizationWanted=0;
@@ -4483,7 +4483,7 @@ class Mission
 			};
 			id=465;
 			type="OPTRE_HEV";
-			atlOffset=1.0251999e-005;
+			atlOffset=1.0490417e-005;
 		};
 		class Item154
 		{
@@ -31663,7 +31663,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=-10;
+							value=-15;
 						};
 					};
 				};
@@ -32708,7 +32708,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="I_Earth_Colonies_FederationColonial_Guard_ECF_Trooper_01, I_Earth_Colonies_FederationColonial_Guard_ECF_Trooper_01";
+							value="I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_RTO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_Machinegun_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_NCO_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_ATGM_Trooper_01  I_Earth_Colonies_FederationColonial_Guard_ECF_MANPADS_Trooper_01";
 						};
 					};
 				};
@@ -32784,7 +32784,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=-10;
+							value=-15;
 						};
 					};
 				};
@@ -33392,7 +33392,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=-10;
+							value=-15;
 						};
 					};
 				};
@@ -34133,7 +34133,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=-10;
+							value=-15;
 						};
 					};
 				};
@@ -34855,7 +34855,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=-10;
+							value=-15;
 						};
 					};
 				};
