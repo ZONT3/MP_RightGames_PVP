@@ -46,23 +46,23 @@ execVM "DAC\DAC_Config_Creator.sqf";
 //________________ Settings _____________
 
 _Repeat_Missions						= true;				//	Change this for Non stop.Set this to false , if you are using the DAC missions
-_GF_Missions_Systemchat_info				= true;					//	Отображение информации
-_GF_Missions_saveGame					= false;					//	Сохранение
-_GF_Missions_Wait_Time					= 10;					// 	Время до след.миссии
-_GF_Missions_Show_Server_info			= true;					//	отображение серверной информации
-_GF_Missions_DAC_Area_Spawn_Meters 		= (random(350)+350);	//	размер территории
-_GF_Missions_Delete_Objects				= true;					//	Удалять объекты после завершения
-_GF_Missions_Delete_Objects_Distance		= 2000;					// 	Дистанция от игрока, на которой объекты удаляются
-_GF_Missions_Rolling                        = false;                //  добавить ли ручной вызов миссии?
+GF_Missions_Systemchat_info				= true;					//	Отображение информации
+GF_Missions_saveGame					= false;					//	Сохранение
+GF_Missions_Wait_Time					= 10;					// 	Время до след.миссии
+GF_Missions_Show_Server_info			= true;					//	отображение серверной информации
+GF_Missions_DAC_Area_Spawn_Meters 		= (random(350)+350);	//	размер территории
+GF_Missions_Delete_Objects				= true;					//	Удалять объекты после завершения
+GF_Missions_Delete_Objects_Distance		= 2000;					// 	Дистанция от игрока, на которой объекты удаляются
+GF_Missions_Rolling                        = false;                //  добавить ли ручной вызов миссии?
 //________________ The position of the mission	________________
 
-	GF_Missions_pos = getPos player;    				//    для тестов
+//	GF_Missions_pos = getPos player;    				//    для тестов
 	GF_Missions_pos = [] call BIS_fnc_randomPos; 		//    Рандомные позиции
-	GF_Missions_pos = getmarkerPos "MarkerName_1";    	//    создание маркера
+//	GF_Missions_pos = getmarkerPos "MarkerName_1";    	//    создание маркера
 
 //	or select a random marker ,
 //	copy this inside the mission that you want to suffle markers
-	_Marker_array =selectRandom[
+//	_Marker_array =selectRandom[
             "MarkerName_1",
             "MarkerName_2",
 			"MarkerName_3"
