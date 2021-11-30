@@ -147,3 +147,14 @@ class CfgDiscordRichPresence {
 	defaultSmallImageText="ArmA 3";
 	useTimeElapsed=1;
 };
+
+
+class CfgSounds
+{
+	sounds[] = {};
+
+	//adjust the volume from db0
+
+	//__________________________ 9_DAC_Search_Airdrop.sqf __________________________
+	class Airdrop_Plane_sound2{name = "Airdrop_Plane_sound2";sound[] = {"GF_Missions\sounds\plane_fly_over_2.ogg", db-2, 1.0};titles[] = {};};
+};	
