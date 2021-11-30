@@ -45,7 +45,7 @@ execVM "DAC\DAC_Config_Creator.sqf";
 
 //________________ Settings _____________
 
-_Repeat_Missions						= true;				//	Change this for Non stop.Set this to false , if you are using the DAC missions
+Repeat_Missions						= true;				//	Change this for Non stop.Set this to false , if you are using the DAC missions
 GF_Missions_Systemchat_info				= true;					//	Отображение информации
 GF_Missions_saveGame					= false;					//	Сохранение
 GF_Missions_Wait_Time					= 10;					// 	Время до след.миссии
