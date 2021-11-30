@@ -41,3 +41,16 @@ private _fortif_list = [
 
 []execVM "GF_Missions\Missions_Array.sqf";
 []execVM "GF_Missions\Missions_init.sqf";
+
+//________________	показывать объекты зевсам	________________
+[] spawn {
+  while {true} do {
+ if (isServer) then {
+ {
+  _x addCuratorEditableObjects [allUnits,true];
+  _x addCuratorEditableObjects [vehicles,true];
+ } forEach allCurators;            
+};
+  sleep 5;
+  };
+};
