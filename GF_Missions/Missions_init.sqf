@@ -91,7 +91,7 @@ systemchat format ["FPS : %1    ||    Objects : %2    ||    allUnits : %3",round
 };
 
 
-GF_Missions_allPlayers = allUnits select {isPlayer _x && {!(_x isKindOf "HeadlessClient_F")}};
+GF_Missions_allPlayers = allUnits select {isPlayer _x && {!(_x isKindOf "127.0.0.1")}};
 GF_Missions_centerPosition = getArray(configFile >> "CfgWorlds" >> worldName >> "centerPosition");
 
 
