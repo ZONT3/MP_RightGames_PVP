@@ -25,7 +25,7 @@ _this addAction [
 ];
 
 _this addAction [
-  "Запрос Техники 1st CD",
+  "Запрос Техники Armored Fist",
   VVS_fnc_openVVS,
   [VVS_west_Land,"CD"],
   6,
@@ -81,5 +81,17 @@ _this addAction [
   true,
   "",
   "[['USAF']] call ZONT_fnc_checkRole",
+  5
+];
+
+_this addAction [
+  "Запрос Техники CBRN",
+  VVS_fnc_openVVS,
+  [VVS_west_Land,"CBRN"],
+  6,
+  true,
+  true,
+  "",
+  "[['CBRN']] call ZONT_fnc_checkRole",
   5
 ];

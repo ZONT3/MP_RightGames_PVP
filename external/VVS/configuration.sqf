@@ -15,6 +15,7 @@ ZONT_fnc_filterVVS = {
   	case "SWheeled": { VVS_Wheeled_Spec };
   	case "CD": { VVS_CD };
     case "USAF": { VVS_USAF };
+    case "CBRN": { VVS_CBRN };
 
   	default {[]};
   };
@@ -82,6 +83,10 @@ VVS_USAF = [
   "JGPT"
 ];
 
+VVS_CBRN = [
+  "OPTRE_M12_FAV_APC", 
+  "Typhoon_Truck_03_covered_F_U"
+];
 
 
 VVS_Car = [];

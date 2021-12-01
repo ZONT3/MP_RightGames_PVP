@@ -866,7 +866,7 @@ orbis_aerodynamics_windMultiplier = 1;
 
 // AWESome ATC
 orbis_atc_displayCallsign = 0;
-orbis_atc_displayProjectileTrails = false;
+orbis_atc_displayProjectileTrails = true;
 orbis_atc_personalCallsign = "";
 orbis_atc_radarTrailLength = 5;
 orbis_atc_radarUpdateInterval = 0.5;
