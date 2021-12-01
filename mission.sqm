@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=98;
+		nextID=102;
 	};
 	class Camera
 	{
-		pos[]={4302.8052,77.020073,3154.1135};
-		dir[]={0.53989375,-0.67626023,-0.50140244};
-		up[]={0.49555135,0.7366119,-0.46021813};
-		aside[]={-0.68056393,-1.1394732e-006,-0.73282075};
+		pos[]={4470.5508,25.739666,3110.4448};
+		dir[]={0.70517439,-0.66650075,-0.24233034};
+		up[]={0.6303553,0.74545187,-0.21661647};
+		aside[]={-0.32501584,-1.0441872e-006,-0.94581127};
 	};
 };
 binarizationWanted=0;
@@ -1378,6 +1378,7 @@ class Mission
 			class Attributes
 			{
 				ammo=0;
+				init="[this, ""Sparrowhawk""] call orbis_atc_fnc_setCustomCallsign;";
 				textures="standard";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -1476,14 +1477,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4346.0132,22.699661,3125.2324};
-				angles[]={-0,1.5959158,0};
+				position[]={4346.0132,22.699511,3125.2329};
+				angles[]={0,1.5959116,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				ammo=0;
+				init="[this, ""Falcon""] call orbis_atc_fnc_setCustomCallsign;";
 				textures="standard";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -1492,6 +1494,7 @@ class Mission
 			};
 			id=23;
 			type="OPTRE_UNSC_falcon";
+			atlOffset=0.022277832;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4405,7 +4408,7 @@ class Mission
 			};
 			id=451;
 			type="OPTRE_HEV";
-			atlOffset=1.0251999e-005;
+			atlOffset=1.0490417e-005;
 		};
 		class Item140
 		{
@@ -30777,10 +30780,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4487.6172,16.102177,3107.1426};
-				angles[]={0,4.2374067,0};
+				position[]={4487.6172,16.102274,3107.1431};
+				angles[]={0,4.2374148,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="call{[monitor] call orbis_atc_fnc_addATCConsole; " \n "[monitor] call orbis_atc_fnc_addRadarScreen;}";
@@ -30788,7 +30792,7 @@ class Mission
 			};
 			id=2055;
 			type="MEOP_st_furn_comp_laptop2gui_blue";
-			atlOffset=1.0299025;
+			atlOffset=9.6321106e-005;
 		};
 		class Item235
 		{
@@ -35513,6 +35517,7 @@ class Mission
 			class Attributes
 			{
 				ammo=0;
+				init="[this, ""Goblin""] call orbis_atc_fnc_setCustomCallsign;";
 				textures="DemeterSquadron";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -35664,7 +35669,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4344.8853,20.169769,3125.7087};
-				angles[]={0,0.30478486,-0};
+				angles[]={0,0.30478486,0};
 			};
 			side="Empty";
 			flags=5;
