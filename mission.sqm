@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3138;
+		nextID=3140;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=94;
+		nextID=98;
 	};
 	class Camera
 	{
-		pos[]={4327.0488,67.146919,3175.1592};
-		dir[]={0.17660119,-0.54838455,-0.81745541};
-		up[]={0.11580931,0.83618611,-0.53605402};
-		aside[]={-0.97751063,2.5324698e-007,-0.21118625};
+		pos[]={4302.8052,77.020073,3154.1135};
+		dir[]={0.53989375,-0.67626023,-0.50140244};
+		up[]={0.49555135,0.7366119,-0.46021813};
+		aside[]={-0.68056393,-1.1394732e-006,-0.73282075};
 	};
 };
 binarizationWanted=0;
@@ -119,13 +119,13 @@ addons[]=
 	"ace_interaction",
 	"zdz_socom_module",
 	"JMSFALL_veh_air_goblin",
-	"A3_Structures_F_Mil_Helipads"
+	"JMS_st_objectsColNew"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=70;
+		items=71;
 		class Item0
 		{
 			className="OPTRE_Vehicles_Sparrowhawk";
@@ -566,6 +566,12 @@ class AddonsMetaData
 		{
 			className="JMSFALL_veh_air_goblin";
 			name="JMSFALL_veh_air_goblin";
+		};
+		class Item70
+		{
+			className="JMS_st_objectsColNew";
+			name="JMS_st_objectsColNew";
+			author="JMax";
 		};
 	};
 };
@@ -1358,7 +1364,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=253;
+		items=252;
 		class Item0
 		{
 			dataType="Object";
@@ -1470,8 +1476,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4357.8589,22.064507,3082.9661};
-				angles[]={-0,5.3843231,0};
+				position[]={4346.0132,22.699661,3125.2324};
+				angles[]={-0,1.5959158,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4399,7 +4405,7 @@ class Mission
 			};
 			id=451;
 			type="OPTRE_HEV";
-			atlOffset=1.0490417e-005;
+			atlOffset=1.0251999e-005;
 		};
 		class Item140
 		{
@@ -13641,6 +13647,7 @@ class Mission
 			};
 			id=1854;
 			type="OPTRE_M12_FAV_APC_MED";
+			atlOffset=-0.026464462;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13751,7 +13758,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4332.0405,22.636044,3080.6401};
-				angles[]={-0,1.6464306,0};
+				angles[]={0,1.6464306,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13761,6 +13768,7 @@ class Mission
 			};
 			id=1856;
 			type="Arma_OPFOR_medical_U";
+			atlOffset=-0.00079917908;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -31087,11 +31095,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4341.0107,27.841976,3075.77};
+				position[]={4341.0107,29.911308,3075.77};
 			};
 			id=3045;
 			type="ModuleLightSource_F";
-			atlOffset=7.7119999;
+			atlOffset=9.781332;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -31121,11 +31129,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4338.7012,27.777557,3121.1987};
+				position[]={4340.8564,26.596697,3117.2527};
 			};
 			id=3046;
 			type="ModuleLightSource_F";
-			atlOffset=7.7119999;
+			atlOffset=6.379343;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -35621,82 +35629,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4365.5928,27.965687,3086.6357};
-			};
-			areaSize[]={5,-1,5};
-			flags=1;
-			id=3133;
-			type="ModuleHideTerrainObjects_F";
-			atlOffset=7.765686;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="#filter";
-					expression="_this setVariable [""#filter"",_value]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=15;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="#hideLocally";
-					expression="_this setVariable [""#hideLocally"",_value]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item251
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4358.5903,20.200001,3082.4658};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=3136;
-			type="Land_HelipadCircle_F";
-		};
-		class Item252
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={4363.8848,27.912001,3090.9307};
+				position[]={4367.0293,29.869329,3101.8379};
 			};
 			id=3137;
 			type="ModuleLightSource_F";
-			atlOffset=7.7119999;
+			atlOffset=9.6693287;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -35720,6 +35657,23 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item251
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4344.8853,20.169769,3125.7087};
+				angles[]={0,0.30478486,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=3139;
+			type="Land_JMS_build_Colony_LandingPad";
 		};
 	};
 };
