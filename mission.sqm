@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3155;
+		nextID=3181;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=106;
+		nextID=110;
 	};
 	class Camera
 	{
-		pos[]={4571.1704,160.4624,3230.5276};
-		dir[]={-0.39613062,-0.63918775,-0.65922612};
-		up[]={-0.32922742,0.76903993,-0.54788798};
-		aside[]={-0.85717148,5.0384551e-007,0.51507711};
+		pos[]={149.75644,124.93847,223.30202};
+		dir[]={0.40075305,-0.53282297,-0.74532485};
+		up[]={0.25233158,0.84622627,-0.46928871};
+		aside[]={-0.88076127,-1.9840081e-007,-0.47357565};
 	};
 };
 binarizationWanted=0;
@@ -1364,7 +1364,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=253;
+		items=254;
 		class Item0
 		{
 			dataType="Object";
@@ -1763,8 +1763,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4270.563,2.1083083,3086.7681};
-				angles[]={0,4.9312363,0};
+				position[]={4274.8506,2.1083083,3088.4807};
+				angles[]={0,0.099674404,-0};
 			};
 			side="Empty";
 			class Attributes
@@ -1772,7 +1772,7 @@ class Mission
 			};
 			id=97;
 			type="optre_catfish_mg_f";
-			atlOffset=1.949895;
+			atlOffset=1.3148463;
 		};
 		class Item9
 		{
@@ -4351,7 +4351,7 @@ class Mission
 			};
 			id=448;
 			type="OPTRE_HEV";
-			atlOffset=8.5830688e-006;
+			atlOffset=8.3446503e-006;
 		};
 		class Item137
 		{
@@ -4763,7 +4763,7 @@ class Mission
 			};
 			id=470;
 			type="OPTRE_HEV";
-			atlOffset=1.1205673e-005;
+			atlOffset=1.1444092e-005;
 		};
 		class Item159
 		{
@@ -4858,7 +4858,7 @@ class Mission
 			};
 			id=475;
 			type="OPTRE_HEV";
-			atlOffset=0.01020956;
+			atlOffset=0.010209322;
 		};
 		class Item164
 		{
@@ -5081,19 +5081,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={168.07298,2.2949073,143.55035};
-				angles[]={0,1.5498238,0};
+				position[]={168.073,2.295002,143.55};
+				angles[]={0,1.5498174,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="_teleporter setVariable [""sc_props_teleporter_enabled"", false, true];" \n "";
+				init="_teleporter setVariable [""sc_props_teleporter_enabled"", false, true];" \n "this setVariable [""sc_props_teleporter_name"", ""На базу""]" \n "";
 				name="Ship";
 			};
 			id=508;
 			type="SC_Teleporter";
-			atlOffset=0.00047945976;
+			atlOffset=0.00057411194;
 		};
 		class Item173
 		{
@@ -11245,18 +11245,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4333.2754,20.387001,3108.7864};
-				angles[]={0,1.5575938,0};
+				position[]={4333.2749,20.386791,3108.7859};
+				angles[]={0,1.5576017,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
-				init="_teleporter setVariable [""sc_props_teleporter_enabled"", false, true];";
+				init="_teleporter setVariable [""sc_props_teleporter_enabled"", false, true];" \n "this setVariable [""sc_props_teleporter_name"", ""На Корабль""]";
 				name="Base";
 			};
 			id=597;
 			type="SC_Teleporter";
+			atlOffset=0.73299789;
 		};
 		class Item183
 		{
@@ -12462,6 +12462,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="[ZAM] Armory Arsenal";
+			state=1;
 			class Entities
 			{
 				items=1;
@@ -35524,7 +35525,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4479.3086,15.926633,3094.999};
-				angles[]={0,1.02292,0};
+				angles[]={-0,1.02292,0};
 			};
 			side="Empty";
 			flags=4;
@@ -35713,6 +35714,107 @@ class Mission
 			id=3143;
 			type="76n6ClamShell_EP1";
 			atlOffset=-4.7683716e-007;
+		};
+		class Item253
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4267.2778,1.3816679,3089.4771};
+				angles[]={0,0.10561767,-0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				textures="texBlack";
+			};
+			id=3156;
+			type="optre_catfish_unarmed_f";
+			atlOffset=2.294668;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="texBlack";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=1;
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
