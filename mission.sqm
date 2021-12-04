@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=116;
+		nextID=122;
 	};
 	class Camera
 	{
-		pos[]={4437.5684,20.548891,3076.6719};
-		dir[]={-0.12084026,-0.58461398,0.80226403};
-		up[]={-0.087074831,0.81131136,0.57809472};
-		aside[]={0.98884726,4.6333298e-008,0.14894389};
+		pos[]={4435.3237,24.915041,3077.2988};
+		dir[]={0.40239081,-0.79692185,0.45056948};
+		up[]={0.53083599,0.60407901,0.59439528};
+		aside[]={0.74586445,3.0660885e-007,-0.66611111};
 	};
 };
 binarizationWanted=0;
@@ -1364,7 +1364,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=149;
+		items=147;
 		class Item0
 		{
 			dataType="Object";
@@ -2466,7 +2466,7 @@ class Mission
 			};
 			id=479;
 			type="OPTRE_HEV";
-			atlOffset=0.02177453;
+			atlOffset=0.021774769;
 		};
 		class Item50
 		{
@@ -32786,588 +32786,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4432.4351,15.154055,3087.2529};
-				angles[]={0,2.2364299,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				health=0.79650992;
-				name="ars_inferno";
-			};
-			id=3185;
-			type="Box_EAF_Ammo_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_arsenal_attribute";
-					expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"ARRAY"
-								};
-							};
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=34;
-											class Item0
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_Rifle_Ravager";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_20Rnd_Plasma_Mag";
-												};
-											};
-											class Item2
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_20Rnd_Plasma_Mag_B";
-												};
-											};
-											class Item3
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_Reflex_C_Blue";
-												};
-											};
-											class Item4
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_Reflex_C_Red";
-												};
-											};
-											class Item5
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_Reflex_C1_Red";
-												};
-											};
-											class Item6
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M9_Frag";
-												};
-											};
-											class Item7
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_IG3";
-												};
-											};
-											class Item8
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M2_Smoke_Yellow";
-												};
-											};
-											class Item9
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M2_Smoke";
-												};
-											};
-											class Item10
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M2_Smoke_Red";
-												};
-											};
-											class Item11
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M2_Smoke_Purple";
-												};
-											};
-											class Item12
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M2_Smoke_Orange";
-												};
-											};
-											class Item13
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M2_Smoke_Green";
-												};
-											};
-											class Item14
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M2_Smoke_Blue";
-												};
-											};
-											class Item15
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SmokeShellYellow";
-												};
-											};
-											class Item16
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="ACE_CableTie";
-												};
-											};
-											class Item17
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="ItemGPS";
-												};
-											};
-											class Item18
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="ItemWatch";
-												};
-											};
-											class Item19
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="TFAR_fadak";
-												};
-											};
-											class Item20
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="ItemCompass";
-												};
-											};
-											class Item21
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="ItemMap";
-												};
-											};
-											class Item22
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="Rangefinder";
-												};
-											};
-											class Item23
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="Laserdesignator_01_khk_F";
-												};
-											};
-											class Item24
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="Laserdesignator_03";
-												};
-											};
-											class Item25
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_Backpack_WP_Green_SL";
-												};
-											};
-											class Item26
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="Wasp_GRFlat_Pack_SL";
-												};
-											};
-											class Item27
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_MPML";
-												};
-											};
-											class Item28
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M41_SSR";
-												};
-											};
-											class Item29
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_MPML_M_AT";
-												};
-											};
-											class Item30
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_MPML_M_HE";
-												};
-											};
-											class Item31
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M41_Twin_HEAT";
-												};
-											};
-											class Item32
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M41_Twin_HEAP";
-												};
-											};
-											class Item33
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="OPTRE_M41_Twin_HE";
-												};
-											};
-										};
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"SCALAR"
-											};
-										};
-										value=0;
-									};
-								};
-							};
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item134
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={4433.0269,14.87,3087.8279};
-			};
-			title="inferno";
-			id=3186;
-		};
-		class Item135
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={4496.9854,19.163754,3106.2769};
-				angles[]={0,3.724988,-0};
+				angles[]={0,3.724988,0};
 			};
 			side="Empty";
 			flags=1;
@@ -33379,13 +32799,13 @@ class Mission
 			type="Land_Bunker_01_tall_F";
 			atlOffset=0.77179337;
 		};
-		class Item136
+		class Item134
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={4370.7817,21.45434,3048.1396};
-				angles[]={0,0.18380988,-0};
+				angles[]={0,0.18380988,0};
 			};
 			side="Empty";
 			flags=1;
@@ -33397,13 +32817,13 @@ class Mission
 			type="Land_Bunker_01_big_F";
 			atlOffset=1.8778992;
 		};
-		class Item137
+		class Item135
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={4472.686,18.037151,3031.9541};
-				angles[]={0,0.057311218,-0};
+				angles[]={0,0.057311218,0};
 			};
 			side="Empty";
 			flags=1;
@@ -33415,13 +32835,13 @@ class Mission
 			type="Land_Bunker_01_big_F";
 			atlOffset=0.94376564;
 		};
-		class Item138
+		class Item136
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={4489.5107,16.880379,3109.8108};
-				angles[]={0,5.3366642,-0};
+				angles[]={0,5.3366642,0};
 			};
 			side="Empty";
 			flags=5;
@@ -33433,13 +32853,13 @@ class Mission
 			type="Land_optre_milwall_segment";
 			atlOffset=-9.5367432e-007;
 		};
-		class Item139
+		class Item137
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={4361.8086,18.909771,3144.22};
-				angles[]={0,3.1161313,-0};
+				angles[]={0,3.1161313,0};
 			};
 			side="Empty";
 			flags=1;
@@ -33451,7 +32871,7 @@ class Mission
 			type="Land_Bunker_01_big_F";
 			atlOffset=2.0763359;
 		};
-		class Item140
+		class Item138
 		{
 			dataType="Object";
 			class PositionInfo
@@ -33467,7 +32887,7 @@ class Mission
 			type="Land_OPTRE_ODST_Grave";
 			atlOffset=8.7738037e-005;
 		};
-		class Item141
+		class Item139
 		{
 			dataType="Object";
 			class PositionInfo
@@ -33506,13 +32926,13 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item142
+		class Item140
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={4464.8638,0.35234374,3224.4609};
-				angles[]={0,4.8794413,-0};
+				angles[]={0,4.8794413,0};
 			};
 			side="Empty";
 			flags=5;
@@ -33546,13 +32966,13 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item143
+		class Item141
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={4469.3672,0.32226074,3225.0498};
-				angles[]={0,1.9806457,-0};
+				angles[]={0,1.9806457,0};
 			};
 			side="Empty";
 			flags=5;
@@ -33586,7 +33006,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item144
+		class Item142
 		{
 			dataType="Layer";
 			name="скрыть";
@@ -35449,7 +34869,7 @@ class Mission
 			id=3222;
 			atlOffset=0.65087605;
 		};
-		class Item145
+		class Item143
 		{
 			dataType="Layer";
 			name="Восточное побережье";
@@ -37432,7 +36852,7 @@ class Mission
 			id=3223;
 			atlOffset=13.812997;
 		};
-		class Item146
+		class Item144
 		{
 			dataType="Object";
 			class PositionInfo
@@ -37450,7 +36870,7 @@ class Mission
 			type="Land_Pier_F";
 			atlOffset=41.48;
 		};
-		class Item147
+		class Item145
 		{
 			dataType="Group";
 			side="East";
@@ -37463,7 +36883,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={152.48961,2.2958648,170.67574};
-						angles[]={0,6.1295619,-0};
+						angles[]={0,6.1295619,0};
 					};
 					side="East";
 					flags=7;
@@ -37614,13 +37034,13 @@ class Mission
 			id=3226;
 			atlOffset=9.5367432e-007;
 		};
-		class Item148
+		class Item146
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={152.38577,2.6694896,172.16255};
-				angles[]={-0,1.5276523,0};
+				angles[]={0,1.5276523,0};
 			};
 			side="Empty";
 			flags=4;
