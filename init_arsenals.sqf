@@ -29,28 +29,7 @@
 [ _this,
 	ars_mp,
 	["MP"],
-	"Запросить арсенал Military Police",
-	[["Здарова", "Hello"], ["Бб", "Бывай"]]
-] call ZONT_fnc_attachArsenal;
-
-[ _this,
-	ars_navy,
-	["Navy"],
-	"Запросить арсенал Scion Imperial Marines",
-	[["Здарова", "Hello"], ["Бб", "Бывай"]]
-] call ZONT_fnc_attachArsenal;
-
-[ _this,
-	ars_160,
-	["SOAR"],
-	"Запросить арсенал Scion Imperial Rangers",
-	[["Здарова", "Hello"], ["Бб", "Бывай"]]
-] call ZONT_fnc_attachArsenal;
-
-[ _this,
-	ars_spn,
-	["SpN"],
-	"Запросить арсенал Atlas Corporation",
+	"Запросить арсенал SPMMP",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
@@ -75,12 +54,7 @@
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
-[ _this,
-	ars_inferno,
-	["IT"],
-	"Запросить арсенал Inferno Team",
-	[["Здарова", "Hello"], ["Бб", "Бывай"]]
-] call ZONT_fnc_attachArsenal;
+
 
 [ _this,
 	ars_cbrn,
