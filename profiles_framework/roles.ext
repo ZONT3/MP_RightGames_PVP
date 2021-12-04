@@ -8,7 +8,7 @@ class CfgRoles {
   class CD           { id=13; name="Armored Fist"; };
   class Med          { id=14; name="Medical Departament"; };
   class USAF         { id=15; name="Scion Imperial AirForce"; };
-  class MP           { id=16; name="Military Police"; };
+  class MP           { id=16; name="Scion Prime Metropolitan Military Police"; };
   class Navy         { id=17; name="Scion Imperial Marines"; };
   class SOAR         { id=18; name="Scion Imperial Rangers"; };
   class SpN          { id=19; name="Atlas Corporation"; };
