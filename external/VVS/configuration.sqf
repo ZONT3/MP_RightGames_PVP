@@ -79,8 +79,7 @@ VVS_MP = [
 ];
 
 VVS_USAF = [
-  "HMCS_VW1URB",
-  "JGPT"
+  
 ];
 
 VVS_CBRN = [
