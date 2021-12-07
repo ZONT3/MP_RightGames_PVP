@@ -10,11 +10,11 @@ A3TI_HD_VISION_UAV = true;
 A3TI_REMOVE_FILMGRAIN_RHS = true;
 
 // ACE Advanced Ballistics
-force ace_advanced_ballistics_ammoTemperatureEnabled = false;
+force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
 force ace_advanced_ballistics_bulletTraceEnabled = true;
 force ace_advanced_ballistics_enabled = true;
-force ace_advanced_ballistics_muzzleVelocityVariationEnabled = false;
+force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
 force ace_advanced_ballistics_simulationInterval = 0;
 
 // ACE Advanced Fatigue
