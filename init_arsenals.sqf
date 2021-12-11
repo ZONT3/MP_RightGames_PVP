@@ -54,8 +54,6 @@
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
-
-
 [ _this,
 	ars_cbrn,
 	["CBRN"],
