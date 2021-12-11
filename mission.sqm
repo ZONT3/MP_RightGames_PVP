@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=4219;
+		nextID=4221;
 	};
 	class MarkerIDProvider
 	{
@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6113.7178,9.1822538,2249.9927};
-		dir[]={0.2151586,-0.6149947,0.75877106};
-		up[]={0.16778764,0.78847682,0.59171855};
-		aside[]={0.96216041,-1.6867125e-007,-0.27282175};
+		pos[]={6119.4072,15.007908,2247.217};
+		dir[]={0.052964754,-0.78256017,0.6205163};
+		up[]={0.066553548,0.62255573,0.77972937};
+		aside[]={0.99647188,-2.517394e-006,-0.085044824};
 	};
 };
 binarizationWanted=0;
@@ -11373,7 +11373,6 @@ class Mission
 			};
 			id=1863;
 			type="Box_EAF_Ammo_F";
-			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11407,7 +11406,7 @@ class Mission
 										};
 										class value
 										{
-											items=124;
+											items=129;
 											class Item0
 											{
 												class data
@@ -13144,6 +13143,76 @@ class Mission
 													value="OPTRE_MA32BGL";
 												};
 											};
+											class Item124
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag_Tracer";
+												};
+											};
+											class Item125
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag_Tracer_Yellow";
+												};
+											};
+											class Item126
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag";
+												};
+											};
+											class Item127
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag_JHPT";
+												};
+											};
+											class Item128
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag_JHP";
+												};
+											};
 										};
 									};
 								};
@@ -14486,7 +14555,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6120.3711,4.0840549,2255.2412};
+				position[]={6120.3711,4.0840549,2255.241};
 				angles[]={0,2.2364299,0};
 			};
 			side="Empty";
@@ -14498,7 +14567,6 @@ class Mission
 			};
 			id=1867;
 			type="Box_EAF_Ammo_F";
-			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14532,7 +14600,7 @@ class Mission
 										};
 										class value
 										{
-											items=127;
+											items=133;
 											class Item0
 											{
 												class data
@@ -16309,6 +16377,90 @@ class Mission
 														};
 													};
 													value="Wasp_WCSAT_Pack_SL";
+												};
+											};
+											class Item127
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="SC_Helmet_WP_TNFlat";
+												};
+											};
+											class Item128
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag_Tracer";
+												};
+											};
+											class Item129
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag_Tracer_Yellow";
+												};
+											};
+											class Item130
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag";
+												};
+											};
+											class Item131
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag_JHPT";
+												};
+											};
+											class Item132
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_60Rnd_762x51_Mag_JHP";
 												};
 											};
 										};
