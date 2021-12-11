@@ -5,14 +5,14 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1538;
+	toggles=1537;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=3416;
+		nextID=3425;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=168;
+		nextID=176;
 	};
 	class Camera
 	{
-		pos[]={4443.9595,22.949013,3088.9319};
-		dir[]={-0.33499053,-0.75363499,-0.56553733};
-		up[]={-0.38408533,0.65728956,-0.64842063};
-		aside[]={-0.86039579,-2.9959483e-007,0.50964546};
+		pos[]={4378.7012,94.239563,3117.0435};
+		dir[]={-0.79106659,-0.46059471,-0.40257832};
+		up[]={-0.41049644,0.8876099,-0.20890401};
+		aside[]={-0.45355269,4.877802e-008,0.89123082};
 	};
 };
 binarizationWanted=0;
@@ -653,7 +653,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -917,7 +917,7 @@ class CustomAttributes
 		};
 		nAttributes=3;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -2196,7 +2196,7 @@ class Mission
 			};
 			id=462;
 			type="OPTRE_HEV";
-			atlOffset=8.3446503e-006;
+			atlOffset=8.5830688e-006;
 		};
 		class Item33
 		{
@@ -2673,7 +2673,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="_teleporter setVariable [""sc_props_teleporter_enabled"", false, true];" \n "this setVariable [""sc_props_teleporter_name"", ""На базу""]" \n "";
+				init="_teleporter setVariable [""sc_props_teleporter_enabled"", false, true];" \n "this setVariable [""sc_props_teleporter_name"", ""На Корабль""]" \n "";
 				name="Ship";
 			};
 			id=508;
@@ -8836,7 +8836,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="_teleporter setVariable [""sc_props_teleporter_enabled"", false, true];" \n "this setVariable [""sc_props_teleporter_name"", ""На Корабль""]";
+				init="_teleporter setVariable [""sc_props_teleporter_enabled"", false, true];" \n "this setVariable [""sc_props_teleporter_name"", ""На базу""]";
 				name="Base";
 			};
 			id=597;
