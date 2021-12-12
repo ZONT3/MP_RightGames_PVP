@@ -49,7 +49,10 @@ VVS_CD = [
 ];
 
 VVS_A10 = [
-  "OPTRE_M413_MGS_UNSC"
+  "OPTRE_M413_MGS_UNSC",
+  "OPTRE_M412_IFV_UNSC", 
+  "SC_SaurusAPC_SE", 
+  "SC_SaurusAPC_AA_SE"
 ];
 
 VVS_Wheeled_Spec = [
