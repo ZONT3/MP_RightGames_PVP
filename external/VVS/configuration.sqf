@@ -10,7 +10,7 @@ ZONT_fnc_filterVVS = {
   switch(_this) do {
   	case "HQ": { VVS_HQ + VVS_Wheeled };
   	case "BMO": { VVS_BMO };
-  	case "A10": { VVS_10 };
+  	case "A10": { VVS_A10 };
   	case "Wheeled": { VVS_Wheeled };
   	case "SWheeled": { VVS_Wheeled_Spec };
   	case "CD": { VVS_CD };
