@@ -48,8 +48,6 @@ VVS_CD = [
 ];
 
 VVS_A10 = [
-  "SC_SaurusAPC_SE",
-  "SC_SaurusAPC_AA_SE",
   "OPTRE_M413_MGS_UNSC"
 ];
 
