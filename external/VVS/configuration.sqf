@@ -44,7 +44,8 @@ VVS_CD = [
   "OPTRE_M494",
   "OPTRE_M808B_UNSC",
   "OPTRE_M808B2",
-  "SC_Mantis"
+  "SC_Mantis",
+  "OPTRE_M808S"
 ];
 
 VVS_A10 = [
