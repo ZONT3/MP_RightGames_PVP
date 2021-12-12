@@ -3,7 +3,7 @@ _this disableAI "move"; _this disableAI "radioprotocol"; _this disableAI "autoco
 _this addAction [
   "Запрос Техники БМО",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"BMO"],
+  [VVS_east_Land,"BMO"],
   6,
   true,
   true,
@@ -15,7 +15,7 @@ _this addAction [
 _this addAction [
   "Запрос специальной колесной техники",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"SWheeled"],
+  [VVS_east_Land,"SWheeled"],
   6,
   true,
   true,
@@ -27,7 +27,7 @@ _this addAction [
 _this addAction [
   "Запрос Техники Armored Fist",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"CD"],
+  [VVS_east_Land,"CD"],
   6,
   true,
   true,
@@ -39,7 +39,7 @@ _this addAction [
 _this addAction [
   "Запрос Техники 10th SGEU",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"A10"],
+  [VVS_east_Land,"A10"],
   6,
   true,
   true,
@@ -51,7 +51,7 @@ _this addAction [
 _this addAction [
   "Запрос Техники Штаба",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"HQ"],
+  [VVS_east_Land,"HQ"],
   6,
   true,
   true,
@@ -63,7 +63,7 @@ _this addAction [
 _this addAction [
   "Запрос Техники Military Police",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"MP"],
+  [VVS_east_Land,"MP"],
   6,
   true,
   true,
@@ -75,7 +75,7 @@ _this addAction [
 _this addAction [
   "Запрос Техники SI AirForce",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"USAF"],
+  [VVS_east_Land,"USAF"],
   6,
   true,
   true,
@@ -87,7 +87,7 @@ _this addAction [
 _this addAction [
   "Запрос Техники CBRN",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"CBRN"],
+  [VVS_east_Land,"CBRN"],
   6,
   true,
   true,
