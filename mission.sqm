@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=4221;
+		nextID=4226;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=214;
+		nextID=228;
 	};
 	class Camera
 	{
-		pos[]={6119.4072,15.007908,2247.217};
-		dir[]={0.052964754,-0.78256017,0.6205163};
-		up[]={0.066553548,0.62255573,0.77972937};
-		aside[]={0.99647188,-2.517394e-006,-0.085044824};
+		pos[]={6121.3101,12.8966,2263.4512};
+		dir[]={-0.46837988,-0.71067208,-0.52495247};
+		up[]={-0.4731355,0.70352191,-0.5302825};
+		aside[]={-0.74617183,5.6490535e-008,0.66576064};
 	};
 };
 binarizationWanted=0;
@@ -131,13 +131,14 @@ addons[]=
 	"A3_Structures_F_Civ_Market",
 	"A3_Structures_F_Items_Valuables",
 	"A3_Structures_F_Civ_Lamps",
-	"A3_Structures_F_Exp_Industrial_SurfaceMine_01"
+	"A3_Structures_F_Exp_Industrial_SurfaceMine_01",
+	"OPTRE_Vehicles_Elephant"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=77;
+		items=78;
 		class Item0
 		{
 			className="OPTRE_Vehicles_Falcon";
@@ -616,6 +617,11 @@ class AddonsMetaData
 			name="Arma 3 Apex - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item77
+		{
+			className="OPTRE_Vehicles_Elephant";
+			name="OPTRE_Vehicles_Elephant";
 		};
 	};
 };
@@ -1408,7 +1414,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=193;
+		items=194;
 		class Item0
 		{
 			dataType="Object";
@@ -1775,7 +1781,7 @@ class Mission
 			};
 			id=449;
 			type="OPTRE_HEV";
-			atlOffset=9.5367432e-006;
+			atlOffset=9.2983246e-006;
 		};
 		class Item15
 		{
@@ -2016,7 +2022,7 @@ class Mission
 			};
 			id=462;
 			type="OPTRE_HEV";
-			atlOffset=8.3446503e-006;
+			atlOffset=8.5830688e-006;
 		};
 		class Item28
 		{
@@ -11406,7 +11412,7 @@ class Mission
 										};
 										class value
 										{
-											items=129;
+											items=133;
 											class Item0
 											{
 												class data
@@ -13213,6 +13219,62 @@ class Mission
 													value="OPTRE_60Rnd_762x51_Mag_JHP";
 												};
 											};
+											class Item129
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="JMSFALL_8Rnd_d101_mag";
+												};
+											};
+											class Item130
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="JMSFALL_d101Rifle";
+												};
+											};
+											class Item131
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="JMSFALL_AMR_scope";
+												};
+											};
+											class Item132
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="JMSFALL_Talon8x_scope";
+												};
+											};
 										};
 									};
 								};
@@ -13273,7 +13335,6 @@ class Mission
 			};
 			id=1864;
 			type="Box_EAF_Ammo_F";
-			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13347,7 +13408,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_Uniform_Gloves_Black";
+													value="SC_35Rnd_762x51_Mag";
 												};
 											};
 											class Item3
@@ -13361,7 +13422,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_35Rnd_762x51_Mag";
+													value="SC_Reflex_Chevron_R";
 												};
 											};
 											class Item4
@@ -13375,7 +13436,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_Reflex_Chevron_R";
+													value="SC_Reflex_C_Blue";
 												};
 											};
 											class Item5
@@ -13389,7 +13450,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_Reflex_C_Blue";
+													value="SC_Reflex_C_Red";
 												};
 											};
 											class Item6
@@ -13403,7 +13464,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_Reflex_C_Red";
+													value="SC_Reflex_C1_Red";
 												};
 											};
 											class Item7
@@ -13417,7 +13478,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_Reflex_C1_Red";
+													value="SC_Reflex_R_Blue";
 												};
 											};
 											class Item8
@@ -13431,7 +13492,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_Reflex_R_Blue";
+													value="SC_Reflex_R_Green";
 												};
 											};
 											class Item9
@@ -13445,7 +13506,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_Reflex_R_Green";
+													value="SC_IG3";
 												};
 											};
 											class Item10
@@ -13459,7 +13520,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_IG3";
+													value="OPTRE_M2_Smoke_Yellow";
 												};
 											};
 											class Item11
@@ -13473,7 +13534,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M2_Smoke_Yellow";
+													value="OPTRE_M2_Smoke";
 												};
 											};
 											class Item12
@@ -13487,7 +13548,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M2_Smoke";
+													value="OPTRE_M2_Smoke_Red";
 												};
 											};
 											class Item13
@@ -13501,7 +13562,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M2_Smoke_Red";
+													value="OPTRE_M2_Smoke_Purple";
 												};
 											};
 											class Item14
@@ -13515,7 +13576,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M2_Smoke_Purple";
+													value="OPTRE_M2_Smoke_Orange";
 												};
 											};
 											class Item15
@@ -13529,7 +13590,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M2_Smoke_Orange";
+													value="OPTRE_M2_Smoke_Green";
 												};
 											};
 											class Item16
@@ -13543,7 +13604,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M2_Smoke_Green";
+													value="OPTRE_M2_Smoke_Blue";
 												};
 											};
 											class Item17
@@ -13557,7 +13618,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M2_Smoke_Blue";
+													value="OPTRE_M41_Twin_HEAP";
 												};
 											};
 											class Item18
@@ -13571,7 +13632,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M41_Twin_HEAP";
+													value="OPTRE_M41_Twin_HE";
 												};
 											};
 											class Item19
@@ -13585,7 +13646,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M41_Twin_HE";
+													value="OPTRE_M41_Twin_HEAT";
 												};
 											};
 											class Item20
@@ -13599,7 +13660,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_M41_Twin_HEAT";
+													value="SC_30Rnd_Shrapnel_Mag_Cyan";
 												};
 											};
 											class Item21
@@ -13613,7 +13674,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_30Rnd_Shrapnel_Mag_Cyan";
+													value="OPTRE_1Rnd_50x137_HE";
 												};
 											};
 											class Item22
@@ -13627,7 +13688,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_1Rnd_50x137_HE";
+													value="OPTRE_1Rnd_50x137_HEAT";
 												};
 											};
 											class Item23
@@ -13641,7 +13702,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_1Rnd_50x137_HEAT";
+													value="G_Balaclava_TI_blk_F";
 												};
 											};
 											class Item24
@@ -13655,7 +13716,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="G_Balaclava_TI_blk_F";
+													value="OPTRE_15Rnd_762x51_Mag_AP";
 												};
 											};
 											class Item25
@@ -13669,7 +13730,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_15Rnd_762x51_Mag_AP";
+													value="OPTRE_15Rnd_762x51_Mag_APT";
 												};
 											};
 											class Item26
@@ -13683,7 +13744,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_15Rnd_762x51_Mag_APT";
+													value="OPTRE_25Rnd_762x51_Mag";
 												};
 											};
 											class Item27
@@ -13697,7 +13758,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_25Rnd_762x51_Mag";
+													value="OPTRE_25Rnd_762x51_Mag_Tracer_Yellow";
 												};
 											};
 											class Item28
@@ -13711,7 +13772,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_25Rnd_762x51_Mag_Tracer_Yellow";
+													value="OPTRE_25Rnd_762x51_Mag_Tracer";
 												};
 											};
 											class Item29
@@ -13725,7 +13786,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_25Rnd_762x51_Mag_Tracer";
+													value="OPTRE_10RND_338_AP";
 												};
 											};
 											class Item30
@@ -13739,7 +13800,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_10RND_338_AP";
+													value="TFAR_fadak";
 												};
 											};
 											class Item31
@@ -13753,7 +13814,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="TFAR_fadak";
+													value="ItemWatch";
 												};
 											};
 											class Item32
@@ -13767,7 +13828,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ItemWatch";
+													value="ItemGPS";
 												};
 											};
 											class Item33
@@ -13781,7 +13842,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ItemGPS";
+													value="ACE_EarPlugs";
 												};
 											};
 											class Item34
@@ -13795,7 +13856,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_EarPlugs";
+													value="ItemMap";
 												};
 											};
 											class Item35
@@ -13809,7 +13870,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ItemMap";
+													value="Rangefinder";
 												};
 											};
 											class Item36
@@ -13823,7 +13884,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="Rangefinder";
+													value="ACE_epinephrine";
 												};
 											};
 											class Item37
@@ -13837,7 +13898,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_epinephrine";
+													value="ACE_WaterBottle";
 												};
 											};
 											class Item38
@@ -13851,7 +13912,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_WaterBottle";
+													value="ACE_tourniquet";
 												};
 											};
 											class Item39
@@ -13865,7 +13926,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_tourniquet";
+													value="ACE_morphine";
 												};
 											};
 											class Item40
@@ -13879,7 +13940,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_morphine";
+													value="ACE_fieldDressing";
 												};
 											};
 											class Item41
@@ -13893,7 +13954,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_fieldDressing";
+													value="ACE_elasticBandage";
 												};
 											};
 											class Item42
@@ -13907,7 +13968,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_elasticBandage";
+													value="ACE_EntrenchingTool";
 												};
 											};
 											class Item43
@@ -13921,7 +13982,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_EntrenchingTool";
+													value="ACE_packingBandage";
 												};
 											};
 											class Item44
@@ -13935,7 +13996,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_packingBandage";
+													value="ACE_salineIV_250";
 												};
 											};
 											class Item45
@@ -13949,7 +14010,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_salineIV_250";
+													value="ACE_splint";
 												};
 											};
 											class Item46
@@ -13963,7 +14024,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_splint";
+													value="kat_guedel";
 												};
 											};
 											class Item47
@@ -13977,7 +14038,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="kat_guedel";
+													value="ACE_Flashlight_XL50";
 												};
 											};
 											class Item48
@@ -13991,7 +14052,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_Flashlight_XL50";
+													value="OPTRE_64Rnd_57x31_Mag";
 												};
 											};
 											class Item49
@@ -14005,7 +14066,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_64Rnd_57x31_Mag";
+													value="OPTRE_64Rnd_57x31_Mag_Tracer_Yellow";
 												};
 											};
 											class Item50
@@ -14019,7 +14080,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_64Rnd_57x31_Mag_Tracer_Yellow";
+													value="OPTRE_64Rnd_57x31_Mag_Tracer";
 												};
 											};
 											class Item51
@@ -14033,7 +14094,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_64Rnd_57x31_Mag_Tracer";
+													value="OPTRE_4Rnd_145x114_APFSDS_Mag";
 												};
 											};
 											class Item52
@@ -14047,7 +14108,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_4Rnd_145x114_APFSDS_Mag";
+													value="OPTRE_4Rnd_145x114_Mag_APFSDST";
 												};
 											};
 											class Item53
@@ -14061,7 +14122,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_4Rnd_145x114_Mag_APFSDST";
+													value="OPTRE_40Rnd_30x06_Mag";
 												};
 											};
 											class Item54
@@ -14075,7 +14136,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_40Rnd_30x06_Mag";
+													value="OPTRE_40Rnd_30x06_Mag_Tracer";
 												};
 											};
 											class Item55
@@ -14089,7 +14150,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_40Rnd_30x06_Mag_Tracer";
+													value="M319_HEDP_Grenade_Shell";
 												};
 											};
 											class Item56
@@ -14103,7 +14164,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="M319_HEDP_Grenade_Shell";
+													value="M319_HE_Grenade_Shell";
 												};
 											};
 											class Item57
@@ -14117,7 +14178,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="M319_HE_Grenade_Shell";
+													value="M319_Smoke";
 												};
 											};
 											class Item58
@@ -14131,7 +14192,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="M319_Smoke";
+													value="M319_Smoke_Green";
 												};
 											};
 											class Item59
@@ -14145,7 +14206,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="M319_Smoke_Green";
+													value="M319_Smoke_Orange";
 												};
 											};
 											class Item60
@@ -14159,7 +14220,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="M319_Smoke_Orange";
+													value="M319_Smoke_Red";
 												};
 											};
 											class Item61
@@ -14173,7 +14234,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="M319_Smoke_Red";
+													value="M319_Buckshot";
 												};
 											};
 											class Item62
@@ -14187,7 +14248,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="M319_Buckshot";
+													value="OPTRE_32Rnd_762x51_Mag";
 												};
 											};
 											class Item63
@@ -14201,7 +14262,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_32Rnd_762x51_Mag";
+													value="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
 												};
 											};
 											class Item64
@@ -14215,7 +14276,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
+													value="OPTRE_32Rnd_762x51_Mag_Tracer";
 												};
 											};
 											class Item65
@@ -14229,7 +14290,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_32Rnd_762x51_Mag_Tracer";
+													value="1Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item66
@@ -14243,7 +14304,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="1Rnd_HE_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item67
@@ -14257,7 +14318,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item68
@@ -14271,7 +14332,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item69
@@ -14285,7 +14346,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
+													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item70
@@ -14299,7 +14360,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item71
@@ -14313,7 +14374,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item72
@@ -14327,7 +14388,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_1Rnd_Smoke_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item73
@@ -14341,7 +14402,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
+													value="ACE_DefusalKit";
 												};
 											};
 											class Item74
@@ -14355,7 +14416,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_DefusalKit";
+													value="OPTRE_12Rnd_127x40_Mag";
 												};
 											};
 											class Item75
@@ -14369,7 +14430,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_12Rnd_127x40_Mag";
+													value="OPTRE_8Rnd_127x40_Mag";
 												};
 											};
 											class Item76
@@ -14383,7 +14444,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_8Rnd_127x40_Mag";
+													value="OPTRE_8Rnd_127x40_Mag_Tracer";
 												};
 											};
 											class Item77
@@ -14397,7 +14458,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="OPTRE_8Rnd_127x40_Mag_Tracer";
+													value="ACE_Altimeter";
 												};
 											};
 											class Item78
@@ -14411,7 +14472,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="ACE_Altimeter";
+													value="SC_Reflex_R_Yellow";
 												};
 											};
 											class Item79
@@ -14425,7 +14486,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_Reflex_R_Yellow";
+													value="optic_Yorris";
 												};
 											};
 											class Item80
@@ -14439,7 +14500,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="optic_Yorris";
+													value="SC_Vest_WP_Light_Green";
 												};
 											};
 											class Item81
@@ -14453,7 +14514,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="Wasp_WCSAT_Light";
+													value="SC_Helmet_WP_Green";
 												};
 											};
 											class Item82
@@ -14467,7 +14528,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="Wasp_WCSAT_Pack";
+													value="SC_Backpack_WP_Green";
 												};
 											};
 											class Item83
@@ -14481,7 +14542,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="SC_Helmet_WP_WCSAT";
+													value="SC_Uniform_Gloves_Green";
 												};
 											};
 										};
@@ -14600,50 +14661,8 @@ class Mission
 										};
 										class value
 										{
-											items=133;
+											items=129;
 											class Item0
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_Rifle_AR12";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_Rifle_AR12C";
-												};
-											};
-											class Item2
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="SC_Rifle_ARG47";
-												};
-											};
-											class Item3
 											{
 												class data
 												{
@@ -14657,7 +14676,7 @@ class Mission
 													value="OPTRE_M6G";
 												};
 											};
-											class Item4
+											class Item1
 											{
 												class data
 												{
@@ -14671,7 +14690,7 @@ class Mission
 													value="SC_Uniform_Gloves_Black";
 												};
 											};
-											class Item5
+											class Item2
 											{
 												class data
 												{
@@ -14685,7 +14704,7 @@ class Mission
 													value="SC_35Rnd_762x51_Mag";
 												};
 											};
-											class Item6
+											class Item3
 											{
 												class data
 												{
@@ -14699,7 +14718,7 @@ class Mission
 													value="SC_Reflex_Chevron_R";
 												};
 											};
-											class Item7
+											class Item4
 											{
 												class data
 												{
@@ -14713,7 +14732,7 @@ class Mission
 													value="SC_Reflex_C_Blue";
 												};
 											};
-											class Item8
+											class Item5
 											{
 												class data
 												{
@@ -14727,7 +14746,7 @@ class Mission
 													value="SC_Reflex_C_Red";
 												};
 											};
-											class Item9
+											class Item6
 											{
 												class data
 												{
@@ -14741,7 +14760,7 @@ class Mission
 													value="SC_Reflex_C1_Red";
 												};
 											};
-											class Item10
+											class Item7
 											{
 												class data
 												{
@@ -14755,7 +14774,7 @@ class Mission
 													value="SC_Reflex_R_Blue";
 												};
 											};
-											class Item11
+											class Item8
 											{
 												class data
 												{
@@ -14769,7 +14788,7 @@ class Mission
 													value="SC_Reflex_R_Green";
 												};
 											};
-											class Item12
+											class Item9
 											{
 												class data
 												{
@@ -14783,7 +14802,7 @@ class Mission
 													value="SC_Reflex_R_Yellow";
 												};
 											};
-											class Item13
+											class Item10
 											{
 												class data
 												{
@@ -14797,7 +14816,7 @@ class Mission
 													value="SC_T1";
 												};
 											};
-											class Item14
+											class Item11
 											{
 												class data
 												{
@@ -14811,7 +14830,7 @@ class Mission
 													value="SC_IG3";
 												};
 											};
-											class Item15
+											class Item12
 											{
 												class data
 												{
@@ -14825,7 +14844,7 @@ class Mission
 													value="OPTRE_M2_Smoke_Yellow";
 												};
 											};
-											class Item16
+											class Item13
 											{
 												class data
 												{
@@ -14839,7 +14858,7 @@ class Mission
 													value="OPTRE_M2_Smoke";
 												};
 											};
-											class Item17
+											class Item14
 											{
 												class data
 												{
@@ -14853,7 +14872,7 @@ class Mission
 													value="OPTRE_M2_Smoke_Red";
 												};
 											};
-											class Item18
+											class Item15
 											{
 												class data
 												{
@@ -14867,7 +14886,7 @@ class Mission
 													value="OPTRE_M2_Smoke_Purple";
 												};
 											};
-											class Item19
+											class Item16
 											{
 												class data
 												{
@@ -14881,7 +14900,7 @@ class Mission
 													value="OPTRE_M2_Smoke_Orange";
 												};
 											};
-											class Item20
+											class Item17
 											{
 												class data
 												{
@@ -14895,7 +14914,7 @@ class Mission
 													value="OPTRE_M2_Smoke_Green";
 												};
 											};
-											class Item21
+											class Item18
 											{
 												class data
 												{
@@ -14909,7 +14928,7 @@ class Mission
 													value="OPTRE_M2_Smoke_Blue";
 												};
 											};
-											class Item22
+											class Item19
 											{
 												class data
 												{
@@ -14923,7 +14942,7 @@ class Mission
 													value="OPTRE_M41_Twin_HE";
 												};
 											};
-											class Item23
+											class Item20
 											{
 												class data
 												{
@@ -14937,7 +14956,7 @@ class Mission
 													value="SC_30Rnd_Shrapnel_Mag_Cyan";
 												};
 											};
-											class Item24
+											class Item21
 											{
 												class data
 												{
@@ -14951,7 +14970,7 @@ class Mission
 													value="SC_Beret_SE";
 												};
 											};
-											class Item25
+											class Item22
 											{
 												class data
 												{
@@ -14965,7 +14984,7 @@ class Mission
 													value="G_Balaclava_TI_blk_F";
 												};
 											};
-											class Item26
+											class Item23
 											{
 												class data
 												{
@@ -14979,7 +14998,7 @@ class Mission
 													value="OPTRE_15Rnd_762x51_Mag_AP";
 												};
 											};
-											class Item27
+											class Item24
 											{
 												class data
 												{
@@ -14993,7 +15012,7 @@ class Mission
 													value="OPTRE_15Rnd_762x51_Mag_APT";
 												};
 											};
-											class Item28
+											class Item25
 											{
 												class data
 												{
@@ -15007,7 +15026,7 @@ class Mission
 													value="OPTRE_25Rnd_762x51_Mag";
 												};
 											};
-											class Item29
+											class Item26
 											{
 												class data
 												{
@@ -15021,7 +15040,7 @@ class Mission
 													value="OPTRE_25Rnd_762x51_Mag_Tracer_Yellow";
 												};
 											};
-											class Item30
+											class Item27
 											{
 												class data
 												{
@@ -15035,7 +15054,7 @@ class Mission
 													value="OPTRE_25Rnd_762x51_Mag_Tracer";
 												};
 											};
-											class Item31
+											class Item28
 											{
 												class data
 												{
@@ -15049,7 +15068,7 @@ class Mission
 													value="TFAR_fadak";
 												};
 											};
-											class Item32
+											class Item29
 											{
 												class data
 												{
@@ -15063,7 +15082,7 @@ class Mission
 													value="ItemWatch";
 												};
 											};
-											class Item33
+											class Item30
 											{
 												class data
 												{
@@ -15077,7 +15096,7 @@ class Mission
 													value="ItemGPS";
 												};
 											};
-											class Item34
+											class Item31
 											{
 												class data
 												{
@@ -15091,7 +15110,7 @@ class Mission
 													value="ACE_EarPlugs";
 												};
 											};
-											class Item35
+											class Item32
 											{
 												class data
 												{
@@ -15105,7 +15124,7 @@ class Mission
 													value="ItemMap";
 												};
 											};
-											class Item36
+											class Item33
 											{
 												class data
 												{
@@ -15119,7 +15138,7 @@ class Mission
 													value="Rangefinder";
 												};
 											};
-											class Item37
+											class Item34
 											{
 												class data
 												{
@@ -15133,7 +15152,7 @@ class Mission
 													value="ACE_epinephrine";
 												};
 											};
-											class Item38
+											class Item35
 											{
 												class data
 												{
@@ -15147,7 +15166,7 @@ class Mission
 													value="ACE_WaterBottle";
 												};
 											};
-											class Item39
+											class Item36
 											{
 												class data
 												{
@@ -15161,7 +15180,7 @@ class Mission
 													value="ACE_tourniquet";
 												};
 											};
-											class Item40
+											class Item37
 											{
 												class data
 												{
@@ -15175,7 +15194,7 @@ class Mission
 													value="ACE_morphine";
 												};
 											};
-											class Item41
+											class Item38
 											{
 												class data
 												{
@@ -15189,7 +15208,7 @@ class Mission
 													value="ACE_fieldDressing";
 												};
 											};
-											class Item42
+											class Item39
 											{
 												class data
 												{
@@ -15203,7 +15222,7 @@ class Mission
 													value="ACE_elasticBandage";
 												};
 											};
-											class Item43
+											class Item40
 											{
 												class data
 												{
@@ -15217,7 +15236,7 @@ class Mission
 													value="ACE_EntrenchingTool";
 												};
 											};
-											class Item44
+											class Item41
 											{
 												class data
 												{
@@ -15231,7 +15250,7 @@ class Mission
 													value="ACE_packingBandage";
 												};
 											};
-											class Item45
+											class Item42
 											{
 												class data
 												{
@@ -15245,7 +15264,7 @@ class Mission
 													value="ACE_splint";
 												};
 											};
-											class Item46
+											class Item43
 											{
 												class data
 												{
@@ -15259,7 +15278,7 @@ class Mission
 													value="kat_guedel";
 												};
 											};
-											class Item47
+											class Item44
 											{
 												class data
 												{
@@ -15273,7 +15292,7 @@ class Mission
 													value="ACE_Flashlight_XL50";
 												};
 											};
-											class Item48
+											class Item45
 											{
 												class data
 												{
@@ -15287,7 +15306,7 @@ class Mission
 													value="OPTRE_64Rnd_57x31_Mag";
 												};
 											};
-											class Item49
+											class Item46
 											{
 												class data
 												{
@@ -15301,7 +15320,7 @@ class Mission
 													value="OPTRE_64Rnd_57x31_Mag_Tracer_Yellow";
 												};
 											};
-											class Item50
+											class Item47
 											{
 												class data
 												{
@@ -15315,7 +15334,7 @@ class Mission
 													value="OPTRE_64Rnd_57x31_Mag_Tracer";
 												};
 											};
-											class Item51
+											class Item48
 											{
 												class data
 												{
@@ -15329,7 +15348,7 @@ class Mission
 													value="OPTRE_4Rnd_145x114_APFSDS_Mag";
 												};
 											};
-											class Item52
+											class Item49
 											{
 												class data
 												{
@@ -15343,7 +15362,7 @@ class Mission
 													value="OPTRE_4Rnd_145x114_Mag_APFSDST";
 												};
 											};
-											class Item53
+											class Item50
 											{
 												class data
 												{
@@ -15357,7 +15376,7 @@ class Mission
 													value="OPTRE_M7_Sight_v2";
 												};
 											};
-											class Item54
+											class Item51
 											{
 												class data
 												{
@@ -15371,7 +15390,7 @@ class Mission
 													value="OPTRE_40Rnd_30x06_Mag";
 												};
 											};
-											class Item55
+											class Item52
 											{
 												class data
 												{
@@ -15385,7 +15404,7 @@ class Mission
 													value="OPTRE_40Rnd_30x06_Mag_Tracer";
 												};
 											};
-											class Item56
+											class Item53
 											{
 												class data
 												{
@@ -15399,7 +15418,7 @@ class Mission
 													value="OPTRE_M393_ACOG";
 												};
 											};
-											class Item57
+											class Item54
 											{
 												class data
 												{
@@ -15413,7 +15432,7 @@ class Mission
 													value="OPTRE_M393_ACOG_v2";
 												};
 											};
-											class Item58
+											class Item55
 											{
 												class data
 												{
@@ -15427,7 +15446,7 @@ class Mission
 													value="M319_HEDP_Grenade_Shell";
 												};
 											};
-											class Item59
+											class Item56
 											{
 												class data
 												{
@@ -15441,7 +15460,7 @@ class Mission
 													value="M319_HE_Grenade_Shell";
 												};
 											};
-											class Item60
+											class Item57
 											{
 												class data
 												{
@@ -15455,7 +15474,7 @@ class Mission
 													value="M319_Smoke";
 												};
 											};
-											class Item61
+											class Item58
 											{
 												class data
 												{
@@ -15469,7 +15488,7 @@ class Mission
 													value="M319_Smoke_Green";
 												};
 											};
-											class Item62
+											class Item59
 											{
 												class data
 												{
@@ -15483,7 +15502,7 @@ class Mission
 													value="M319_Smoke_Orange";
 												};
 											};
-											class Item63
+											class Item60
 											{
 												class data
 												{
@@ -15497,7 +15516,7 @@ class Mission
 													value="M319_Smoke_Red";
 												};
 											};
-											class Item64
+											class Item61
 											{
 												class data
 												{
@@ -15511,7 +15530,7 @@ class Mission
 													value="M319_Buckshot";
 												};
 											};
-											class Item65
+											class Item62
 											{
 												class data
 												{
@@ -15525,7 +15544,7 @@ class Mission
 													value="OPTRE_32Rnd_762x51_Mag";
 												};
 											};
-											class Item66
+											class Item63
 											{
 												class data
 												{
@@ -15539,7 +15558,7 @@ class Mission
 													value="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
 												};
 											};
-											class Item67
+											class Item64
 											{
 												class data
 												{
@@ -15553,7 +15572,7 @@ class Mission
 													value="OPTRE_32Rnd_762x51_Mag_Tracer";
 												};
 											};
-											class Item68
+											class Item65
 											{
 												class data
 												{
@@ -15567,7 +15586,7 @@ class Mission
 													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
-											class Item69
+											class Item66
 											{
 												class data
 												{
@@ -15581,7 +15600,7 @@ class Mission
 													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
-											class Item70
+											class Item67
 											{
 												class data
 												{
@@ -15595,7 +15614,7 @@ class Mission
 													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
-											class Item71
+											class Item68
 											{
 												class data
 												{
@@ -15609,7 +15628,7 @@ class Mission
 													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
-											class Item72
+											class Item69
 											{
 												class data
 												{
@@ -15623,7 +15642,7 @@ class Mission
 													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
-											class Item73
+											class Item70
 											{
 												class data
 												{
@@ -15637,7 +15656,7 @@ class Mission
 													value="OPTRE_1Rnd_Smoke_Grenade_shell";
 												};
 											};
-											class Item74
+											class Item71
 											{
 												class data
 												{
@@ -15651,7 +15670,7 @@ class Mission
 													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
-											class Item75
+											class Item72
 											{
 												class data
 												{
@@ -15665,35 +15684,7 @@ class Mission
 													value="ACE_DefusalKit";
 												};
 											};
-											class Item76
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="ACE_VMM3";
-												};
-											};
-											class Item77
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="ACE_VMH3";
-												};
-											};
-											class Item78
+											class Item73
 											{
 												class data
 												{
@@ -15707,7 +15698,7 @@ class Mission
 													value="ACE_personalAidKit";
 												};
 											};
-											class Item79
+											class Item74
 											{
 												class data
 												{
@@ -15721,7 +15712,7 @@ class Mission
 													value="ACE_adenosine";
 												};
 											};
-											class Item80
+											class Item75
 											{
 												class data
 												{
@@ -15735,7 +15726,7 @@ class Mission
 													value="ACE_bodyBag";
 												};
 											};
-											class Item81
+											class Item76
 											{
 												class data
 												{
@@ -15749,7 +15740,7 @@ class Mission
 													value="ACE_surgicalKit";
 												};
 											};
-											class Item82
+											class Item77
 											{
 												class data
 												{
@@ -15763,7 +15754,7 @@ class Mission
 													value="kat_X_AED";
 												};
 											};
-											class Item83
+											class Item78
 											{
 												class data
 												{
@@ -15777,7 +15768,7 @@ class Mission
 													value="kat_accuvac";
 												};
 											};
-											class Item84
+											class Item79
 											{
 												class data
 												{
@@ -15791,7 +15782,7 @@ class Mission
 													value="kat_aatKit";
 												};
 											};
-											class Item85
+											class Item80
 											{
 												class data
 												{
@@ -15805,7 +15796,7 @@ class Mission
 													value="kat_AED";
 												};
 											};
-											class Item86
+											class Item81
 											{
 												class data
 												{
@@ -15819,7 +15810,7 @@ class Mission
 													value="kat_crossPanel";
 												};
 											};
-											class Item87
+											class Item82
 											{
 												class data
 												{
@@ -15833,7 +15824,7 @@ class Mission
 													value="kat_bloodIV_O";
 												};
 											};
-											class Item88
+											class Item83
 											{
 												class data
 												{
@@ -15847,7 +15838,7 @@ class Mission
 													value="kat_bloodIV_A";
 												};
 											};
-											class Item89
+											class Item84
 											{
 												class data
 												{
@@ -15861,7 +15852,7 @@ class Mission
 													value="kat_bloodIV_AB";
 												};
 											};
-											class Item90
+											class Item85
 											{
 												class data
 												{
@@ -15875,7 +15866,7 @@ class Mission
 													value="kat_bloodIV_B";
 												};
 											};
-											class Item91
+											class Item86
 											{
 												class data
 												{
@@ -15889,7 +15880,7 @@ class Mission
 													value="kat_bloodIV_A_250";
 												};
 											};
-											class Item92
+											class Item87
 											{
 												class data
 												{
@@ -15903,7 +15894,7 @@ class Mission
 													value="kat_bloodIV_O_250";
 												};
 											};
-											class Item93
+											class Item88
 											{
 												class data
 												{
@@ -15917,7 +15908,7 @@ class Mission
 													value="kat_bloodIV_AB_250";
 												};
 											};
-											class Item94
+											class Item89
 											{
 												class data
 												{
@@ -15931,7 +15922,7 @@ class Mission
 													value="kat_bloodIV_B_250";
 												};
 											};
-											class Item95
+											class Item90
 											{
 												class data
 												{
@@ -15945,7 +15936,7 @@ class Mission
 													value="kat_bloodIV_O_500";
 												};
 											};
-											class Item96
+											class Item91
 											{
 												class data
 												{
@@ -15959,7 +15950,7 @@ class Mission
 													value="kat_bloodIV_A_500";
 												};
 											};
-											class Item97
+											class Item92
 											{
 												class data
 												{
@@ -15973,7 +15964,7 @@ class Mission
 													value="kat_bloodIV_AB_500";
 												};
 											};
-											class Item98
+											class Item93
 											{
 												class data
 												{
@@ -15987,7 +15978,7 @@ class Mission
 													value="kat_bloodIV_B_500";
 												};
 											};
-											class Item99
+											class Item94
 											{
 												class data
 												{
@@ -16001,7 +15992,7 @@ class Mission
 													value="kat_chestSeal";
 												};
 											};
-											class Item100
+											class Item95
 											{
 												class data
 												{
@@ -16015,7 +16006,7 @@ class Mission
 													value="KAT_Empty_bloodIV_500";
 												};
 											};
-											class Item101
+											class Item96
 											{
 												class data
 												{
@@ -16029,7 +16020,7 @@ class Mission
 													value="KAT_Empty_bloodIV_250";
 												};
 											};
-											class Item102
+											class Item97
 											{
 												class data
 												{
@@ -16043,7 +16034,7 @@ class Mission
 													value="OPTRE_M7_Sight";
 												};
 											};
-											class Item103
+											class Item98
 											{
 												class data
 												{
@@ -16057,7 +16048,7 @@ class Mission
 													value="SC_X11";
 												};
 											};
-											class Item104
+											class Item99
 											{
 												class data
 												{
@@ -16071,7 +16062,7 @@ class Mission
 													value="OPTRE_12Rnd_127x40_Mag";
 												};
 											};
-											class Item105
+											class Item100
 											{
 												class data
 												{
@@ -16085,7 +16076,7 @@ class Mission
 													value="Hum_DocSuit2_doctor_F_CombatUniform";
 												};
 											};
-											class Item106
+											class Item101
 											{
 												class data
 												{
@@ -16099,7 +16090,7 @@ class Mission
 													value="Hum_DocSuit2_medic_F_CombatUniform";
 												};
 											};
-											class Item107
+											class Item102
 											{
 												class data
 												{
@@ -16113,7 +16104,7 @@ class Mission
 													value="kat_larynx";
 												};
 											};
-											class Item108
+											class Item103
 											{
 												class data
 												{
@@ -16127,7 +16118,7 @@ class Mission
 													value="ar_medical_syringe_antidrug";
 												};
 											};
-											class Item109
+											class Item104
 											{
 												class data
 												{
@@ -16141,7 +16132,7 @@ class Mission
 													value="ar_medical_syringe_antidote";
 												};
 											};
-											class Item110
+											class Item105
 											{
 												class data
 												{
@@ -16155,7 +16146,7 @@ class Mission
 													value="ar_medical_pills_antidrug";
 												};
 											};
-											class Item111
+											class Item106
 											{
 												class data
 												{
@@ -16169,7 +16160,7 @@ class Mission
 													value="ar_medical_inhalator_antihistamin";
 												};
 											};
-											class Item112
+											class Item107
 											{
 												class data
 												{
@@ -16183,7 +16174,7 @@ class Mission
 													value="ar_medical_pills_antibiotics";
 												};
 											};
-											class Item113
+											class Item108
 											{
 												class data
 												{
@@ -16197,7 +16188,7 @@ class Mission
 													value="ar_medical_jar_antibiotics";
 												};
 											};
-											class Item114
+											class Item109
 											{
 												class data
 												{
@@ -16211,7 +16202,7 @@ class Mission
 													value="digi_Antidot";
 												};
 											};
-											class Item115
+											class Item110
 											{
 												class data
 												{
@@ -16225,7 +16216,7 @@ class Mission
 													value="RyanZombiesAntiVirusTemporary_Item";
 												};
 											};
-											class Item116
+											class Item111
 											{
 												class data
 												{
@@ -16239,7 +16230,7 @@ class Mission
 													value="RyanZombiesAntiVirusCure_Item";
 												};
 											};
-											class Item117
+											class Item112
 											{
 												class data
 												{
@@ -16253,7 +16244,7 @@ class Mission
 													value="OPTRE_12Rnd_127x40_Mag_Tracer";
 												};
 											};
-											class Item118
+											class Item113
 											{
 												class data
 												{
@@ -16267,7 +16258,7 @@ class Mission
 													value="OPTRE_16Rnd_127x40_Mag";
 												};
 											};
-											class Item119
+											class Item114
 											{
 												class data
 												{
@@ -16281,7 +16272,7 @@ class Mission
 													value="OPTRE_16Rnd_127x40_Mag_Tracer";
 												};
 											};
-											class Item120
+											class Item115
 											{
 												class data
 												{
@@ -16295,7 +16286,7 @@ class Mission
 													value="OPTRE_8Rnd_127x40_Mag";
 												};
 											};
-											class Item121
+											class Item116
 											{
 												class data
 												{
@@ -16309,7 +16300,7 @@ class Mission
 													value="OPTRE_8Rnd_127x40_Mag_Tracer";
 												};
 											};
-											class Item122
+											class Item117
 											{
 												class data
 												{
@@ -16323,7 +16314,7 @@ class Mission
 													value="SC_Helmet_WP_WCSAT";
 												};
 											};
-											class Item123
+											class Item118
 											{
 												class data
 												{
@@ -16337,7 +16328,7 @@ class Mission
 													value="Wasp_WCSAT_Heavy";
 												};
 											};
-											class Item124
+											class Item119
 											{
 												class data
 												{
@@ -16351,7 +16342,7 @@ class Mission
 													value="Wasp_WCSAT_Medium";
 												};
 											};
-											class Item125
+											class Item120
 											{
 												class data
 												{
@@ -16365,7 +16356,7 @@ class Mission
 													value="Wasp_WCSAT_Pack";
 												};
 											};
-											class Item126
+											class Item121
 											{
 												class data
 												{
@@ -16379,7 +16370,7 @@ class Mission
 													value="Wasp_WCSAT_Pack_SL";
 												};
 											};
-											class Item127
+											class Item122
 											{
 												class data
 												{
@@ -16393,7 +16384,7 @@ class Mission
 													value="SC_Helmet_WP_TNFlat";
 												};
 											};
-											class Item128
+											class Item123
 											{
 												class data
 												{
@@ -16407,7 +16398,7 @@ class Mission
 													value="OPTRE_60Rnd_762x51_Mag_Tracer";
 												};
 											};
-											class Item129
+											class Item124
 											{
 												class data
 												{
@@ -16421,7 +16412,7 @@ class Mission
 													value="OPTRE_60Rnd_762x51_Mag_Tracer_Yellow";
 												};
 											};
-											class Item130
+											class Item125
 											{
 												class data
 												{
@@ -16435,7 +16426,7 @@ class Mission
 													value="OPTRE_60Rnd_762x51_Mag";
 												};
 											};
-											class Item131
+											class Item126
 											{
 												class data
 												{
@@ -16449,7 +16440,7 @@ class Mission
 													value="OPTRE_60Rnd_762x51_Mag_JHPT";
 												};
 											};
-											class Item132
+											class Item127
 											{
 												class data
 												{
@@ -16461,6 +16452,20 @@ class Mission
 														};
 													};
 													value="OPTRE_60Rnd_762x51_Mag_JHP";
+												};
+											};
+											class Item128
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_MA5A";
 												};
 											};
 										};
@@ -16534,6 +16539,7 @@ class Mission
 			};
 			id=1869;
 			type="Box_EAF_Ammo_F";
+			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -23143,6 +23149,7 @@ class Mission
 			};
 			id=2026;
 			type="Box_EAF_Ammo_F";
+			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -33313,7 +33320,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6161.5933,22.561001,2176.115};
-				angles[]={-0,4.7593031,0};
+				angles[]={0,4.7593031,0};
 			};
 			side="Empty";
 			flags=4;
@@ -33325,6 +33332,7 @@ class Mission
 			};
 			id=3143;
 			type="76n6ClamShell_EP1";
+			atlOffset=-7.1525574e-007;
 		};
 		class Item126
 		{
@@ -33347,6 +33355,7 @@ class Mission
 			};
 			id=3426;
 			type="OPTRE_AV22A_Sparrowhawk";
+			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -33507,6 +33516,7 @@ class Mission
 							};
 							id=3438;
 							type="OPTRE_Pelican_unarmed";
+							atlOffset=2.3841858e-007;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -35667,7 +35677,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5305.2285,20.214998,2285.3269};
-										angles[]={-0,1.5707964,0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									flags=4;
@@ -35707,7 +35717,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5313.8262,20.214998,2290.2102};
-										angles[]={-0,1.5707964,0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39093,7 +39103,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5322.1875,20.768482,2276.3743};
-										angles[]={-0,0.78539819,0};
+										angles[]={0,0.78539819,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39134,7 +39144,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5322.4824,20.768482,2277.0012};
-										angles[]={-0,1.0471976,0};
+										angles[]={0,1.0471976,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39175,7 +39185,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5323.0391,20.768482,2277.554};
-										angles[]={-0,0.78539819,0};
+										angles[]={0,0.78539819,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39216,7 +39226,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5322.8184,20.768482,2276.2249};
-										angles[]={-0,0.78539819,0};
+										angles[]={0,0.78539819,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39257,7 +39267,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5323.1387,20.768482,2276.9163};
-										angles[]={-0,0.78539819,0};
+										angles[]={0,0.78539819,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39618,7 +39628,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5296.1641,20.948999,2286.6248};
-										angles[]={-0,4.712389,0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39658,7 +39668,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5296.5742,20.948999,2283.3948};
-										angles[]={-0,1.5707963,0};
+										angles[]={0,1.5707963,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39698,7 +39708,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5296.459,20.948999,2289.5994};
-										angles[]={-0,1.5707963,0};
+										angles[]={0,1.5707963,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39738,7 +39748,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5296.4473,20.948999,2276.7947};
-										angles[]={-0,4.712389,0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39778,7 +39788,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5296.3516,20.956015,2279.7292};
-										angles[]={-0,1.5707964,0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39819,7 +39829,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5296.3125,20.969837,2285.0427};
-										angles[]={-0,1.5707964,0};
+										angles[]={0,1.5707964,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39859,7 +39869,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5319.7188,20.963156,2290.0466};
-										angles[]={-0,4.712389,0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									flags=4;
@@ -39900,7 +39910,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5318.6641,20.948999,2276.6755};
-										angles[]={-0,3.1415925,0};
+										angles[]={0,3.1415925,0};
 									};
 									side="Empty";
 									flags=4;
@@ -40098,7 +40108,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={5300.4961,20.834326,2290.0374};
-										angles[]={-0,4.712389,0};
+										angles[]={0,4.712389,0};
 									};
 									side="Empty";
 									flags=4;
@@ -40376,11 +40386,11 @@ class Mission
 								};
 							};
 							id=4050;
-							atlOffset=0.71328354;
+							atlOffset=0.72695351;
 						};
 					};
 					id=4021;
-					atlOffset=0.36428833;
+					atlOffset=0.37339592;
 				};
 				class Item2
 				{
@@ -40667,7 +40677,7 @@ class Mission
 				};
 			};
 			id=4017;
-			atlOffset=0.091072083;
+			atlOffset=0.093349457;
 		};
 		class Item175
 		{
@@ -41084,7 +41094,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6147.1064,3.8020043,2256.0237};
-				angles[]={0,3.0122535,-0};
+				angles[]={0,3.0122535,0};
 			};
 			side="Empty";
 			flags=4;
@@ -41185,7 +41195,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6156.7305,3.8574889,2255.3828};
-				angles[]={0,3.0699403,-0};
+				angles[]={0,3.0699403,0};
 			};
 			side="Empty";
 			flags=4;
@@ -41286,7 +41296,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6163.4077,6.1403837,2256.9075};
-				angles[]={0,3.0395622,-0};
+				angles[]={0,3.0395622,0};
 			};
 			side="Empty";
 			flags=4;
@@ -41296,6 +41306,7 @@ class Mission
 			};
 			id=4190;
 			type="OPTRE_M12_FAV_APC";
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -41387,7 +41398,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6119.5093,5.9313469,2274.5737};
-				angles[]={0,2.4238503,-0};
+				angles[]={0,2.4238503,0};
 			};
 			side="Empty";
 			flags=5;
@@ -41451,6 +41462,23 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item193
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6121.624,10.138741,2368.3081};
+				angles[]={0,1.2703029,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="Ele1";
+			};
+			id=4221;
+			type="OPTRE_M313_UNSC";
+			atlOffset=1.0260003;
 		};
 	};
 };
