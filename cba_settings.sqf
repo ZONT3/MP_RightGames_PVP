@@ -78,9 +78,9 @@ force ace_noradio_enabled = true;
 // ACE Cook off
 force ace_cookoff_ammoCookoffDuration = 0.3;
 force ace_cookoff_enable = 2;
-force ace_cookoff_enableAmmobox = true;
-force ace_cookoff_enableAmmoCookoff = true;
-ace_cookoff_enableFire = true;
+force ace_cookoff_enableAmmobox = false;
+force ace_cookoff_enableAmmoCookoff = false;
+ace_cookoff_enableFire = false;
 force ace_cookoff_probabilityCoef = 1.2;
 
 // ACE Crew Served Weapons
