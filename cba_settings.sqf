@@ -1083,7 +1083,7 @@ CUP_staticWeapons_allowRotation = false;
 
 // DIGI ACE SYSTEM
 digi_medical_affectAI = true;
-force digi_medical_avail_gasmask = """G_AirPurifyingRespirator_01_F"",""G_AirPurifyingRespirator_02_olive_F"",""G_RegulatorMask_F"",""G_AirPurifyingRespirator_02_sand_F"",""G_AirPurifyingRespirator_02_black_F"",""G_AirPurifyingRespirator_01_F"",""G_CBRN_M04"",""G_CBRN_M04_Hood"",""G_CBRN_M50"",""G_CBRN_M50_Hood"",""G_CBRN_S10""";
+force digi_medical_avail_gasmask = """G_AirPurifyingRespirator_01_F"",""G_AirPurifyingRespirator_02_olive_F"",""G_RegulatorMask_F"",""G_AirPurifyingRespirator_02_sand_F"",""G_AirPurifyingRespirator_02_black_F"",""G_AirPurifyingRespirator_01_F"",""G_CBRN_M04"",""G_CBRN_M04_Hood"",""G_CBRN_M50"",""G_CBRN_M50_Hood"",""G_CBRN_S10"",""SC_Helmet_RN_Urban""";
 force digi_medical_gasmask_durability = 1200;
 force digi_medical_infectTime = 30;
 
