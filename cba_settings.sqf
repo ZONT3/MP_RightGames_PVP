@@ -35,9 +35,9 @@ ace_advanced_throwing_showMouseControls = true;
 ace_advanced_throwing_showThrowArc = true;
 
 // ACE Advanced Vehicle Damage
-ace_vehicle_damage_enableCarDamage = false;
+ace_vehicle_damage_enableCarDamage = true;
 ace_vehicle_damage_enabled = false;
-ace_vehicle_damage_removeAmmoDuringCookoff = false;
+ace_vehicle_damage_removeAmmoDuringCookoff = true;
 
 // ACE Arsenal
 force ace_arsenal_allowDefaultLoadouts = true;
