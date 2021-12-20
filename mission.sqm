@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=284;
+		nextID=299;
 	};
 	class Camera
 	{
@@ -666,7 +666,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -930,7 +930,7 @@ class CustomAttributes
 		};
 		nAttributes=3;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -2095,7 +2095,7 @@ class Mission
 			};
 			id=465;
 			type="OPTRE_HEV";
-			atlOffset=1.0251999e-005;
+			atlOffset=1.0490417e-005;
 		};
 		class Item31
 		{
@@ -2247,7 +2247,7 @@ class Mission
 			};
 			id=473;
 			type="OPTRE_HEV";
-			atlOffset=8.3446503e-006;
+			atlOffset=8.5830688e-006;
 		};
 		class Item39
 		{
@@ -11394,6 +11394,7 @@ class Mission
 			};
 			id=1863;
 			type="Box_EAF_Ammo_F";
+			atlOffset=2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -42094,7 +42095,7 @@ class Mission
 			};
 			id=4767;
 			type="Land_Camping_Light_F";
-			atlOffset=-1.0251999e-005;
+			atlOffset=-1.0490417e-005;
 		};
 		class Item199
 		{
@@ -42217,6 +42218,7 @@ class Mission
 			};
 			id=4775;
 			type="Land_Camping_Light_F";
+			atlOffset=-0.0036587715;
 		};
 		class Item207
 		{
