@@ -22,15 +22,31 @@ ZONT_fnc_filterVVS = {
 };
 
 ZONT_fnc_onSpawnVVS = {
-  // params ["_mode", "_vehicle"];
-  switch(_this) do {
+  params ["_type", "_class"];
+
+  private _fnc_type = switch(_type) do {
+    // _mode _vehicle
   	case "CD": { {
       _vehicle setVehicleAmmo 0;
-      _vehicle setFuel 0
+      _vehicle setFuel 0;
     } };
 
-  	default {nil};
+  	default {{}};
   };
+
+  private _fnc_class = switch (_class) do {
+    // _mode, _vehicle
+    case "O_MBT_04_cannon_F": { {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    } };
+    case "O_MBT_05_cannon_F": { {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    } };
+
+    default {{}};
+  };
+
+  [_fnc_type, _fnc_class];
 };
 
 
@@ -50,8 +66,8 @@ VVS_CD = [
 
 VVS_A10 = [
   "OPTRE_M413_MGS_UNSC",
-  "OPTRE_M412_IFV_UNSC", 
-  "SC_SaurusAPC_SE", 
+  "OPTRE_M412_IFV_UNSC",
+  "SC_SaurusAPC_SE",
   "SC_SaurusAPC_AA_SE"
 ];
 
