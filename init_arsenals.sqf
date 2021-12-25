@@ -46,3 +46,10 @@
 	"Запросить арсенал Black Team SPARTAN II",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
+
+[ _this,
+	ars_oni,
+	["ONI"],
+	"Запросить арсенал ONI",
+	[["Здарова", "Hello"], ["Бб", "Бывай"]]
+] call ZONT_fnc_attachArsenal;

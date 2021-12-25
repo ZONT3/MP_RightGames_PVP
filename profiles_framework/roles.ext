@@ -14,5 +14,6 @@ class CfgRoles {
   class SpN          { id=19; name="3 Charlie"; };
   class ISAF         { id=20; name="Noble Team"; };
   class Iron         { id=21; name="Black Team SPARTAN II"; };
+  class ONI          { id=22; name="ONI"; };
 
 };
