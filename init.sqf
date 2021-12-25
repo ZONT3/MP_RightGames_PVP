@@ -1,8 +1,8 @@
-﻿/*
-this addAction ["Перемещение на базу регулярных сил",{titleCut ["Перемещение...","BLACK IN",3]; player setposatl [getpos regularBase select 0, getpos regularBase select 1, getposatl regularBase select 2]},"",1,false,true,"","_this distance _target < 5"];
+﻿
+this addAction ["Перемещение на корабль",{titleCut ["Перемещение...","BLACK IN",3]; player setposatl [getpos regularBase select 0, getpos regularBase select 1, getposatl regularBase select 2]},"",1,false,true,"","_this distance _target < 5"];
 
-this addAction ["<t color='#ffffff'>Перемещение базу БСО/ОТО",{titleCut ["Перемещение...","BLACK IN",3]; player setposatl [getpos bso select 0, getpos bso select 1, getposatl bso select 2]},"",1,false,true,"","_this distance _target < 5"];
-
+this addAction ["<t color='#ffffff'>Перемещение базу",{titleCut ["Перемещение...","BLACK IN",3]; player setposatl [getpos bso select 0, getpos bso select 1, getposatl bso select 2]},"",1,false,true,"","_this distance _target < 5"];
+/*
 this addAction ["<t color='#ffffff'>Перемещение базу Гвардии",{titleCut ["Перемещение...","BLACK IN",3]; player setposatl [getpos aclamator select 0, getpos aclamator select 1, getposatl aclamator select 2]},"",1,false,true,"","_this distance _target < 5"];
 
 
@@ -23,9 +23,9 @@ enableSaving [false, false];
 west setFriend [east, 0];
 west setFriend [resistance, 0];
 east setFriend [west, 0];
-east setFriend [resistance, 0];
+east setFriend [resistance, 1];
 resistance setFriend [west, 0];
-resistance setFriend [east, 0];
+resistance setFriend [east, 1];
 
 /* Real Weather
 Climates:

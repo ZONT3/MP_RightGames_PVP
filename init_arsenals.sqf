@@ -1,35 +1,28 @@
 [ _this,
-	ars_hq,
-	["HQ"],
-	"Запросить арсенал Штаба",
-	[["Здарова", "Hello"], ["Бб", "Бывай"]]
-] call ZONT_fnc_attachArsenal;
-
-[ _this,
 	ars_10,
 	["A10"],
-	"Запросить арсенал 10th Scion Guard Expeditionary Unit",
+	"Запросить арсенал 124th Mechanized Infantry Brigade",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
 [ _this,
 	ars_af,
 	["CD"],
-	"Запросить арсенал Armored Fist",
+	"Запросить арсенал 1st Cavalry",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
 [ _this,
 	ars_gf,
 	["USAF"],
-	"Запросить арсенал Scion Imperial AirForce",
+	"Запросить арсенал 37th Tactical Fighter Wing",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
 [ _this,
 	ars_mp,
 	["MP"],
-	"Запросить арсенал SPMMP",
+	"Запросить арсенал MP",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
@@ -50,13 +43,6 @@
 [ _this,
 	ars_iron,
 	["Iron"],
-	"Запросить арсенал Iron Enclave",
-	[["Здарова", "Hello"], ["Бб", "Бывай"]]
-] call ZONT_fnc_attachArsenal;
-
-[ _this,
-	ars_cbrn,
-	["CBRN"],
-	"Запросить арсенал CBRN",
+	"Запросить арсенал Black Team SPARTAN II",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;

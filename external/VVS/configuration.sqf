@@ -36,12 +36,37 @@ ZONT_fnc_onSpawnVVS = {
 
   private _fnc_class = switch (_class) do {
     // _mode, _vehicle
-    case "O_MBT_04_cannon_F": { {
+    case "OPTRE_M808S": { {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
     } };
-    case "O_MBT_05_cannon_F": { {
+    case "OPTRE_M808B2": { {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
     } };
+    case "OPTRE_M808B_UNSC": { {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    } };
+    case "OPTRE_M813_TT": { {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    } };
+    case "OPTRE_M12A1_LRV": { {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    } };
+    case "OPTRE_M12_FAV_APC": { {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    } };
+    case "OPTRE_M12_LRV": { {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    } };
+    case "OPTRE_M412_IFV_UNSC": { {
+      [_vehicle, "colortan"] call BIS_fnc_initVehicle;
+    } };
+    case "OPTRE_M413_MGS_UNSC": { {
+      [_vehicle, "colortan"] call BIS_fnc_initVehicle;
+    } };
+    case "OPTRE_M494": { {
+      [_vehicle, "сolordes"] call BIS_fnc_initVehicle;
+    } };
+
 
     default {{}};
   };
@@ -60,15 +85,12 @@ VVS_CD = [
   "OPTRE_M494",
   "OPTRE_M808B_UNSC",
   "OPTRE_M808B2",
-  "SC_Mantis",
   "OPTRE_M808S"
 ];
 
 VVS_A10 = [
   "OPTRE_M413_MGS_UNSC",
-  "OPTRE_M412_IFV_UNSC",
-  "SC_SaurusAPC_SE",
-  "SC_SaurusAPC_AA_SE"
+  "OPTRE_M412_IFV_UNSC"
 ];
 
 VVS_Wheeled_Spec = [
@@ -83,17 +105,10 @@ VVS_BMO = [
   "OPTRE_M12G1_LRV",
   "OPTRE_M12R_AA",
   "OPTRE_M813_TT",
-  "OPTRE_M914_RV",
-  "B_Truck_01_Repair_F",
-  "B_Truck_01_ammo_F",
-  "B_Truck_01_fuel_F",
-  "SC_Gator_FB_SE",
-  "SC_Gator_TC_SE",
-  "SC_Gator_TO_SE"
+  "OPTRE_M914_RV"
 ];
 
 VVS_MP = [
-  "SC_SaurusAPC_Unarmed_SE"
 ];
 
 VVS_USAF = [
