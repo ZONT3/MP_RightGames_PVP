@@ -61,18 +61,6 @@ _this addAction [
 ];
 
 _this addAction [
-  "Запрос Техники Military Police",
-  VVS_fnc_openVVS,
-  [VVS_west_Land,"MP"],
-  6,
-  true,
-  true,
-  "",
-  "[['MP']] call ZONT_fnc_checkRole",
-  5
-];
-
-_this addAction [
   "Запрос Техники 37th",
   VVS_fnc_openVVS,
   [VVS_west_Land,"USAF"],
@@ -81,17 +69,5 @@ _this addAction [
   true,
   "",
   "[['USAF']] call ZONT_fnc_checkRole",
-  5
-];
-
-_this addAction [
-  "Запрос Техники CBRN",
-  VVS_fnc_openVVS,
-  [VVS_west_Land,"CBRN"],
-  6,
-  true,
-  true,
-  "",
-  "[['CBRN']] call ZONT_fnc_checkRole",
   5
 ];

@@ -8,7 +8,6 @@ class CfgRoles {
   class CD           { id=13; name="1st Cavalry"; };
   class Med          { id=14; name="Medical Departament"; };
   class USAF         { id=15; name="37th Tactical Fighter Wing"; };
-  class MP           { id=16; name="Military Police"; };
   class Navy         { id=17; name="UNSC Marine Corps"; };
   class SOAR         { id=18; name="Orbital Drop Shock Troopers"; };
   class SpN          { id=19; name="3 Charlie"; };

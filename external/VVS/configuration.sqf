@@ -108,9 +108,6 @@ VVS_BMO = [
   "OPTRE_M914_RV"
 ];
 
-VVS_MP = [
-];
-
 VVS_USAF = [
 
 ];
