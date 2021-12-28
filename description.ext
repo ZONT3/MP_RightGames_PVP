@@ -73,9 +73,9 @@ class CfgSounds {
 };
 
 author			  = "RG Team";
-onLoadName		= "Scion Conflict RP | Right Games";
+onLoadName		= "HALO RP | Right Games";
 onLoadMission	= "";
-loadScreen = "pic\loading.paa";
+loadScreen = "pic\halo.jpg.jpg";
 class Header {
 	gameType   = RPG;
 	minPlayers =   0;
@@ -139,7 +139,7 @@ class CfgConsts {
 
 class CfgDiscordRichPresence {
 	applicationID="765658821909151805";
-	defaultDetails="Scion Conflict RP";
+	defaultDetails="HALO RP";
 	defaultState="rgsv.xyz (Visit on Web)";
 	defaultLargeImageKey="rgad";
 	defaultLargeImageText="Right Games";
