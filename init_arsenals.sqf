@@ -20,13 +20,6 @@
 ] call ZONT_fnc_attachArsenal;
 
 [ _this,
-	ars_train,
-	["Training"],
-	"Запросить арсенал Training Squad",
-	[["Здарова", "Hello"], ["Бб", "Бывай"]]
-] call ZONT_fnc_attachArsenal;
-
-[ _this,
 	ars_med,
 	["Med"],
 	"Запросить арсенал medical department",
