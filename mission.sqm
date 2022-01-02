@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=926;
+		nextID=959;
 	};
 	class Camera
 	{
@@ -51288,7 +51288,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="ars_124";
+				name="ars_train";
 			};
 			id=8742;
 			type="Box_EAF_AmmoOrd_F";
