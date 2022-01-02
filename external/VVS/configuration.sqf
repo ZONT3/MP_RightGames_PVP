@@ -47,6 +47,12 @@ ZONT_fnc_onSpawnVVS = {
     case "OPTRE_M12A1_LRV": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
     };
+    case "OPTRE_M12R_AA": {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    };
+    case "OPTRE_M12G1_LRV": {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    };
     case "OPTRE_M12_FAV_APC": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
     };
@@ -60,7 +66,7 @@ ZONT_fnc_onSpawnVVS = {
       [_vehicle, "colortan"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M494": {
-      [_vehicle, "сolordes"] call BIS_fnc_initVehicle;
+      [_vehicle, "colordes"] call BIS_fnc_initVehicle;
     };
   };
 };
