@@ -1,5 +1,5 @@
 [ _this,
-	ars_10,
+	ars_124,
 	["A10"],
 	"Запросить арсенал 124th Mechanized Infantry Brigade",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
