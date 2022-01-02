@@ -49,6 +49,7 @@ if(VVS_Checkbox) then
 	clearItemCargoGlobal _vehicle;
 };
 
+diag_log ("OnSpawnVehicle " + str [_vehicle, _className, VVS_spawnMode]);
 [_vehicle, _className, VVS_spawnMode] remoteExec ["VVS_fnc_onSpawnVehicle", 2];
 
 hint format["Вы заспавнили %1",_displayName];
