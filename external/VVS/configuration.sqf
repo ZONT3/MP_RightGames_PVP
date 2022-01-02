@@ -23,7 +23,6 @@ ZONT_fnc_filterVVS = {
 
 ZONT_fnc_onSpawnVVS = {
   params ["_vehicle", "_class", "_mode"];
-  diag_log ("ZONT_fnc_onSpawnVVS [""_vehicle"", ""_class"", ""_mode""] = " + str [_vehicle, _class, _mode]);
 
   private _fnc_type = switch(_mode) do {
   	case "CD": {
