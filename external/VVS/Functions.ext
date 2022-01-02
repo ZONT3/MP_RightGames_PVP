@@ -12,7 +12,7 @@ class VVS
 		class filterList {};
 		class filterType {};
 		class spawnVehicle {};
-		class onSpawnVehicle {};
+		class spawnVehicleServer {};
 		class checkBox {};
 	};
 };
