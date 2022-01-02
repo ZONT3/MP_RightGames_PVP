@@ -39,3 +39,10 @@
 	"Запросить арсенал ONI",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
+
+[ _this,
+	ars_spr,
+	["SPR"],
+	"Запросить арсенал SPARTAN II",
+	[["Здарова", "Hello"], ["Бб", "Бывай"]]
+] call ZONT_fnc_attachArsenal;

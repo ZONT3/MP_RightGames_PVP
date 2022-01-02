@@ -13,5 +13,6 @@ class CfgRoles {
   class ISAF         { id=20; name="Noble Team"; };
   class Iron         { id=21; name="Black Team SPARTAN II"; };
   class ONI          { id=22; name="ONI"; };
+  class SPR          { id=23; name="SPARTNA II"};
 
 };
