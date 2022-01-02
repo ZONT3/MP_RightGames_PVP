@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=23621;
+		nextID=23622;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=995;
+		nextID=1031;
 	};
 	class Camera
 	{
-		pos[]={16513.225,90.906067,16139.713};
-		dir[]={-0.54111105,-0.74840379,0.38376862};
-		up[]={-0.61043662,0.66326648,0.43293601};
-		aside[]={0.57855493,9.8629971e-007,0.81575429};
+		pos[]={16458.727,39.700825,16143.554};
+		dir[]={0.70553136,-0.60500795,0.36930713};
+		up[]={0.53601217,0.79621482,0.28057352};
+		aside[]={0.46379614,3.3213291e-007,-0.88604736};
 	};
 };
 binarizationWanted=0;
@@ -1233,7 +1233,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=173;
+		items=174;
 		class Item0
 		{
 			dataType="Layer";
@@ -71507,7 +71507,7 @@ class Mission
 							};
 							id=23402;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=-9.5367432e-007;
+							atlOffset=-0.00020599365;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71549,7 +71549,7 @@ class Mission
 							};
 							id=23404;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=0.077718735;
+							atlOffset=0.077560425;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71591,6 +71591,7 @@ class Mission
 							};
 							id=23405;
 							type="Land_Metal_wooden_rack_F";
+							atlOffset=-0.00020503998;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71632,7 +71633,7 @@ class Mission
 							};
 							id=23406;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=0.0028858185;
+							atlOffset=0.0026798248;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71674,6 +71675,7 @@ class Mission
 							};
 							id=23407;
 							type="Land_Metal_wooden_rack_F";
+							atlOffset=-0.00015830994;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71715,7 +71717,7 @@ class Mission
 							};
 							id=23408;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=0.083475113;
+							atlOffset=0.083317757;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71798,7 +71800,7 @@ class Mission
 							};
 							id=23410;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=0.012275696;
+							atlOffset=0.012026787;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71840,6 +71842,7 @@ class Mission
 							};
 							id=23411;
 							type="Land_Metal_wooden_rack_F";
+							atlOffset=-0.00020122528;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71881,7 +71884,7 @@ class Mission
 							};
 							id=23412;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=0.00093460083;
+							atlOffset=0.00072956085;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71923,6 +71926,7 @@ class Mission
 							};
 							id=23413;
 							type="Land_Metal_wooden_rack_F";
+							atlOffset=-0.00015830994;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71964,7 +71968,7 @@ class Mission
 							};
 							id=23414;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=-0.0019655228;
+							atlOffset=-0.0021705627;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -72006,6 +72010,7 @@ class Mission
 							};
 							id=23415;
 							type="Land_Metal_wooden_rack_F";
+							atlOffset=-0.00015735626;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -72054,6 +72059,7 @@ class Mission
 									};
 									id=23417;
 									type="Box_East_AmmoOrd_F";
+									atlOffset=-5.8174133e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -72095,6 +72101,7 @@ class Mission
 									};
 									id=23418;
 									type="Box_East_AmmoOrd_F";
+									atlOffset=-4.5776367e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -72135,6 +72142,7 @@ class Mission
 									};
 									id=23419;
 									type="Box_East_AmmoOrd_F";
+									atlOffset=-7.2479248e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -72176,6 +72184,7 @@ class Mission
 									};
 									id=23420;
 									type="Box_East_AmmoOrd_F";
+									atlOffset=-4.4822693e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -72217,6 +72226,7 @@ class Mission
 									};
 									id=23421;
 									type="Box_East_AmmoOrd_F";
+									atlOffset=-5.8174133e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -72243,7 +72253,7 @@ class Mission
 								};
 							};
 							id=23416;
-							atlOffset=0.99910259;
+							atlOffset=0.0079107285;
 						};
 						class Item14
 						{
@@ -72278,6 +72288,7 @@ class Mission
 							};
 							id=23425;
 							type="Land_WoodenCrate_01_F";
+							atlOffset=-5.7220459e-005;
 						};
 						class Item16
 						{
@@ -72296,6 +72307,7 @@ class Mission
 							};
 							id=23426;
 							type="Land_MetalBarrel_F";
+							atlOffset=-6.6757202e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -72337,6 +72349,7 @@ class Mission
 							};
 							id=23427;
 							type="Land_MetalBarrel_F";
+							atlOffset=-8.392334e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -72375,7 +72388,7 @@ class Mission
 							};
 							id=23428;
 							type="Land_MetalBarrel_F";
-							atlOffset=0.59388733;
+							atlOffset=0.59380436;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -72417,6 +72430,7 @@ class Mission
 							};
 							id=23429;
 							type="Land_MetalBarrel_F";
+							atlOffset=-6.5803528e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -72457,6 +72471,7 @@ class Mission
 							};
 							id=23430;
 							type="Land_MetalBarrel_F";
+							atlOffset=-6.5803528e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -72498,6 +72513,7 @@ class Mission
 							};
 							id=23452;
 							type="Land_MetalBarrel_F";
+							atlOffset=-0.0006980896;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -72539,6 +72555,7 @@ class Mission
 							};
 							id=23457;
 							type="Land_ShelvesWooden_F";
+							atlOffset=-0.0010375977;
 						};
 						class Item23
 						{
@@ -72557,6 +72574,7 @@ class Mission
 							};
 							id=23458;
 							type="Land_ShelvesWooden_F";
+							atlOffset=-0.0012083054;
 						};
 						class Item24
 						{
@@ -72575,6 +72593,7 @@ class Mission
 							};
 							id=23459;
 							type="Land_ShelvesWooden_F";
+							atlOffset=-0.00096130371;
 						};
 						class Item25
 						{
@@ -72593,6 +72612,7 @@ class Mission
 							};
 							id=23460;
 							type="Land_ShelvesWooden_F";
+							atlOffset=-0.001285553;
 						};
 						class Item26
 						{
@@ -73792,7 +73812,7 @@ class Mission
 							};
 							id=23490;
 							type="Land_ConcretePipe_F";
-							atlOffset=2.3694096;
+							atlOffset=2.3666229;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -74116,7 +74136,7 @@ class Mission
 							};
 							id=23498;
 							type="Land_BluntRock_monolith";
-							atlOffset=5.2741346;
+							atlOffset=5.2741356;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -74154,7 +74174,6 @@ class Mission
 							class Attributes
 							{
 								init="this addAction [""<t color='#ffffff'>Вернуться на базу"",{titleCut [""Перемещение..."",""BLACK IN"",3]; player setposatl [getpos bso select 0, getpos bso select 1, getposatl bso select 2]},"""",1,false,true,"""",""_this distance _target < 5""];";
-								name="govno";
 								disableSimulation=1;
 							};
 							id=23499;
@@ -75219,7 +75238,6 @@ class Mission
 							};
 							id=23525;
 							type="Land_CncShelter_F";
-							atlOffset=9.5367432e-007;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -75340,7 +75358,6 @@ class Mission
 							};
 							id=23528;
 							type="Land_CncShelter_F";
-							atlOffset=9.5367432e-007;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -75990,7 +76007,7 @@ class Mission
 							};
 							id=23544;
 							type="Land_BluntRock_monolith";
-							atlOffset=6.6218805;
+							atlOffset=6.6218824;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -76475,7 +76492,7 @@ class Mission
 							};
 							id=23556;
 							type="Land_BluntRock_monolith";
-							atlOffset=-5.3613014;
+							atlOffset=-5.3613024;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -76680,7 +76697,7 @@ class Mission
 							};
 							id=23561;
 							type="Land_ConcreteWall_01_l_8m_F";
-							atlOffset=0.6075983;
+							atlOffset=0.60759735;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -76720,7 +76737,7 @@ class Mission
 							};
 							id=23562;
 							type="Land_BluntRock_monolith";
-							atlOffset=5.6062336;
+							atlOffset=5.6062346;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -76762,6 +76779,7 @@ class Mission
 							};
 							id=23563;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.0005941391;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -76803,6 +76821,7 @@ class Mission
 							};
 							id=23564;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.0005941391;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -76844,6 +76863,7 @@ class Mission
 							};
 							id=23565;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.00045204163;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -76885,6 +76905,7 @@ class Mission
 							};
 							id=23566;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.00046634674;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -76926,6 +76947,7 @@ class Mission
 							};
 							id=23567;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.0005607605;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -76967,6 +76989,7 @@ class Mission
 							};
 							id=23568;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.00059700012;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77008,6 +77031,7 @@ class Mission
 							};
 							id=23569;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.00059604645;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77049,6 +77073,7 @@ class Mission
 							};
 							id=23570;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.00050258636;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77090,6 +77115,7 @@ class Mission
 							};
 							id=23571;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.00050258636;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77131,6 +77157,7 @@ class Mission
 							};
 							id=23572;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.00063037872;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77172,6 +77199,7 @@ class Mission
 							};
 							id=23573;
 							type="Land_Stretcher_01_sand_F";
+							atlOffset=-0.00063037872;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77212,7 +77240,7 @@ class Mission
 							};
 							id=23574;
 							type="Land_BluntRock_monolith";
-							atlOffset=-2.5206804;
+							atlOffset=-2.5206814;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77252,7 +77280,7 @@ class Mission
 							};
 							id=23575;
 							type="Land_BluntRock_monolith";
-							atlOffset=6.7699423;
+							atlOffset=6.7699442;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77374,7 +77402,7 @@ class Mission
 							};
 							id=23578;
 							type="Land_BluntRock_monolith";
-							atlOffset=6.7594938;
+							atlOffset=6.7594957;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77455,7 +77483,7 @@ class Mission
 							};
 							id=23580;
 							type="Land_BluntRock_monolith";
-							atlOffset=0.60458374;
+							atlOffset=0.60458469;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77495,7 +77523,7 @@ class Mission
 							};
 							id=23581;
 							type="Land_ConcreteWall_01_l_8m_F";
-							atlOffset=0.54434395;
+							atlOffset=0.5443449;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77615,7 +77643,7 @@ class Mission
 							};
 							id=23584;
 							type="Land_BluntRock_monolith";
-							atlOffset=6.6652498;
+							atlOffset=6.6652517;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77656,6 +77684,7 @@ class Mission
 							};
 							id=23585;
 							type="Land_Pipes_large_F";
+							atlOffset=-0.0012798309;
 						};
 						class Item151
 						{
@@ -77673,6 +77702,7 @@ class Mission
 							};
 							id=23586;
 							type="Land_Pipes_small_F";
+							atlOffset=-0.010058403;
 						};
 						class Item152
 						{
@@ -77691,7 +77721,7 @@ class Mission
 							};
 							id=23589;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=0.0057907104;
+							atlOffset=0.0056314468;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77733,7 +77763,7 @@ class Mission
 							};
 							id=23590;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=0.002904892;
+							atlOffset=0.002746582;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77775,6 +77805,7 @@ class Mission
 							};
 							id=23591;
 							type="Land_Metal_wooden_rack_F";
+							atlOffset=-0.00015830994;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77814,7 +77845,7 @@ class Mission
 							};
 							id=23592;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=0.57951927;
+							atlOffset=0.57936192;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -77841,11 +77872,11 @@ class Mission
 						};
 					};
 					id=23401;
-					atlOffset=-0.54176331;
+					atlOffset=0.41253471;
 				};
 			};
 			id=23593;
-			atlOffset=-0.54176331;
+			atlOffset=0.41253471;
 		};
 		class Item161
 		{
@@ -77876,7 +77907,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16502.393,10.821831,16222.254};
-				angles[]={0,3.1415925,-0};
+				angles[]={0,3.1415925,0};
 			};
 			side="Empty";
 			flags=5;
@@ -77894,7 +77925,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16517.541,10.894018,16198.872};
-				angles[]={0,4.712389,-0};
+				angles[]={0,4.712389,0};
 			};
 			side="Empty";
 			flags=5;
@@ -77912,7 +77943,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16495.834,11.617454,16172.563};
-				angles[]={0,3.1415925,-0};
+				angles[]={0,3.1415925,0};
 			};
 			side="Empty";
 			flags=5;
@@ -77922,6 +77953,7 @@ class Mission
 			};
 			id=23601;
 			type="OPTRE_airlock_door";
+			atlOffset=2.8610229e-005;
 		};
 		class Item166
 		{
@@ -77939,6 +77971,7 @@ class Mission
 			};
 			id=23602;
 			type="OPTRE_serverrack";
+			atlOffset=-4.7683716e-006;
 		};
 		class Item167
 		{
@@ -77963,7 +77996,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16502.824,10.121583,16229.246};
-				angles[]={0,4.712389,-0};
+				angles[]={0,4.712389,0};
 			};
 			side="Empty";
 			flags=5;
@@ -78007,6 +78040,7 @@ class Mission
 			};
 			id=23617;
 			type="OPTRE_holotable_sm_dt";
+			atlOffset=-1.7166138e-005;
 		};
 		class Item171
 		{
@@ -78031,7 +78065,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16509.777,10.563908,16228.8};
-				angles[]={6.2782059,1.832599,-0};
+				angles[]={6.2782059,1.832599,0};
 			};
 			side="Empty";
 			flags=4;
@@ -78041,6 +78075,26 @@ class Mission
 			};
 			id=23620;
 			type="OPTRE_Radio_Tan";
+		};
+		class Item173
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16504.326,10.276653,16167.8};
+				angles[]={0.0075049158,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="govno";
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=23621;
+			type="Land_cartridge_F";
+			atlOffset=-9.5367432e-007;
 		};
 	};
 };
