@@ -853,7 +853,7 @@ force PLANE_TURBULENCE_MIN_TURBULENCE = 2;
 // Anti-Bounce System
 force ABS_AssistUnflip = true;
 force ABS_enableManualUnflip = true;
-force ABS_enableMod = true;
+force ABS_enableMod = false;
 force ABS_minAngle = 90;
 force ABS_NoAutoUnflipPlayer = false;
 ABS_perFrameKey = true;
