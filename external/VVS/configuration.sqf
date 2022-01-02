@@ -22,56 +22,48 @@ ZONT_fnc_filterVVS = {
 };
 
 ZONT_fnc_onSpawnVVS = {
-  params ["_type", "_class"];
+  params ["_vehicle", "_class", "_mode"];
+  diag_log ("ZONT_fnc_onSpawnVVS [""_vehicle"", ""_class"", ""_mode""] = " + str [_vehicle, _class, _mode]);
 
-  private _fnc_type = switch(_type) do {
-    // _mode _vehicle
-  	case "CD": { {
+  private _fnc_type = switch(_mode) do {
+  	case "CD": {
       _vehicle setVehicleAmmo 0;
       _vehicle setFuel 0;
-    } };
-
-  	default {{}};
+    };
   };
 
   private _fnc_class = switch (_class) do {
-    // _mode, _vehicle
-    case "OPTRE_M808S": { {
+    case "OPTRE_M808S": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
-    } };
-    case "OPTRE_M808B2": { {
+    };
+    case "OPTRE_M808B2": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
-    } };
-    case "OPTRE_M808B_UNSC": { {
+    };
+    case "OPTRE_M808B_UNSC": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
-    } };
-    case "OPTRE_M813_TT": { {
+    };
+    case "OPTRE_M813_TT": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
-    } };
-    case "OPTRE_M12A1_LRV": { {
+    };
+    case "OPTRE_M12A1_LRV": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
-    } };
-    case "OPTRE_M12_FAV_APC": { {
+    };
+    case "OPTRE_M12_FAV_APC": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
-    } };
-    case "OPTRE_M12_LRV": { {
+    };
+    case "OPTRE_M12_LRV": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
-    } };
-    case "OPTRE_M412_IFV_UNSC": { {
+    };
+    case "OPTRE_M412_IFV_UNSC": {
       [_vehicle, "colortan"] call BIS_fnc_initVehicle;
-    } };
-    case "OPTRE_M413_MGS_UNSC": { {
+    };
+    case "OPTRE_M413_MGS_UNSC": {
       [_vehicle, "colortan"] call BIS_fnc_initVehicle;
-    } };
-    case "OPTRE_M494": { {
+    };
+    case "OPTRE_M494": {
       [_vehicle, "сolordes"] call BIS_fnc_initVehicle;
-    } };
-
-
-    default {{}};
+    };
   };
-
-  [_fnc_type, _fnc_class];
 };
 
 
