@@ -85,7 +85,7 @@ VVS_CD = [
   "OPTRE_M808S"
 ];
 
-VVS_A10 = [
+VVS_A124 = [
   "OPTRE_M413_MGS_UNSC",
   "OPTRE_M412_IFV_UNSC"
 ];

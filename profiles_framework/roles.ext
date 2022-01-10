@@ -4,6 +4,7 @@ class CfgRoles {
 
   class HQ           { id=10; name="Headquarters"; };
   class Training     { id=11; name="124th Mechanized Infantry Brigade"; free=true; };
+  class A124         { id=12; name="124th Mechanized Infantry Brigade"; };
   class CD           { id=13; name="1st Cavalry"; };
   class Med          { id=14; name="Medical Departament"; };
   class USAF         { id=15; name="37th Tactical Fighter Wing"; };

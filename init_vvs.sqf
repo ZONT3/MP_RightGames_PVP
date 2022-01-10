@@ -39,12 +39,12 @@ _this addAction [
 _this addAction [
   "Запрос Техники 124th",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"A10"],
+  [VVS_west_Land,"A124"],
   6,
   true,
   true,
   "",
-  "[['A10']] call ZONT_fnc_checkRole",
+  "[['A124']] call ZONT_fnc_checkRole",
   5
 ];
 

@@ -1,6 +1,13 @@
 [ _this,
 	ars_train,
 	["Training"],
+	"Запросить арсенал 124th Mechanized Infantry Brigade TS",
+	[["Здарова", "Hello"], ["Бб", "Бывай"]]
+] call ZONT_fnc_attachArsenal;
+
+[ _this,
+	ars_124,
+	["A124"],
 	"Запросить арсенал 124th Mechanized Infantry Brigade",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
