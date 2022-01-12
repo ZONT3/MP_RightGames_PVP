@@ -102,7 +102,10 @@ VVS_BMO = [
   "OPTRE_M12G1_LRV",
   "OPTRE_M12R_AA",
   "OPTRE_M813_TT",
-  "OPTRE_M914_RV"
+  "OPTRE_M914_RV",
+  "B_Truck_01_Repair_F", 
+  "B_Truck_01_fuel_F", 
+  "B_Truck_01_ammo_F"
 ];
 
 VVS_USAF = [
