@@ -5,14 +5,14 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1578;
+	toggles=1569;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=23630;
+		nextID=23634;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1175;
+		nextID=1211;
 	};
 	class Camera
 	{
-		pos[]={11914.549,56.158234,15195.443};
-		dir[]={0.92734712,-0.36824623,-0.066823892};
-		up[]={0.36730883,0.9297232,-0.026468497};
-		aside[]={-0.071874388,3.1504533e-007,-0.99743789};
+		pos[]={12202.35,118.44297,15113.315};
+		dir[]={-0.69657326,-0.70203698,0.14809883};
+		up[]={-0.68668872,0.71213973,0.14599752};
+		aside[]={0.20796296,2.3003668e-007,0.97813821};
 	};
 };
 binarizationWanted=0;
@@ -807,7 +807,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -1071,7 +1071,7 @@ class CustomAttributes
 		};
 		nAttributes=3;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -48683,6 +48683,7 @@ class Mission
 								angles[]={0,4.6725135,0};
 							};
 							side="Empty";
+							flags=4;
 							class Attributes
 							{
 								createAsSimpleObject=1;
@@ -48690,7 +48691,7 @@ class Mission
 							};
 							id=6786;
 							type="Box_NATO_Ammo_F";
-							atlOffset=0.28390121;
+							atlOffset=1.9073486e-006;
 						};
 						class Item1
 						{
@@ -48701,6 +48702,7 @@ class Mission
 								angles[]={0,3.0990424,0};
 							};
 							side="Empty";
+							flags=4;
 							class Attributes
 							{
 								createAsSimpleObject=1;
@@ -48708,7 +48710,7 @@ class Mission
 							};
 							id=6787;
 							type="Box_NATO_Ammo_F";
-							atlOffset=0.28390121;
+							atlOffset=1.9073486e-006;
 						};
 						class Item2
 						{
@@ -49138,7 +49140,7 @@ class Mission
 							};
 							id=6819;
 							type="Box_NATO_Uniforms_F";
-							atlOffset=0.14378166;
+							atlOffset=1.9073486e-006;
 						};
 						class Item25
 						{
@@ -49262,11 +49264,11 @@ class Mission
 						};
 					};
 					id=6785;
-					atlOffset=0.34047508;
+					atlOffset=0.33148766;
 				};
 			};
 			id=6784;
-			atlOffset=0.34047508;
+			atlOffset=0.33148766;
 		};
 		class Item65
 		{
@@ -51296,17 +51298,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12047.469,21.044155,15134.05};
+				position[]={12047.469,21.044054,15134.05};
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="ars_124";
 			};
 			id=8742;
 			type="Box_EAF_AmmoOrd_F";
-			atlOffset=0.2840004;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -51340,7 +51342,7 @@ class Mission
 										};
 										class value
 										{
-											items=124;
+											items=128;
 											class Item0
 											{
 												class data
@@ -53077,6 +53079,62 @@ class Mission
 													value="OPTRE_12Rnd_8Gauge_Slugs";
 												};
 											};
+											class Item124
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_SRS99C";
+												};
+											};
+											class Item125
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_4Rnd_145x114_APFSDS_Mag";
+												};
+											};
+											class Item126
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_SRS99_Scope";
+												};
+											};
+											class Item127
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_SRS99C_Scope";
+												};
+											};
 										};
 									};
 								};
@@ -53129,13 +53187,14 @@ class Mission
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="ars_af";
 			};
 			id=8746;
 			type="Box_EAF_AmmoOrd_F";
-			atlOffset=0.2840004;
+			atlOffset=0.00010108948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -53880,13 +53939,14 @@ class Mission
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="ars_gf";
 			};
 			id=8747;
 			type="Box_EAF_AmmoOrd_F";
-			atlOffset=0.2840004;
+			atlOffset=0.00010108948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -54771,13 +54831,14 @@ class Mission
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="ars_med";
 			};
 			id=8748;
 			type="Box_EAF_AmmoOrd_F";
-			atlOffset=0.2840004;
+			atlOffset=0.00010108948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -60253,13 +60314,14 @@ class Mission
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="ars_oni";
 			};
 			id=8942;
 			type="Box_EAF_AmmoOrd_F";
-			atlOffset=0.2840004;
+			atlOffset=0.00010108948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -70092,13 +70154,14 @@ class Mission
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="ars_spr";
 			};
 			id=23308;
 			type="Box_EAF_AmmoOrd_F";
-			atlOffset=0.2840004;
+			atlOffset=0.00010108948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -71261,13 +71324,13 @@ class Mission
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="ars_iron";
 			};
 			id=23393;
 			type="Box_EAF_AmmoOrd_F";
-			atlOffset=0.28389931;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72896,6 +72959,7 @@ class Mission
 										angles[]={0.0024897563,0,0};
 									};
 									side="Empty";
+									flags=4;
 									class Attributes
 									{
 										createAsSimpleObject=1;
@@ -72903,7 +72967,7 @@ class Mission
 									};
 									id=23417;
 									type="Box_East_AmmoOrd_F";
-									atlOffset=0.28384304;
+									atlOffset=-5.8174133e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -72937,6 +73001,7 @@ class Mission
 										angles[]={6.2806959,0,0};
 									};
 									side="Empty";
+									flags=4;
 									class Attributes
 									{
 										createAsSimpleObject=1;
@@ -72944,7 +73009,7 @@ class Mission
 									};
 									id=23418;
 									type="Box_East_AmmoOrd_F";
-									atlOffset=0.28385448;
+									atlOffset=-4.5776367e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -72978,13 +73043,14 @@ class Mission
 										angles[]={6.2731905,0,0};
 									};
 									side="Empty";
+									flags=4;
 									class Attributes
 									{
 										createAsSimpleObject=1;
 									};
 									id=23419;
 									type="Box_East_AmmoOrd_F";
-									atlOffset=0.28384018;
+									atlOffset=-7.2479248e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -73018,6 +73084,7 @@ class Mission
 										angles[]={0.0024897563,0,0};
 									};
 									side="Empty";
+									flags=4;
 									class Attributes
 									{
 										createAsSimpleObject=1;
@@ -73025,7 +73092,7 @@ class Mission
 									};
 									id=23420;
 									type="Box_East_AmmoOrd_F";
-									atlOffset=0.28385639;
+									atlOffset=-4.4822693e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -73059,6 +73126,7 @@ class Mission
 										angles[]={0.0024897563,0,0};
 									};
 									side="Empty";
+									flags=4;
 									class Attributes
 									{
 										createAsSimpleObject=1;
@@ -73066,7 +73134,7 @@ class Mission
 									};
 									id=23421;
 									type="Box_East_AmmoOrd_F";
-									atlOffset=0.28384304;
+									atlOffset=-5.8174133e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -73093,7 +73161,7 @@ class Mission
 								};
 							};
 							id=23416;
-							atlOffset=0.29171753;
+							atlOffset=0.0079107285;
 						};
 						class Item14
 						{
@@ -73220,16 +73288,17 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16475.875,10.474984,16218.849};
+								position[]={16475.875,9.8800049,16218.849};
 							};
 							side="Empty";
+							flags=4;
 							class Attributes
 							{
 								createAsSimpleObject=1;
 							};
 							id=23428;
 							type="Land_MetalBarrel_F";
-							atlOffset=0.59380436;
+							atlOffset=-0.0011749268;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -78678,17 +78747,17 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16476.01,11.057308,16221.177};
-								angles[]={0,1.5707964,0};
+								position[]={16476.01,10.477946,16221.177};
+								angles[]={6.2806959,1.5707964,0};
 							};
 							side="Empty";
+							flags=4;
 							class Attributes
 							{
 								createAsSimpleObject=1;
 							};
 							id=23592;
 							type="Land_Metal_wooden_rack_F";
-							atlOffset=0.57936192;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -78715,11 +78784,11 @@ class Mission
 						};
 					};
 					id=23401;
-					atlOffset=0.41253471;
+					atlOffset=0.12285328;
 				};
 			};
 			id=23593;
-			atlOffset=0.41253471;
+			atlOffset=0.12285328;
 		};
 		class Item157
 		{
@@ -78914,7 +78983,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				disableSimulation=1;
+				dynamicSimulation=1;
 			};
 			id=23620;
 			type="OPTRE_Radio_Tan";
@@ -78948,13 +79017,14 @@ class Mission
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="ars_train";
 			};
 			id=23622;
 			type="Box_EAF_AmmoOrd_F";
-			atlOffset=0.2840004;
+			atlOffset=0.00010108948;
 			class CustomAttributes
 			{
 				class Attribute0
