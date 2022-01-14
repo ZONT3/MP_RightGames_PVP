@@ -339,7 +339,7 @@ force ace_medical_treatment_treatmentTimeCPR = 15;
 force ace_medical_treatment_treatmentTimeIV = 12;
 force ace_medical_treatment_treatmentTimeSplint = 7;
 force ace_medical_treatment_treatmentTimeTourniquet = 7;
-force ace_medical_treatment_woundReopenChance = 2;
+force ace_medical_treatment_woundReopenChance = 0.5;
 force ace_medical_treatment_woundStitchTime = 5;
 
 // ACE Name Tags
@@ -1333,7 +1333,7 @@ TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_rf7800str";
 TFAR_spectatorCanHearEnemyUnits = true;
 TFAR_spectatorCanHearFriendlies = true;
 TFAR_takingRadio = 2;
-force TFAR_Teamspeak_Channel_Name = "RG Scion Conflict";
+force TFAR_Teamspeak_Channel_Name = "RG HALO";
 force TFAR_Teamspeak_Channel_Password = "d6ths6g5fdw8a6ds2";
 tfar_terrain_interception_coefficient = 13;
 TFAR_voiceCone = true;
