@@ -24,12 +24,6 @@ ZONT_fnc_filterVVS = {
 ZONT_fnc_onSpawnVVS = {
   params ["_vehicle", "_class", "_mode"];
 
-  private _fnc_type = switch(_mode) do {
-  	case "CD": {
-      _vehicle setVehicleAmmo 0;
-      _vehicle setFuel 0;
-    };
-  };
 
   private _fnc_class = switch (_class) do {
     case "OPTRE_M808S": {
@@ -103,8 +97,8 @@ VVS_BMO = [
   "OPTRE_M12R_AA",
   "OPTRE_M813_TT",
   "OPTRE_M914_RV",
-  "B_Truck_01_Repair_F", 
-  "B_Truck_01_fuel_F", 
+  "B_Truck_01_Repair_F",
+  "B_Truck_01_fuel_F",
   "B_Truck_01_ammo_F"
 ];
 

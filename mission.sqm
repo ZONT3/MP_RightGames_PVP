@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=26218;
+		nextID=26222;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1322;
+		nextID=1359;
 	};
 	class Camera
 	{
-		pos[]={9289.2822,55.52113,11316.956};
-		dir[]={0.62098163,-0.6120531,0.48973885};
-		up[]={0.48059699,0.79079318,0.37902635};
-		aside[]={0.61926734,-4.1851308e-007,-0.78522056};
+		pos[]={11752.773,59.385811,15025.76};
+		dir[]={0.12703648,-0.53748941,0.83366209};
+		up[]={0.080970936,0.84326756,0.53135914};
+		aside[]={0.98860031,4.8310903e-007,-0.15064764};
 	};
 };
 binarizationWanted=0;
@@ -182,13 +182,14 @@ addons[]=
 	"ace_rearm",
 	"A3_Structures_F_Civ_Garbage",
 	"ar_globalObjectInteraction",
-	"A3_Structures_F_Wrecks"
+	"A3_Structures_F_Wrecks",
+	"OPTRE_Vehicles_Cart"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=98;
+		items=99;
 		class Item0
 		{
 			className="CUP_Misc3_Config";
@@ -795,6 +796,11 @@ class AddonsMetaData
 			name="Arma 3 - Vehicle Wrecks";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item98
+		{
+			className="OPTRE_Vehicles_Cart";
+			name="OPTRE_Vehicles_Cart";
 		};
 	};
 };
@@ -1493,7 +1499,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=178;
+		items=181;
 		class Item0
 		{
 			dataType="Layer";
@@ -51561,7 +51567,7 @@ class Mission
 										};
 										class value
 										{
-											items=130;
+											items=134;
 											class Item0
 											{
 												class data
@@ -53380,6 +53386,62 @@ class Mission
 														};
 													};
 													value="OPTRE_HUD_w_Glasses";
+												};
+											};
+											class Item130
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_BR45Grip";
+												};
+											};
+											class Item131
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="bipod_01_F_blk";
+												};
+											};
+											class Item132
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="bipod_01_F_snd";
+												};
+											};
+											class Item133
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="bipod_01_F_mtp";
 												};
 											};
 										};
@@ -80802,6 +80864,7 @@ class Mission
 					};
 					id=26166;
 					type="Land_fort_rampart_EP1";
+					atlOffset=-2.6702881e-005;
 				};
 				class Item2
 				{
@@ -80820,7 +80883,7 @@ class Mission
 					};
 					id=26167;
 					type="Land_fortified_nest_small_EP1";
-					atlOffset=9.5367432e-007;
+					atlOffset=-2.5749207e-005;
 				};
 				class Item3
 				{
@@ -80893,7 +80956,7 @@ class Mission
 					};
 					id=26173;
 					type="Land_fort_rampart_EP1";
-					atlOffset=-9.5367432e-007;
+					atlOffset=-2.2888184e-005;
 				};
 				class Item7
 				{
@@ -81096,6 +81159,7 @@ class Mission
 					};
 					id=26184;
 					type="Land_HBarrier5";
+					atlOffset=-9.5367432e-007;
 				};
 				class Item18
 				{
@@ -81186,7 +81250,7 @@ class Mission
 					};
 					id=26191;
 					type="Land_fort_rampart_EP1";
-					atlOffset=-9.5367432e-007;
+					atlOffset=-1.5258789e-005;
 				};
 				class Item23
 				{
@@ -81223,7 +81287,6 @@ class Mission
 					};
 					id=26193;
 					type="Land_fort_rampart_EP1";
-					atlOffset=9.5367432e-007;
 				};
 				class Item25
 				{
@@ -81249,7 +81312,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9322.6602,23.161123,11352.548};
-						angles[]={0,1.0471975,-0};
+						angles[]={0,1.0471975,0};
 					};
 					side="Empty";
 					flags=5;
@@ -81351,6 +81414,7 @@ class Mission
 					};
 					id=26202;
 					type="Land_fort_rampart_EP1";
+					atlOffset=-9.5367432e-007;
 				};
 				class Item32
 				{
@@ -81484,7 +81548,7 @@ class Mission
 				};
 			};
 			id=26210;
-			atlOffset=0.10910511;
+			atlOffset=0.10910988;
 		};
 		class Item176
 		{
@@ -81502,6 +81566,7 @@ class Mission
 			};
 			id=26216;
 			type="OPTRE_Objects_Wreck_Pelican";
+			atlOffset=-0.0036554337;
 		};
 		class Item177
 		{
@@ -81513,6 +81578,53 @@ class Mission
 			colorName="ColorWEST";
 			id=26217;
 			atlOffset=-0.00019931793;
+		};
+		class Item178
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9331.3174,12.522787,11328.217};
+				angles[]={0.042473838,2.8800349,6.270689};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=26218;
+			type="OPTRE_Static_M247H_Tripod";
+		};
+		class Item179
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9350.1758,11.67199,11369.093};
+				angles[]={6.2731848,1.0471627,6.278194};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=26219;
+			type="OPTRE_Static_M247H_Tripod";
+		};
+		class Item180
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11734.223,22.491808,15081.384};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=26221;
+			type="OPTRE_cart";
 		};
 	};
 };
