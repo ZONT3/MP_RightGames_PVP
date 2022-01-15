@@ -12,22 +12,22 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=23634;
+		nextID=26218;
 	};
 	class MarkerIDProvider
 	{
-		nextID=20;
+		nextID=21;
 	};
 	class LayerIndexProvider
 	{
-		nextID=1247;
+		nextID=1322;
 	};
 	class Camera
 	{
-		pos[]={12065.187,43.994328,15152.149};
-		dir[]={-0.67231154,-0.59725809,-0.43737051};
-		up[]={-0.50064933,0.80204308,-0.32569584};
-		aside[]={-0.54531401,-5.7567377e-008,0.83824188};
+		pos[]={9289.2822,55.52113,11316.956};
+		dir[]={0.62098163,-0.6120531,0.48973885};
+		up[]={0.48059699,0.79079318,0.37902635};
+		aside[]={0.61926734,-4.1851308e-007,-0.78522056};
 	};
 };
 binarizationWanted=0;
@@ -179,13 +179,16 @@ addons[]=
 	"ace_realisticnames",
 	"ace_repair",
 	"ace_refuel",
-	"ace_rearm"
+	"ace_rearm",
+	"A3_Structures_F_Civ_Garbage",
+	"ar_globalObjectInteraction",
+	"A3_Structures_F_Wrecks"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=96;
+		items=98;
 		class Item0
 		{
 			className="CUP_Misc3_Config";
@@ -778,6 +781,20 @@ class AddonsMetaData
 			name="ACE3 - Rearm";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
+		};
+		class Item96
+		{
+			className="ar_globalObjectInteraction";
+			name="ARES Military Roleplay Items - GlobalObjectInteraction";
+			author="ARES Military";
+			url="ARES Military";
+		};
+		class Item97
+		{
+			className="A3_Structures_F_Wrecks";
+			name="Arma 3 - Vehicle Wrecks";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -1476,7 +1493,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=175;
+		items=178;
 		class Item0
 		{
 			dataType="Layer";
@@ -80742,6 +80759,760 @@ class Mission
 			};
 			id=23628;
 			type="B_Truck_01_ammo_F";
+		};
+		class Item175
+		{
+			dataType="Layer";
+			name="Headquarters #O";
+			class Entities
+			{
+				items=39;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9296.1514,11.646073,11360.065};
+						angles[]={6.255693,1.5707552,6.2457032};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26165;
+					type="Land_fort_rampart_EP1";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9299.6475,11.881026,11373.313};
+						angles[]={6.255693,2.0944419,6.2407117};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26166;
+					type="Land_fort_rampart_EP1";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9297.9111,12.598315,11366.688};
+						angles[]={6.255693,1.8327386,6.2407117};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26167;
+					type="Land_fortified_nest_small_EP1";
+					atlOffset=9.5367432e-007;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9321.4678,10.627068,11369.615};
+						angles[]={6.2606897,1.0479833,6.2432079};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26168;
+					type="Land_Garbage_square5_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9322.1572,11.192608,11388.521};
+						angles[]={6.255693,3.1416085,6.2407117};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26169;
+					type="Land_fort_rampart_EP1";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9328.7861,11.720187,11386.726};
+						angles[]={6.2581916,3.4035184,6.2531958};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26171;
+					type="Land_fortified_nest_small_EP1";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9335.4072,10.660693,11385.021};
+						angles[]={6.2606897,3.6651859,6.2531958};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26173;
+					type="Land_fort_rampart_EP1";
+					atlOffset=-9.5367432e-007;
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9317.0361,11.141307,11346.841};
+						angles[]={0.014998405,5.2357807,6.2506976};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26174;
+					type="Land_HBarrier1";
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9316.6357,11.166419,11346.034};
+						angles[]={0.014998405,4.9739814,6.2506976};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26175;
+					type="Land_HBarrier1";
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9318.9805,10.737429,11341.188};
+						angles[]={0.02999169,0.52318722,6.2506976};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26176;
+					type="Land_fort_rampart_EP1";
+					atlOffset=-1.9073486e-006;
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9300.8975,11.242536,11342.009};
+						angles[]={6.2806721,1.0468763,6.2581916};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26177;
+					type="Land_fort_rampart_EP1";
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9309.7861,10.965366,11355.363};
+						angles[]={6.2806721,1.5710622,6.2307339};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26178;
+					type="Land_fort_rampart_EP1";
+					atlOffset=0.00078010559;
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9317.6885,11.029545,11348.953};
+						angles[]={0.012496647,4.9741001,6.2407117};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26179;
+					type="Land_HBarrier3";
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9295.6436,12.247828,11350.384};
+						angles[]={6.2681832,1.3088398,6.2581892};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26180;
+					type="Land_fortified_nest_big_EP1";
+					atlOffset=0.0030374527;
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9328.9502,10.761375,11354.15};
+						angles[]={0.0025135824,1.0472386,6.2631893};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26181;
+					type="Land_HBarrier5";
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9326.7051,11.002784,11342.327};
+						angles[]={0.032487731,2.6177287,6.2656889};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26182;
+					type="Land_HBarrier5";
+					atlOffset=-9.5367432e-007;
+				};
+				class Item16
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9316.6973,11.115492,11352.414};
+						angles[]={6.2731848,1.0474533,6.248199};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26183;
+					type="Land_HBarrier5";
+				};
+				class Item17
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9332.7773,10.928802,11341.793};
+						angles[]={0.037482351,2.3559806,6.270689};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26184;
+					type="Land_HBarrier5";
+				};
+				class Item18
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9316.6816,11.088896,11366.406};
+						angles[]={6.2581892,5.7603989,6.2407103};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26185;
+					type="Land_fort_bagfence_long";
+				};
+				class Item19
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9314.3828,11.152305,11364.646};
+						angles[]={6.255693,5.4983797,6.2357211};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26186;
+					type="Land_fort_bagfence_long";
+				};
+				class Item20
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9317.3965,11.845049,11362.457};
+						angles[]={6.2606897,2.6187854,6.2432079};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26189;
+					type="Land_CamoNet_EAST_EP1";
+				};
+				class Item21
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9341.748,10.16599,11361.982};
+						angles[]={6.270689,4.1886358,6.278194};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26190;
+					type="Land_fort_rampart_EP1";
+				};
+				class Item22
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9319.9375,10.554007,11358.771};
+						angles[]={6.2681832,5.760355,6.2432065};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26191;
+					type="Land_fort_rampart_EP1";
+					atlOffset=-9.5367432e-007;
+				};
+				class Item23
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9336.5986,10.207875,11348.908};
+						angles[]={0.010000871,4.7123418,6.278194};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26192;
+					type="Land_fort_rampart_EP1";
+				};
+				class Item24
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9327.1914,10.450397,11365.698};
+						angles[]={6.2606869,3.6655877,6.2556911};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26193;
+					type="Land_fort_rampart_EP1";
+					atlOffset=9.5367432e-007;
+				};
+				class Item25
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9322.1133,10.787297,11368.245};
+						angles[]={6.2606897,3.6659241,6.2432079};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26196;
+					type="Land_GarbagePallet_F";
+				};
+				class Item26
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9322.6602,23.161123,11352.548};
+						angles[]={0,1.0471975,-0};
+					};
+					side="Empty";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						dynamicSimulation=1;
+					};
+					id=26197;
+					type="Land_Cargo_Tower_V3_F";
+				};
+				class Item27
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9312.7676,11.163276,11361.697};
+						angles[]={6.2631893,1.0476658,6.2332273};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26198;
+					type="Land_fort_bagfence_corner";
+				};
+				class Item28
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9319.9102,10.96211,11366.823};
+						angles[]={6.2581892,2.618813,6.2407103};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26199;
+					type="Land_fort_bagfence_corner";
+					atlOffset=9.5367432e-007;
+				};
+				class Item29
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9326.874,10.756344,11357.998};
+						angles[]={6.270689,1.0474612,6.2581916};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26200;
+					type="Land_HBarrier3";
+				};
+				class Item30
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9336.4365,11.409829,11342.453};
+						angles[]={0.032487731,3.9268553,6.2731848};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26201;
+					type="Land_Wreck_Truck_dropside_F";
+				};
+				class Item31
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9353.876,10.116961,11363.526};
+						angles[]={6.278194,4.4504199,0.0049914722};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26202;
+					type="Land_fort_rampart_EP1";
+				};
+				class Item32
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9346.9814,10.251435,11375.366};
+						angles[]={6.2731848,3.9268625,6.2656889};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26203;
+					type="Land_fort_rampart_EP1";
+					atlOffset=-9.5367432e-007;
+				};
+				class Item33
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9350.4277,10.987584,11369.409};
+						angles[]={6.2731848,4.1887426,6.278194};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26204;
+					type="Land_fortified_nest_small_EP1";
+				};
+				class Item34
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9355.4463,10.911034,11352.987};
+						angles[]={0.0049914722,4.9741421,0.0075011365};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26205;
+					type="Land_fortified_nest_big_EP1";
+					atlOffset=9.5367432e-007;
+				};
+				class Item35
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9324.9209,11.170321,11326.145};
+						angles[]={0.037482351,6.2830033,6.2731848};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26206;
+					type="Land_fort_rampart_EP1";
+				};
+				class Item36
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9338.1416,10.843948,11329.738};
+						angles[]={0.042473838,5.7594061,6.268187};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26207;
+					type="Land_fort_rampart_EP1";
+				};
+				class Item37
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9331.5459,11.843027,11327.957};
+						angles[]={0.039977662,6.0211401,6.2706842};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26208;
+					type="Land_fortified_nest_small_EP1";
+					atlOffset=9.5367432e-007;
+				};
+				class Item38
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9350.1504,10.234304,11344.869};
+						angles[]={0.019999012,5.235919,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						skill=0.2;
+						disableSimulation=1;
+					};
+					id=26209;
+					type="Land_fort_rampart_EP1";
+					atlOffset=0.0017375946;
+				};
+			};
+			id=26210;
+			atlOffset=0.10910511;
+		};
+		class Item176
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9277.4932,14.87692,11284.646};
+				angles[]={0.0050033992,4.4507155,0.019996032};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=26216;
+			type="OPTRE_Objects_Wreck_Pelican";
+		};
+		class Item177
+		{
+			dataType="Marker";
+			position[]={9331.7764,10.097,11358.434};
+			name="marker_20";
+			text="Fort ""Papa""";
+			type="mil_flag";
+			colorName="ColorWEST";
+			id=26217;
+			atlOffset=-0.00019931793;
 		};
 	};
 };
