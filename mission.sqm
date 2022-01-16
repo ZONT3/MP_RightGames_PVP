@@ -20,11 +20,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1470;
+		nextID=1507;
 	};
 	class Camera
 	{
-		pos[]={12067.354,65.585175,15176.261};
+		pos[]={12044.34,28.724602,15145.97};
 		dir[]={-0.15130022,-0.62335926,-0.76716667};
 		up[]={-0.12061543,0.78193402,-0.61158001};
 		aside[]={-0.9811064,-2.1432061e-007,0.19349299};
@@ -52101,7 +52101,7 @@ class Mission
 										};
 										class value
 										{
-											items=172;
+											items=173;
 											class Item0
 											{
 												class data
@@ -54510,6 +54510,20 @@ class Mission
 													value="OPTRE_M41_Twin_HEAT_SALH";
 												};
 											};
+											class Item172
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="kat_guedel";
+												};
+											};
 										};
 									};
 								};
@@ -56273,7 +56287,7 @@ class Mission
 										};
 										class value
 										{
-											items=57;
+											items=62;
 											class Item0
 											{
 												class data
@@ -57070,6 +57084,76 @@ class Mission
 														};
 													};
 													value="OPTRE_HUD_b_Glasses";
+												};
+											};
+											class Item57
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="kat_AED";
+												};
+											};
+											class Item58
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="kat_larynx";
+												};
+											};
+											class Item59
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="kat_accuvac";
+												};
+											};
+											class Item60
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="kat_aatKit";
+												};
+											};
+											class Item61
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="kat_X_AED";
 												};
 											};
 										};
@@ -72322,7 +72406,7 @@ class Mission
 										};
 										class value
 										{
-											items=91;
+											items=99;
 											class Item0
 											{
 												class data
@@ -73595,6 +73679,118 @@ class Mission
 														};
 													};
 													value="OPTRE_8Rnd_127x40_Mag_NARQT";
+												};
+											};
+											class Item91
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_MA5C";
+												};
+											};
+											class Item92
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_32Rnd_762x51_Mag_APT";
+												};
+											};
+											class Item93
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_32Rnd_762x51_Mag_AP";
+												};
+											};
+											class Item94
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_32Rnd_762x51_Mag_JHP";
+												};
+											};
+											class Item95
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_32Rnd_762x51_Mag_JHPT";
+												};
+											};
+											class Item96
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_32Rnd_762x51_Mag";
+												};
+											};
+											class Item97
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_32Rnd_762x51_Mag_Tracer";
+												};
+											};
+											class Item98
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="OPTRE_32Rnd_762x51_Mag_Tracer_Yellow";
 												};
 											};
 										};
