@@ -140,7 +140,7 @@ class CfgConsts {
 class CfgDiscordRichPresence {
 	applicationID="765658821909151805";
 	defaultDetails="HALO RP";
-	defaultState="rgsv.xyz (Visit on Web)";
+	defaultState="https://discord.gg/4wgWCwHXBH";
 	defaultLargeImageKey="rgad";
 	defaultLargeImageText="Right Games";
 	defaultSmallImageKey="a3";
