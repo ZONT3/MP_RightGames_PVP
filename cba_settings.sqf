@@ -339,7 +339,7 @@ force ace_medical_treatment_treatmentTimeCPR = 15;
 force ace_medical_treatment_treatmentTimeIV = 12;
 force ace_medical_treatment_treatmentTimeSplint = 7;
 force ace_medical_treatment_treatmentTimeTourniquet = 7;
-force ace_medical_treatment_woundReopenChance = 0.5;
+force ace_medical_treatment_woundReopenChance = 0.2;
 force ace_medical_treatment_woundStitchTime = 5;
 
 // ACE Name Tags
