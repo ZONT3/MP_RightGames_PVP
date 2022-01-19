@@ -25,7 +25,7 @@ _this addAction [
 ];
 
 _this addAction [
-  "Запрос Техники 1st Cavalry",
+  "Запрос Техники Tank Departament",
   VVS_fnc_openVVS,
   [VVS_west_Land,"CD"],
   6,
@@ -33,18 +33,6 @@ _this addAction [
   true,
   "",
   "[['CD']] call ZONT_fnc_checkRole",
-  5
-];
-
-_this addAction [
-  "Запрос Техники 124th",
-  VVS_fnc_openVVS,
-  [VVS_west_Land,"A124"],
-  6,
-  true,
-  true,
-  "",
-  "[['A124']] call ZONT_fnc_checkRole",
   5
 ];
 

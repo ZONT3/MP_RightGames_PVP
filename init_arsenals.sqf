@@ -1,21 +1,14 @@
 [ _this,
 	ars_train,
 	["Training"],
-	"Запросить арсенал 124th Mechanized Infantry Brigade TS",
-	[["Здарова", "Hello"], ["Бб", "Бывай"]]
-] call ZONT_fnc_attachArsenal;
-
-[ _this,
-	ars_124,
-	["A124"],
-	"Запросить арсенал 124th Mechanized Infantry Brigade",
+	"Запросить арсенал 26th Marine Expeditionary Force",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
 [ _this,
 	ars_af,
 	["CD"],
-	"Запросить арсенал 1st Cavalry",
+	"Запросить арсенал 506th Tank Regiment",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
@@ -51,5 +44,12 @@
 	ars_spr,
 	["SPR"],
 	"Запросить арсенал SPARTAN II",
+	[["Здарова", "Hello"], ["Бб", "Бывай"]]
+] call ZONT_fnc_attachArsenal;
+
+[ _this,
+	ars_soar,
+	["SOAR"],
+	"Запросить арсенал 19th BN",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;

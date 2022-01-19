@@ -3,13 +3,13 @@ class CfgRoles {
   class Zeus         { id=1 ; hide=true; };
 
   class HQ           { id=10; name="Headquarters"; };
-  class Training     { id=11; name="124th Mechanized Infantry Brigade TS"; free=true; };
-  class A124         { id=12; name="124th Mechanized Infantry Brigade"; };
-  class CD           { id=13; name="1st Cavalry"; };
+  class Training     { id=11; name="26th Marine Expeditionary Force"; free=true; };
+  class CD           { id=13; name="Tank Departament"; };
   class Med          { id=14; name="Medical Departament"; };
   class USAF         { id=15; name="37th Tactical Fighter Wing"; };
   class Navy         { id=17; name="UNSC Marine Corps"; };
-  class SOAR         { id=18; name="Orbital Drop Shock Troopers"; };
+  class SOAR         { id=18; name="19th Shock Troops Battalion"; };
+  class ODST         { id=18; name="10th Shock Troops Battalion"; };
   class SpN          { id=19; name="3 Charlie"; };
   class ISAF         { id=20; name="Noble Team"; };
   class Iron         { id=21; name="Black Team SPARTAN II"; };
