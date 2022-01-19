@@ -305,7 +305,7 @@ force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force ace_medical_statemachine_cardiacArrestTime = 1200;
 force ace_medical_statemachine_fatalInjuriesAI = 0;
 force ace_medical_statemachine_fatalInjuriesPlayer = 1;
-force ace_medical_treatment_advancedBandages = 2;
+force ace_medical_treatment_advancedBandages = 1;
 ace_medical_treatment_advancedDiagnose = 2;
 force ace_medical_treatment_advancedMedication = true;
 force ace_medical_treatment_allowBodyBagUnconscious = true;
@@ -960,7 +960,7 @@ force kat_airway_Accuvac_time = 8;
 force kat_airway_CheckAirway_time = 2;
 force kat_airway_checkbox_puking_sound = true;
 force kat_airway_Colored_logs = true;
-force kat_airway_enable = false;
+force kat_airway_enable = true;
 force kat_airway_Guedeltubus_time = 6;
 force kat_airway_Larynxtubus_time = 3;
 force kat_airway_medLvl_Accuvac = 1;
@@ -974,7 +974,7 @@ force kat_airway_string_exit = "";
 force kat_airway_TurnAround_time = 2;
 
 // KAT - ADV Medical: Breathing
-force kat_breathing_enable = false;
+force kat_breathing_enable = true;
 force kat_breathing_hemopneumothoraxChance = 30;
 force kat_breathing_medLvl_Chestseal = 0;
 force kat_breathing_medLvl_hemopneumothoraxTreatment = 1;
