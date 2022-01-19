@@ -1,5 +1,5 @@
 [ _this,
-	ars_train,
+	ars_124,
 	["Training"],
 	"Запросить арсенал 26th Marine Expeditionary Force",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
