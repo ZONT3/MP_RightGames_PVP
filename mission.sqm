@@ -47597,44 +47597,6 @@ class Mission
 							type="Sign_Pointer_Cyan_F";
 							atlOffset=0.21101379;
 						};
-						class Item16
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={1985.8569,194.06032,10820.071};
-							};
-							side="Empty";
-							flags=4;
-							class Attributes
-							{
-								init="this hideObject true;" \n "Holder = createvehicle [ ""weaponholdersimulated"",getposASL this,[], 0, ""can_Collide""];   " \n "Holder addweaponcargo [""MEU_Needler"",1]; " \n " ";
-								name="Type33_Needler";
-								disableSimulation=1;
-							};
-							id=14723;
-							type="Sign_Pointer_Blue_F";
-							atlOffset=0.040985107;
-						};
-						class Item17
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={1985.8711,194.06032,10818.056};
-							};
-							side="Empty";
-							flags=4;
-							class Attributes
-							{
-								init="this hideObject true;" \n "Holder = createvehicle [ ""weaponholdersimulated"",getposASL this,[], 0, ""can_Collide""];   " \n "Holder addMagazineCargo [""MEU_Needler_Mag"",1];";
-								name="Needler_Mag";
-								disableSimulation=1;
-							};
-							id=14724;
-							type="Sign_Pointer_Cyan_F";
-							atlOffset=-0.0070648193;
-						};
 						class Item18
 						{
 							dataType="Comment";
