@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={18617.479,83.811378,-1248.6548};
-		dir[]={0.17839587,-0.58608025,0.79044008};
-		up[]={0.12903096,0.81023049,0.57171553};
-		aside[]={0.97551876,2.3510074e-007,-0.22016764};
+		pos[]={18655.408,83.811378,-1227.651};
+		dir[]={-0.035610761,-0.65685493,0.75324941};
+		up[]={-0.031019889,0.75399816,0.6561293};
+		aside[]={0.99893987,3.1381205e-007,0.047225092};
 	};
 };
 binarizationWanted=0;
@@ -40,13 +40,14 @@ addons[]=
 	"ace_cargo",
 	"uns_ch53_c",
 	"ttt_tilly_f",
-	"ttt_nimtech"
+	"ttt_nimtech",
+	"TTT_NimitzElevator"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=14;
+		items=15;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -133,6 +134,11 @@ class AddonsMetaData
 			className="ttt_nimtech";
 			name="ttt_nimtech";
 			author="TeTeT";
+		};
+		class Item14
+		{
+			className="TTT_NimitzElevator";
+			name="TTT_NimitzElevator";
 		};
 	};
 };
@@ -626,7 +632,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=30;
+		items=33;
 		class Item0
 		{
 			dataType="Logic";
@@ -2315,6 +2321,526 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item30
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={18670.107,1.8145943,-1106.0872};
+			};
+			id=150;
+			type="TTT_ModuleNimitzAmbiance2";
+			atlOffset=48.085751;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="TTT_ModuleNimitzAmbiance2_Hangar";
+					expression="_this setVariable ['Hangar',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="TTT_ModuleNimitzAmbiance2_TankerInit";
+					expression="_this setVariable ['TankerInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="TTT_ModuleNimitzAmbiance2_TractorUse";
+					expression="_this setVariable ['TractorUse',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="TTT_ModuleNimitzAmbiance2_Briefing";
+					expression="_this setVariable ['Briefing',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="TTT_ModuleNimitzAmbiance2_Crew";
+					expression="_this setVariable ['Crew',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="TTT_ModuleNimitzAmbiance2_EAWInit";
+					expression="_this setVariable ['EAWInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="TTT_ModuleNimitzAmbiance2_SAR";
+					expression="_this setVariable ['SAR',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="TTT_ModuleNimitzAmbiance2_FlightDeck";
+					expression="_this setVariable ['FlightDeck',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="TTT_ModuleNimitzAmbiance2_Empty";
+					expression="_this setVariable ['Empty',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="TTT_ModuleNimitzAmbiance2_TractorClass";
+					expression="_this setVariable ['TractorClass',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Peral_AS32A";
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="TTT_ModuleNimitzAmbiance2_Tanker";
+					expression="_this setVariable ['Tanker',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute11
+				{
+					property="TTT_ModuleNimitzAmbiance2_EAW";
+					expression="_this setVariable ['EAW',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute12
+				{
+					property="TTT_ModuleNimitzAmbiance2_SARInit";
+					expression="_this setVariable ['SARInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute13
+				{
+					property="TTT_ModuleNimitzAmbiance2_Units";
+					expression="_this setVariable ['Units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				class Attribute14
+				{
+					property="TTT_ModuleNimitzAmbiance2_CAP";
+					expression="_this setVariable ['CAP',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute15
+				{
+					property="TTT_ModuleNimitzAmbiance2_TractorClassInit";
+					expression="_this setVariable ['TractorClassInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute16
+				{
+					property="TTT_ModuleNimitzAmbiance2_CAS";
+					expression="_this setVariable ['CAS',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute17
+				{
+					property="TTT_ModuleNimitzAmbiance2_CASInit";
+					expression="_this setVariable ['CASInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute18
+				{
+					property="TTT_ModuleNimitzAmbiance2_CAPInit";
+					expression="_this setVariable ['CAPInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute19
+				{
+					property="TTT_ModuleNimitzAmbiance2_EmptyInit";
+					expression="_this setVariable ['EmptyInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=20;
+			};
+		};
+		class Item31
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={18676.559,3.6228752,-1134.611};
+			};
+			id=151;
+			type="TTT_ModuleNimitzOnShip";
+			atlOffset=48.116627;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="TTT_ModuleNimitzOnShip_Units";
+					expression="_this setVariable ['Units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="TTT_ModuleNimitzOnShip_Height";
+					expression="_this setVariable ['Height',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=17.5;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item32
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={18676.58,0.68909836,-1140.2341};
+			};
+			id=148;
+			type="TTT_ModuleNimitzRescue";
+			atlOffset=45.176796;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="TTT_ModuleNimitzRescue_Units";
+					expression="_this setVariable ['Units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="TTT_ModuleNimitzRescue_Brief";
+					expression="_this setVariable ['Brief',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="TTT_ModuleNimitzRescue_Range";
+					expression="_this setVariable ['Range',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				nAttributes=3;
 			};
 		};
 	};
