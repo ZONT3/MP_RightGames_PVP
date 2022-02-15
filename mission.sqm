@@ -12,14 +12,14 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=146;
+		nextID=148;
 	};
 	class Camera
 	{
-		pos[]={18648.83,50.238022,-1218.428};
-		dir[]={0.12271686,-0.3946062,0.91066742};
-		up[]={0.052702814,0.91883272,0.39109862};
-		aside[]={0.99108893,-3.9231963e-008,-0.13355617};
+		pos[]={18718.215,45.817642,-1209.1255};
+		dir[]={-0.24111667,-0.4757776,0.84592724};
+		up[]={-0.13042328,0.87954664,0.45757511};
+		aside[]={0.96174604,2.3108441e-007,0.27412584};
 	};
 };
 binarizationWanted=0;
@@ -862,11 +862,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={18743.652,10.657932,-1132.1355};
+				position[]={18701.002,0.65296197,-1134.8966};
 			};
 			id=86;
 			type="TTT_ModuleNimitzRescue";
-			atlOffset=55.507065;
+			atlOffset=43.123631;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -934,11 +934,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={18731.34,32.17514,-1108.1057};
+				position[]={18702.354,3.5420363,-1144.4635};
 			};
 			id=90;
 			type="TTT_ModuleNimitzAmbiance";
-			atlOffset=74.562057;
+			atlOffset=46.069576;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1082,11 +1082,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={18737.18,13.051682,-1097.9885};
+				position[]={18694.529,3.8836899,-1100.7496};
 			};
 			id=91;
 			type="TTT_ModuleNimitzAmbiance2";
-			atlOffset=56.346066;
+			atlOffset=46.032593;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1477,11 +1477,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={18753.867,7.3133163,-1114.9397};
+				position[]={18700.98,3.5937161,-1129.2734};
 			};
 			id=92;
 			type="TTT_ModuleNimitzOnShip";
-			atlOffset=54.851334;
+			atlOffset=46.063461;
 			class CustomAttributes
 			{
 				class Attribute0
