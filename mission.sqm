@@ -857,38 +857,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item4
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={18701.002,0.65296197,-1134.8966};
-			};
-			id=86;
-			type="TTT_ModuleNimitzRescue";
-			atlOffset=43.123631;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="TTT_ModuleNimitzRescue_Units";
-					expression="_this setVariable ['Units',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="1";
-						};
-					};
-				};
-				class Attribute1
+		
 				{
 					property="TTT_ModuleNimitzRescue_Brief";
 					expression="_this setVariable ['Brief',_value,true];";
