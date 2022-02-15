@@ -12,14 +12,18 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=181;
+		nextID=208;
+	};
+	class MarkerIDProvider
+	{
+		nextID=3;
 	};
 	class Camera
 	{
-		pos[]={18655.408,83.811378,-1227.651};
-		dir[]={-0.035610761,-0.65685493,0.75324941};
-		up[]={-0.031019889,0.75399816,0.6561293};
-		aside[]={0.99893987,3.1381205e-007,0.047225092};
+		pos[]={19417.189,84.922173,786.61206};
+		dir[]={0.41514704,-0.55254221,0.72273958};
+		up[]={0.2752133,0.83348531,0.47912532};
+		aside[]={0.86713004,3.3527613e-008,-0.49808568};
 	};
 };
 binarizationWanted=0;
@@ -41,13 +45,17 @@ addons[]=
 	"uns_ch53_c",
 	"ttt_tilly_f",
 	"ttt_nimtech",
-	"TTT_NimitzElevator"
+	"TTT_NimitzElevator",
+	"uns_flags",
+	"A3_Ui_F",
+	"uns_wheeled3_c",
+	"uns_ammo_c"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=15;
+		items=19;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -140,6 +148,29 @@ class AddonsMetaData
 			className="TTT_NimitzElevator";
 			name="TTT_NimitzElevator";
 		};
+		class Item15
+		{
+			className="uns_flags";
+			name="uns_flags";
+		};
+		class Item16
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item17
+		{
+			className="uns_wheeled3_c";
+			name="uns_wheeled3_c";
+			author="UNSUNG";
+		};
+		class Item18
+		{
+			className="uns_ammo_c";
+			name="uns_ammo_c";
+		};
 	};
 };
 randomSeed=5553919;
@@ -156,7 +187,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -453,7 +484,7 @@ class CustomAttributes
 		};
 		nAttributes=4;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -632,7 +663,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=33;
+		items=42;
 		class Item0
 		{
 			dataType="Logic";
@@ -851,7 +882,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=12;
+				items=24;
 				class Item0
 				{
 					dataType="Object";
@@ -1318,6 +1349,496 @@ class Mission
 					};
 					id=145;
 					type="uns_US_1CAV_RF4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18628.293,17.804409,-1116.9241};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=185;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.40266037;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18628.529,17.684868,-1117.8823};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=186;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.2831192;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18628.848,17.523521,-1119.0675};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=187;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.12177277;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18629.088,17.401749,-1120.3848};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=188;
+					type="uns_US_1CAV_RF4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item16
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18625.627,17.639977,-1115.1277};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=189;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.23822784;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item17
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18625.268,17.822094,-1116.9365};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=190;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.42034531;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item18
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18625.539,17.684483,-1118.5697};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=191;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.28273392;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item19
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18625.713,17.59647,-1120.156};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=192;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.19472122;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item20
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18626.098,17.401749,-1121.4985};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=193;
+					type="uns_US_1CAV_RF4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item21
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18628.201,17.851154,-1113.8054};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=182;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.44940567;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item22
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18628,17.952766,-1115.0961};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=183;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.55101776;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item23
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18628.162,17.870941,-1115.8956};
+						angles[]={0,4.5038748,0};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						isPlayable=1;
+					};
+					id=184;
+					type="uns_US_1CAV_RF4";
+					atlOffset=0.4691925;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1879,7 +2400,7 @@ class Mission
 			};
 			id=157;
 			type="B_Truck_01_ammo_F";
-			atlOffset=0.099691391;
+			atlOffset=0.085950851;
 		};
 		class Item8
 		{
@@ -1918,7 +2439,7 @@ class Mission
 			};
 			id=159;
 			type="uns_F4B_CAS";
-			atlOffset=3.2997024;
+			atlOffset=3.2997034;
 		};
 		class Item10
 		{
@@ -1937,7 +2458,7 @@ class Mission
 			};
 			id=160;
 			type="uns_F4B_CAS";
-			atlOffset=3.3535686;
+			atlOffset=3.3535695;
 		};
 		class Item11
 		{
@@ -2014,7 +2535,7 @@ class Mission
 			};
 			id=164;
 			type="ttt_crane";
-			atlOffset=0.099693298;
+			atlOffset=0.060371399;
 		};
 		class Item15
 		{
@@ -2033,7 +2554,7 @@ class Mission
 			};
 			id=165;
 			type="uns_F4B_CAS";
-			atlOffset=3.2997024;
+			atlOffset=3.2997034;
 		};
 		class Item16
 		{
@@ -2052,7 +2573,7 @@ class Mission
 			};
 			id=166;
 			type="uns_F4B_CAS";
-			atlOffset=3.3285613;
+			atlOffset=3.3285623;
 		};
 		class Item17
 		{
@@ -2110,7 +2631,7 @@ class Mission
 			};
 			id=169;
 			type="uns_F4B_CAS";
-			atlOffset=3.2997024;
+			atlOffset=3.2997034;
 		};
 		class Item20
 		{
@@ -2168,7 +2689,7 @@ class Mission
 			};
 			id=172;
 			type="uns_F4B_CAS";
-			atlOffset=3.2997024;
+			atlOffset=3.2997034;
 		};
 		class Item23
 		{
@@ -2187,7 +2708,7 @@ class Mission
 			};
 			id=173;
 			type="uns_F4B_CAS";
-			atlOffset=3.3035541;
+			atlOffset=3.303555;
 		};
 		class Item24
 		{
@@ -2245,7 +2766,7 @@ class Mission
 			};
 			id=176;
 			type="uns_F4B_CAS";
-			atlOffset=3.2997024;
+			atlOffset=3.2997034;
 		};
 		class Item27
 		{
@@ -2264,7 +2785,7 @@ class Mission
 			};
 			id=177;
 			type="uns_F4B_CAS";
-			atlOffset=3.2997024;
+			atlOffset=3.2997034;
 		};
 		class Item28
 		{
@@ -2282,7 +2803,7 @@ class Mission
 			};
 			id=178;
 			type="uns_F4B_CAS";
-			atlOffset=3.2997024;
+			atlOffset=3.2997034;
 		};
 		class Item29
 		{
@@ -2841,6 +3362,4710 @@ class Mission
 					};
 				};
 				nAttributes=3;
+			};
+		};
+		class Item33
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18635.396,21.376757,-1100.641};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+				init="this addAction [""Перемещение на базу"",{titleCut [""Перемещение..."",""BLACK IN"",3]; player setposatl [getpos regularBase select 0, getpos regularBase select 1, getposatl regularBase select 2]},"""",1,false,true,"""",""_this distance _target < 5""];";
+				name="bso";
+			};
+			id=194;
+			type="uns_FlagCarrierUS";
+			atlOffset=62.660999;
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19414.164,84.099052,826.91699};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this addAction [""<t color='#ffffff'>Перемещение на Корабль"",{titleCut [""Перемещение..."",""BLACK IN"",3]; player setposatl [getpos bso select 0, getpos bso select 1, getposatl bso select 2]},"""",1,false,true,"""",""_this distance _target < 5""];";
+				name="regularBase";
+			};
+			id=195;
+			type="uns_FlagCarrierUS";
+			atlOffset=9.9182129e-005;
+		};
+		class Item35
+		{
+			dataType="Marker";
+			position[]={19361.684,80,640.07202};
+			name="marker_1";
+			type="Faction_UNS_USA";
+			id=197;
+		};
+		class Item36
+		{
+			dataType="Marker";
+			position[]={18557.625,0,-1039.4556};
+			name="marker_2";
+			type="Faction_UNS_USMC";
+			id=198;
+			atlOffset=38.169361;
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19403.982,81.641991,796.92175};
+				angles[]={0.0022902426,3.177088,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=199;
+			type="uns_willys_2";
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19406.447,81.642426,797.0163};
+				angles[]={0.0022902426,3.177088,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=200;
+			type="uns_willys_2";
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19409.244,81.643776,796.75024};
+				angles[]={0.0022902426,3.177088,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=203;
+			type="uns_willys_2";
+		};
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19412.17,81.644417,796.66785};
+				angles[]={0.0022902426,3.177088,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=204;
+			type="uns_willys_2";
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19421.58,81.321693,799.89044};
+				angles[]={0.0018849557,4.4008303,0.00034906584};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=205;
+			type="uns_AmmoBox_ANZAC";
+			atlOffset=-7.6293945e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_arsenal_attribute";
+					expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+										class value
+										{
+											items=321;
+											class Item0
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_M16A1";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m16_xm148";
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m72";
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_mkvFlarePistol";
+												};
+											};
+											class Item4
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_1";
+												};
+											};
+											class Item5
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_10";
+												};
+											};
+											class Item6
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_11";
+												};
+											};
+											class Item7
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_14";
+												};
+											};
+											class Item8
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_15";
+												};
+											};
+											class Item9
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_16";
+												};
+											};
+											class Item10
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_17";
+												};
+											};
+											class Item11
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_18";
+												};
+											};
+											class Item12
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_20";
+												};
+											};
+											class Item13
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_19";
+												};
+											};
+											class Item14
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_21";
+												};
+											};
+											class Item15
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_2";
+												};
+											};
+											class Item16
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_22";
+												};
+											};
+											class Item17
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_23";
+												};
+											};
+											class Item18
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_24";
+												};
+											};
+											class Item19
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_3";
+												};
+											};
+											class Item20
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_5";
+												};
+											};
+											class Item21
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_4";
+												};
+											};
+											class Item22
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_6";
+												};
+											};
+											class Item23
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_7";
+												};
+											};
+											class Item24
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_8";
+												};
+											};
+											class Item25
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_9";
+												};
+											};
+											class Item26
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_12";
+												};
+											};
+											class Item27
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_M1_13";
+												};
+											};
+											class Item28
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_M1_erdl_op";
+												};
+											};
+											class Item29
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_M1_erdl_ns";
+												};
+											};
+											class Item30
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_M1_erdl_up";
+												};
+											};
+											class Item31
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_M1_erdl_op_2";
+												};
+											};
+											class Item32
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_M1_erdl_swdg";
+												};
+											};
+											class Item33
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b8";
+												};
+											};
+											class Item34
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b6";
+												};
+											};
+											class Item35
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b5";
+												};
+											};
+											class Item36
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b2_alt";
+												};
+											};
+											class Item37
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b2";
+												};
+											};
+											class Item38
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b";
+												};
+											};
+											class Item39
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b1_alt";
+												};
+											};
+											class Item40
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b1";
+												};
+											};
+											class Item41
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_low_op";
+												};
+											};
+											class Item42
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_op_2";
+												};
+											};
+											class Item43
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_low_rot";
+												};
+											};
+											class Item44
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_low";
+												};
+											};
+											class Item45
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_ns";
+												};
+											};
+											class Item46
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_up";
+												};
+											};
+											class Item47
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_op";
+												};
+											};
+											class Item48
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_flip_b1";
+												};
+											};
+											class Item49
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_flip_op_2";
+												};
+											};
+											class Item50
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_flip_ns";
+												};
+											};
+											class Item51
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_flip_up";
+												};
+											};
+											class Item52
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_flip_op";
+												};
+											};
+											class Item53
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_flip_b7";
+												};
+											};
+											class Item54
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_flip_b4";
+												};
+											};
+											class Item55
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_flip_swdg";
+												};
+											};
+											class Item56
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b7";
+												};
+											};
+											class Item57
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_b4";
+												};
+											};
+											class Item58
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_m1_bitch_swdg";
+												};
+											};
+											class Item59
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_op";
+												};
+											};
+											class Item60
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_low";
+												};
+											};
+											class Item61
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_low_rot";
+												};
+											};
+											class Item62
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_ns";
+												};
+											};
+											class Item63
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_op_2";
+												};
+											};
+											class Item64
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_op_2";
+												};
+											};
+											class Item65
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_erla";
+												};
+											};
+											class Item66
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_low";
+												};
+											};
+											class Item67
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_ns";
+												};
+											};
+											class Item68
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_b1";
+												};
+											};
+											class Item69
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_b";
+												};
+											};
+											class Item70
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_op";
+												};
+											};
+											class Item71
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_b5";
+												};
+											};
+											class Item72
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_b2";
+												};
+											};
+											class Item73
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_low_ben";
+												};
+											};
+											class Item74
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_ben";
+												};
+											};
+											class Item75
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_b6";
+												};
+											};
+											class Item76
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_b9";
+												};
+											};
+											class Item77
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_b8";
+												};
+											};
+											class Item78
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_flip_b7";
+												};
+											};
+											class Item79
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_b9";
+												};
+											};
+											class Item80
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_low_ben";
+												};
+											};
+											class Item81
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_ben";
+												};
+											};
+											class Item82
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_low_ben_op";
+												};
+											};
+											class Item83
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_b8";
+												};
+											};
+											class Item84
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_b6";
+												};
+											};
+											class Item85
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_b5";
+												};
+											};
+											class Item86
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_b1";
+												};
+											};
+											class Item87
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_b";
+												};
+											};
+											class Item88
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_b2";
+												};
+											};
+											class Item89
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_b7";
+												};
+											};
+											class Item90
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_bitch_b4";
+												};
+											};
+											class Item91
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_muggen";
+												};
+											};
+											class Item92
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_muggen_c";
+												};
+											};
+											class Item93
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1_muggen_B";
+												};
+											};
+											class Item94
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1C_bitch_b2";
+												};
+											};
+											class Item95
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1C_bitch_b5";
+												};
+											};
+											class Item96
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1C_bitch_b9";
+												};
+											};
+											class Item97
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1C_bitch_b6";
+												};
+											};
+											class Item98
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1C_bitch_b8";
+												};
+											};
+											class Item99
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1C_bitch_b";
+												};
+											};
+											class Item100
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1C_bitch_b1";
+												};
+											};
+											class Item101
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_MC_M1C_bitch_b7";
+												};
+											};
+											class Item102
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_OG107_mk1_MC";
+												};
+											};
+											class Item103
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_OG107_mk1_trop_MC";
+												};
+											};
+											class Item104
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_OG107_mk3_MC";
+												};
+											};
+											class Item105
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_OG107_mk1_blench";
+												};
+											};
+											class Item106
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_OG107_mk1_trop_blench";
+												};
+											};
+											class Item107
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_OG107_mk3_blench";
+												};
+											};
+											class Item108
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk1_roll_blench";
+												};
+											};
+											class Item109
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk1_trop_blench";
+												};
+											};
+											class Item110
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk1_blench";
+												};
+											};
+											class Item111
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk2_roll_blench";
+												};
+											};
+											class Item112
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk2_blench";
+												};
+											};
+											class Item113
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk2_trop_blench";
+												};
+											};
+											class Item114
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk3_poplijn_trop_blench";
+												};
+											};
+											class Item115
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk3_poplijn_blench";
+												};
+											};
+											class Item116
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk3_blench";
+												};
+											};
+											class Item117
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_U_simc_TCU_mk3_trop_blench";
+												};
+											};
+											class Item118
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55";
+												};
+											};
+											class Item119
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_open";
+												};
+											};
+											class Item120
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61_79";
+												};
+											};
+											class Item121
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61_79_belt";
+												};
+											};
+											class Item122
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_bandoleer";
+												};
+											};
+											class Item123
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_Simc_flak_55_M61_med";
+												};
+											};
+											class Item124
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61";
+												};
+											};
+											class Item125
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61_open";
+												};
+											};
+											class Item126
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61_open_bandoleer";
+												};
+											};
+											class Item127
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61_laat_bandoleer";
+												};
+											};
+											class Item128
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61_laat";
+												};
+											};
+											class Item129
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61_60";
+												};
+											};
+											class Item130
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_60";
+												};
+											};
+											class Item131
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61_60_2";
+												};
+											};
+											class Item132
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_M61_45";
+												};
+											};
+											class Item133
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_mk2";
+												};
+											};
+											class Item134
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_mk2_bandoleer";
+												};
+											};
+											class Item135
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_mk2_belt_open";
+												};
+											};
+											class Item136
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_mk2_belt";
+												};
+											};
+											class Item137
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_mk2_bandoleer_belt_open";
+												};
+											};
+											class Item138
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_mk2_belt_open_erla";
+												};
+											};
+											class Item139
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_55_mk2_bandoleer_belt";
+												};
+											};
+											class Item140
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_Simc_flak_55_mk2_belt_open_60_2";
+												};
+											};
+											class Item141
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_Simc_flak_55_mk2_belt_open_60_1";
+												};
+											};
+											class Item142
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61_alt";
+												};
+											};
+											class Item143
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61";
+												};
+											};
+											class Item144
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61_79";
+												};
+											};
+											class Item145
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_Simc_61_med";
+												};
+											};
+											class Item146
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61_56";
+												};
+											};
+											class Item147
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61_56_bandoleer";
+												};
+											};
+											class Item148
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61_60_2";
+												};
+											};
+											class Item149
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61_60";
+												};
+											};
+											class Item150
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61_45_alt";
+												};
+											};
+											class Item151
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61_45";
+												};
+											};
+											class Item152
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_61_45_bandoleer";
+												};
+											};
+											class Item153
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_V_Simc_nadevest";
+												};
+											};
+											class Item154
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_V_Simc_nadevest_56";
+												};
+											};
+											class Item155
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_V_Simc_nadevest_67";
+												};
+											};
+											class Item156
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_556_bandoleer";
+												};
+											};
+											class Item157
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak";
+												};
+											};
+											class Item158
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_open";
+												};
+											};
+											class Item159
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_bandoleer";
+												};
+											};
+											class Item160
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_M56_open_bandoleer";
+												};
+											};
+											class Item161
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_M56_bandoleer";
+												};
+											};
+											class Item162
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_M56_open_60";
+												};
+											};
+											class Item163
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_M56_open_45_bandoleer";
+												};
+											};
+											class Item164
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_flak_M56_open_45";
+												};
+											};
+											class Item165
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_flak_ruck_3";
+												};
+											};
+											class Item166
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_flak_ruck_2";
+												};
+											};
+											class Item167
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_flak_ruck_M43_3";
+												};
+											};
+											class Item168
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_flak_ruck_1";
+												};
+											};
+											class Item169
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_flak_ruck_M43_2";
+												};
+											};
+											class Item170
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_flak_ruck_M43_1";
+												};
+											};
+											class Item171
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_flak_ruck_M43_casque";
+												};
+											};
+											class Item172
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_ruck_3";
+												};
+											};
+											class Item173
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_ruck_2";
+												};
+											};
+											class Item174
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_ruck_1";
+												};
+											};
+											class Item175
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_flak_ruck_sheen";
+												};
+											};
+											class Item176
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_flak_ruck_gump";
+												};
+											};
+											class Item177
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_med_m5_flak";
+												};
+											};
+											class Item178
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_claymore_sack_flak";
+												};
+											};
+											class Item179
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_packboard_flak_MG_2";
+												};
+											};
+											class Item180
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_packboard_flak_mortar_1";
+												};
+											};
+											class Item181
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_packboard_flak_MG_1";
+												};
+											};
+											class Item182
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_packboard_flak_rajio_3";
+												};
+											};
+											class Item183
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_packboard_flak_rajio_2";
+												};
+											};
+											class Item184
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_packboard_flak_rajio_1";
+												};
+											};
+											class Item185
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_packboard_flak_rajio_1_B";
+												};
+											};
+											class Item186
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_trop_flak_1";
+												};
+											};
+											class Item187
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_trop_flak_4_alt";
+												};
+											};
+											class Item188
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_trop_flak_1_alt";
+												};
+											};
+											class Item189
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_trop_flak_2";
+												};
+											};
+											class Item190
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_trop_flak_3";
+												};
+											};
+											class Item191
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_trop_flak_4";
+												};
+											};
+											class Item192
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_trop_flak_6";
+												};
+											};
+											class Item193
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_trop_flak_6_alt";
+												};
+											};
+											class Item194
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_trop_flak_5";
+												};
+											};
+											class Item195
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_4";
+												};
+											};
+											class Item196
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_2";
+												};
+											};
+											class Item197
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_2_a";
+												};
+											};
+											class Item198
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_base";
+												};
+											};
+											class Item199
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_1";
+												};
+											};
+											class Item200
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_3_alt";
+												};
+											};
+											class Item201
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_M43_ligt";
+												};
+											};
+											class Item202
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_M43_2";
+												};
+											};
+											class Item203
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_M43_1";
+												};
+											};
+											class Item204
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_3";
+												};
+											};
+											class Item205
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_Frem";
+												};
+											};
+											class Item206
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_rajio_Frem_2";
+												};
+											};
+											class Item207
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_ARVN_ruck_sheen";
+												};
+											};
+											class Item208
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_simc_pack_frem_1";
+												};
+											};
+											class Item209
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="G_Nomex_1_lang";
+												};
+											};
+											class Item210
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="G_Nomex_1";
+												};
+											};
+											class Item211
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="G_Nomex_1_fold";
+												};
+											};
+											class Item212
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="G_Nomex_2_fold";
+												};
+											};
+											class Item213
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="G_Nomex_2_lang";
+												};
+											};
+											class Item214
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_binocular_army";
+												};
+											};
+											class Item215
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="Binocular";
+												};
+											};
+											class Item216
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ItemMap";
+												};
+											};
+											class Item217
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ItemCompass";
+												};
+											};
+											class Item218
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ItemWatch";
+												};
+											};
+											class Item219
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_f1gren";
+												};
+											};
+											class Item220
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m34gren";
+												};
+											};
+											class Item221
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m61gren";
+												};
+											};
+											class Item222
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m67gren";
+												};
+											};
+											class Item223
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_mk2gren";
+												};
+											};
+											class Item224
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_epinephrine";
+												};
+											};
+											class Item225
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_EarPlugs";
+												};
+											};
+											class Item226
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_tourniquet";
+												};
+											};
+											class Item227
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_CableTie";
+												};
+											};
+											class Item228
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_morphine";
+												};
+											};
+											class Item229
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_bodyBag";
+												};
+											};
+											class Item230
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_bloodIV";
+												};
+											};
+											class Item231
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_bloodIV_250";
+												};
+											};
+											class Item232
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_bloodIV_500";
+												};
+											};
+											class Item233
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_elasticBandage";
+												};
+											};
+											class Item234
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_fieldDressing";
+												};
+											};
+											class Item235
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_EntrenchingTool";
+												};
+											};
+											class Item236
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_packingBandage";
+												};
+											};
+											class Item237
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV_250";
+												};
+											};
+											class Item238
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV";
+												};
+											};
+											class Item239
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV_500";
+												};
+											};
+											class Item240
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_surgicalKit";
+												};
+											};
+											class Item241
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_splint";
+												};
+											};
+											class Item242
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_Flashlight_KSF1";
+												};
+											};
+											class Item243
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_Flashlight_XL50";
+												};
+											};
+											class Item244
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m127a1_flare";
+												};
+											};
+											class Item245
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m60grip";
+												};
+											};
+											class Item246
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m60support";
+												};
+											};
+											class Item247
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m60shorty";
+												};
+											};
+											class Item248
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m60";
+												};
+											};
+											class Item249
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m1garand";
+												};
+											};
+											class Item250
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m1903";
+												};
+											};
+											class Item251
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m3a1";
+												};
+											};
+											class Item252
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_model12";
+												};
+											};
+											class Item253
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_30Rnd_556x45_Stanag";
+												};
+											};
+											class Item254
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_30Rnd_556x45_Stanag_T";
+												};
+											};
+											class Item255
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_30Rnd_556x45_Stanag_NT";
+												};
+											};
+											class Item256
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_20Rnd_556x45_Stanag";
+												};
+											};
+											class Item257
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_20Rnd_556x45_Stanag_T";
+												};
+											};
+											class Item258
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_20Rnd_556x45_Stanag_NT";
+												};
+											};
+											class Item259
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40Rnd_556x45_Stanag";
+												};
+											};
+											class Item260
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40Rnd_556x45_Stanag_T";
+												};
+											};
+											class Item261
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40Rnd_556x45_Stanag_NT";
+												};
+											};
+											class Item262
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_30Rnd_556x45_Stanag_xm177";
+												};
+											};
+											class Item263
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_30Rnd_556x45_Stanag_xm177_T";
+												};
+											};
+											class Item264
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_30Rnd_556x45_Stanag_xm177_NT";
+												};
+											};
+											class Item265
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="Uns_1Rnd_HE_M381";
+												};
+											};
+											class Item266
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="Uns_1Rnd_HE_M406";
+												};
+											};
+											class Item267
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_HEDP_M433";
+												};
+											};
+											class Item268
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_AB_M397";
+												};
+											};
+											class Item269
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m406vest";
+												};
+											};
+											class Item270
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_Smoke_40mm";
+												};
+											};
+											class Item271
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_SmokeRed_40mm";
+												};
+											};
+											class Item272
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_SmokeGreen_40mm";
+												};
+											};
+											class Item273
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_SmokeYellow_40mm";
+												};
+											};
+											class Item274
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40mm_white";
+												};
+											};
+											class Item275
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40mm_green";
+												};
+											};
+											class Item276
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40mm_red";
+												};
+											};
+											class Item277
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40mm_yellow";
+												};
+											};
+											class Item278
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_Smoke_MKV";
+												};
+											};
+											class Item279
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_SmokeRed_MKV";
+												};
+											};
+											class Item280
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_SmokeGreen_MKV";
+												};
+											};
+											class Item281
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_SmokeYellow_MKV";
+												};
+											};
+											class Item282
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40mm_mkv_White";
+												};
+											};
+											class Item283
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40mm_mkv_Red";
+												};
+											};
+											class Item284
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40mm_mkv_Green";
+												};
+											};
+											class Item285
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_40mm_mkv_Yellow";
+												};
+											};
+											class Item286
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="1Rnd_HE_Grenade_shell";
+												};
+											};
+											class Item287
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UGL_FlareWhite_F";
+												};
+											};
+											class Item288
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UGL_FlareGreen_F";
+												};
+											};
+											class Item289
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UGL_FlareRed_F";
+												};
+											};
+											class Item290
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UGL_FlareYellow_F";
+												};
+											};
+											class Item291
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UGL_FlareCIR_F";
+												};
+											};
+											class Item292
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="1Rnd_Smoke_Grenade_shell";
+												};
+											};
+											class Item293
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="1Rnd_SmokeRed_Grenade_shell";
+												};
+											};
+											class Item294
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="1Rnd_SmokeGreen_Grenade_shell";
+												};
+											};
+											class Item295
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="1Rnd_SmokeYellow_Grenade_shell";
+												};
+											};
+											class Item296
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="1Rnd_SmokePurple_Grenade_shell";
+												};
+											};
+											class Item297
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="1Rnd_SmokeBlue_Grenade_shell";
+												};
+											};
+											class Item298
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="1Rnd_SmokeOrange_Grenade_shell";
+												};
+											};
+											class Item299
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_40mm_Flare_white";
+												};
+											};
+											class Item300
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_40mm_Flare_red";
+												};
+											};
+											class Item301
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_40mm_Flare_green";
+												};
+											};
+											class Item302
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_40mm_Flare_ir";
+												};
+											};
+											class Item303
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_HuntIR_M203";
+												};
+											};
+											class Item304
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m72rocket";
+												};
+											};
+											class Item305
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="RPG32_F";
+												};
+											};
+											class Item306
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="RPG32_HE_F";
+												};
+											};
+											class Item307
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_1Rnd_M127_mag";
+												};
+											};
+											class Item308
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m60mag";
+												};
+											};
+											class Item309
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m60mag_200";
+												};
+											};
+											class Item310
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m1garandmag";
+												};
+											};
+											class Item311
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m1garandmag_T";
+												};
+											};
+											class Item312
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_springfieldmag_T";
+												};
+											};
+											class Item313
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_springfieldmag";
+												};
+											};
+											class Item314
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m3a1mag";
+												};
+											};
+											class Item315
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m3a1mag_T";
+												};
+											};
+											class Item316
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_12gaugemag_6";
+												};
+											};
+											class Item317
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_12gaugemag_6f";
+												};
+											};
+											class Item318
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_12gaugemag_4";
+												};
+											};
+											class Item319
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_12gaugemag_4f";
+												};
+											};
+											class Item320
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_12gaugemag_2";
+												};
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 	};
