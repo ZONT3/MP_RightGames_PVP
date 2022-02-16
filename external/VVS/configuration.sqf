@@ -73,12 +73,6 @@ VVS_Wheeled = [
 ];
 
 VVS_CD = [
-  "OPTRE_M494",
-  "OPTRE_M808B_UNSC",
-  "OPTRE_M808B2",
-  "OPTRE_M808S",
-  "OPTRE_M413_MGS_UNSC",
-  "OPTRE_M412_IFV_UNSC"
 ];
 
 VVS_A124 = [
@@ -89,17 +83,23 @@ VVS_Wheeled_Spec = [
 ];
 
 VVS_BMO = [
-  "OPTRE_M12_FAV_APC",
-  "OPTRE_M12_LRV",
-  "OPTRE_M12_FAV",
-  "OPTRE_M12A1_LRV",
-  "OPTRE_M12G1_LRV",
-  "OPTRE_M12R_AA",
-  "OPTRE_M813_TT",
-  "OPTRE_M914_RV",
-  "B_Truck_01_Repair_F",
-  "B_Truck_01_fuel_F",
-  "B_Truck_01_ammo_F"
+  "uns_willysmg50", 
+  "uns_willys_2", 
+  "uns_m37b1", 
+  "uns_m37b1_m1919", 
+  "uns_M35A2", 
+  "uns_xm706e2", 
+  "uns_M113_M2", 
+  "uns_M113_transport", 
+  "uns_M113A1_M2", 
+  "uns_m48a3", 
+  "uns_M132", 
+  "uns_m551", 
+  "uns_M67A", 
+  "uns_M35A2_ammo", 
+  "uns_M35A2_fueltanker", 
+  "uns_M35A2_repair", 
+  "uns_M577_amb"
 ];
 
 VVS_USAF = [
@@ -107,8 +107,6 @@ VVS_USAF = [
 ];
 
 VVS_CBRN = [
-  "OPTRE_M12_FAV_APC",
-  "Typhoon_Truck_03_covered_F_U"
 ];
 
 
