@@ -20,7 +20,7 @@ _this addAction [
   true,
   true,
   "",
-  "[['Navy', 'SOAR']] call ZONT_fnc_checkRole",
+  "[['SOAR']] call ZONT_fnc_checkRole",
   5
 ];
 
@@ -45,17 +45,5 @@ _this addAction [
   true,
   "",
   "[['HQ']] call ZONT_fnc_checkRole",
-  5
-];
-
-_this addAction [
-  "Запрос Техники 37th",
-  VVS_fnc_openVVS,
-  [VVS_west_Land,"USAF"],
-  6,
-  true,
-  true,
-  "",
-  "[['USAF']] call ZONT_fnc_checkRole",
   5
 ];

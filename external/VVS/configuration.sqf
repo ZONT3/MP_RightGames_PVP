@@ -73,33 +73,25 @@ VVS_Wheeled = [
 ];
 
 VVS_CD = [
+  "uns_M113_M2", 
+  "uns_M113A1_M2", 
+  "uns_m551"
 ];
 
 VVS_A124 = [
 ];
 
 VVS_Wheeled_Spec = [
-  "OPTRE_M274_ATV"
 ];
 
 VVS_BMO = [
   "uns_willysmg50", 
   "uns_willys_2", 
+  "uns_willys", 
   "uns_m37b1", 
   "uns_m37b1_m1919", 
   "uns_M35A2", 
-  "uns_xm706e2", 
-  "uns_M113_M2", 
-  "uns_M113_transport", 
-  "uns_M113A1_M2", 
-  "uns_m48a3", 
-  "uns_M132", 
-  "uns_m551", 
-  "uns_M67A", 
-  "uns_M35A2_ammo", 
-  "uns_M35A2_fueltanker", 
-  "uns_M35A2_repair", 
-  "uns_M577_amb"
+  "uns_M35A2_Open"
 ];
 
 VVS_USAF = [
