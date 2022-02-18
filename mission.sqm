@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=62;
+		nextID=66;
 	};
 	class Camera
 	{
-		pos[]={18584.791,37.372429,-1098.7388};
-		dir[]={0.86590254,-0.49866247,-0.040383827};
-		up[]={0.49814484,0.86678118,-0.023233345};
-		aside[]={-0.046590023,4.5017805e-007,-0.99895614};
+		pos[]={18659.164,16.99559,2215.4573};
+		dir[]={0.057225958,-0.6598115,0.74925214};
+		up[]={0.050248392,0.75143009,0.657897};
+		aside[]={0.99710065,-7.8929588e-008,-0.076155923};
 	};
 };
 binarizationWanted=0;
@@ -10208,7 +10208,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={18622.457,19.728046,-1047.3586};
-				angles[]={-0,4.0055547,0};
+				angles[]={0,4.0055547,0};
 			};
 			side="Empty";
 			flags=4;
@@ -12724,7 +12724,7 @@ class Mission
 										};
 										class value
 										{
-											items=435;
+											items=442;
 											class Item0
 											{
 												class data
@@ -18815,6 +18815,104 @@ class Mission
 													value="ar_contraband_bottle_beer";
 												};
 											};
+											class Item435
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_ChickenTikkaMasala";
+												};
+											};
+											class Item436
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_CreamChickenSoup";
+												};
+											};
+											class Item437
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_ChickenHerbDumplings";
+												};
+											};
+											class Item438
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_SteakVegetables";
+												};
+											};
+											class Item439
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_CreamTomatoSoup";
+												};
+											};
+											class Item440
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_BeefStew";
+												};
+											};
+											class Item441
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_LambCurry";
+												};
+											};
 										};
 									};
 								};
@@ -18918,7 +19016,7 @@ class Mission
 										};
 										class value
 										{
-											items=75;
+											items=86;
 											class Item0
 											{
 												class data
@@ -19969,6 +20067,160 @@ class Mission
 													value="ar_radio_american_radio";
 												};
 											};
+											class Item75
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_CreamChickenSoup";
+												};
+											};
+											class Item76
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_ChickenTikkaMasala";
+												};
+											};
+											class Item77
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_ChickenHerbDumplings";
+												};
+											};
+											class Item78
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_MeatballsPasta";
+												};
+											};
+											class Item79
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_SteakVegetables";
+												};
+											};
+											class Item80
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_CreamTomatoSoup";
+												};
+											};
+											class Item81
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_BeefStew";
+												};
+											};
+											class Item82
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_LambCurry";
+												};
+											};
+											class Item83
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_Canteen";
+												};
+											};
+											class Item84
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV_500";
+												};
+											};
+											class Item85
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV_250";
+												};
+											};
 										};
 									};
 								};
@@ -20073,7 +20325,7 @@ class Mission
 										};
 										class value
 										{
-											items=63;
+											items=75;
 											class Item0
 											{
 												class data
@@ -20956,6 +21208,174 @@ class Mission
 													value="ar_radio_american_radio";
 												};
 											};
+											class Item63
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_CreamChickenSoup";
+												};
+											};
+											class Item64
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_ChickenTikkaMasala";
+												};
+											};
+											class Item65
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_ChickenHerbDumplings";
+												};
+											};
+											class Item66
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_MeatballsPasta";
+												};
+											};
+											class Item67
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_SteakVegetables";
+												};
+											};
+											class Item68
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_CreamTomatoSoup";
+												};
+											};
+											class Item69
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_LambCurry";
+												};
+											};
+											class Item70
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_BeefStew";
+												};
+											};
+											class Item71
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_Canteen";
+												};
+											};
+											class Item72
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV";
+												};
+											};
+											class Item73
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV_250";
+												};
+											};
+											class Item74
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV_500";
+												};
+											};
 										};
 									};
 								};
@@ -21079,7 +21499,7 @@ class Mission
 										};
 										class value
 										{
-											items=79;
+											items=91;
 											class Item0
 											{
 												class data
@@ -22184,6 +22604,174 @@ class Mission
 														};
 													};
 													value="ar_radio_american_radio";
+												};
+											};
+											class Item79
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_CreamChickenSoup";
+												};
+											};
+											class Item80
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_ChickenTikkaMasala";
+												};
+											};
+											class Item81
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_ChickenHerbDumplings";
+												};
+											};
+											class Item82
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_MeatballsPasta";
+												};
+											};
+											class Item83
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_SteakVegetables";
+												};
+											};
+											class Item84
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_CreamTomatoSoup";
+												};
+											};
+											class Item85
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_BeefStew";
+												};
+											};
+											class Item86
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_MRE_LambCurry";
+												};
+											};
+											class Item87
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_Canteen";
+												};
+											};
+											class Item88
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV_500";
+												};
+											};
+											class Item89
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV_250";
+												};
+											};
+											class Item90
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ACE_salineIV";
 												};
 											};
 										};
