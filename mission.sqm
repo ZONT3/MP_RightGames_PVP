@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={18704.182,128.57581,1921.5247};
-		dir[]={-0.63983905,-0.61448044,-0.46160448};
-		up[]={-0.49834463,0.78892046,-0.3595247};
-		aside[]={-0.58508974,7.5291609e-007,0.811005};
+		pos[]={18657.795,9.78444,2213.9966};
+		dir[]={-0.065487877,-0.52504593,0.84859008};
+		up[]={-0.040400505,0.85105932,0.52351534};
+		aside[]={0.99706864,7.882627e-007,0.076946005};
 	};
 };
 binarizationWanted=0;
@@ -12913,7 +12913,7 @@ class Mission
 										};
 										class value
 										{
-											items=393;
+											items=404;
 											class Item0
 											{
 												class data
@@ -18416,6 +18416,160 @@ class Mission
 													value="uns_xm177e1";
 												};
 											};
+											class Item393
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_campingchair";
+												};
+											};
+											class Item394
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_camonet_green";
+												};
+											};
+											class Item395
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_firewoodlogs";
+												};
+											};
+											class Item396
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_lantern_off";
+												};
+											};
+											class Item397
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_sleepingbag";
+												};
+											};
+											class Item398
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_tablebig";
+												};
+											};
+											class Item399
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_tablesmall";
+												};
+											};
+											class Item400
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_tent_big";
+												};
+											};
+											class Item401
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_tent_dome";
+												};
+											};
+											class Item402
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_camping_tent_a";
+												};
+											};
+											class Item403
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_radio_american_radio";
+												};
+											};
 										};
 									};
 								};
@@ -18519,7 +18673,7 @@ class Mission
 										};
 										class value
 										{
-											items=74;
+											items=75;
 											class Item0
 											{
 												class data
@@ -19556,6 +19710,20 @@ class Mission
 													value="uns_simc_rajio_base";
 												};
 											};
+											class Item74
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_radio_american_radio";
+												};
+											};
 										};
 									};
 								};
@@ -19660,7 +19828,7 @@ class Mission
 										};
 										class value
 										{
-											items=62;
+											items=63;
 											class Item0
 											{
 												class data
@@ -20529,6 +20697,20 @@ class Mission
 													value="uns_simc_rajio_1";
 												};
 											};
+											class Item62
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_radio_american_radio";
+												};
+											};
 										};
 									};
 								};
@@ -20652,7 +20834,7 @@ class Mission
 										};
 										class value
 										{
-											items=78;
+											items=79;
 											class Item0
 											{
 												class data
@@ -21743,6 +21925,20 @@ class Mission
 														};
 													};
 													value="UNS_ARMY_BDU_1stCavSubdFlakssg";
+												};
+											};
+											class Item78
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="ar_radio_american_radio";
 												};
 											};
 										};
