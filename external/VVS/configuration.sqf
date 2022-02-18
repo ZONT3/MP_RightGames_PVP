@@ -73,8 +73,8 @@ VVS_Wheeled = [
 ];
 
 VVS_CD = [
-  "uns_M113_M2", 
-  "uns_M113A1_M2", 
+  "uns_M113_M2",
+  "uns_M113A1_M2",
   "uns_m551"
 ];
 
@@ -85,13 +85,16 @@ VVS_Wheeled_Spec = [
 ];
 
 VVS_BMO = [
-  "uns_willysmg50", 
-  "uns_willys_2", 
-  "uns_willys", 
-  "uns_m37b1", 
-  "uns_m37b1_m1919", 
-  "uns_M35A2", 
-  "uns_M35A2_Open"
+  "uns_willysmg50",
+  "uns_willys_2",
+  "uns_willys",
+  "uns_m37b1",
+  "uns_m37b1_m1919",
+  "uns_M35A2",
+  "uns_M35A2_Open",
+  "uns_M35A2_fueltanker",
+  "uns_M35A2_ammo",
+  "uns_M35A2_repair"
 ];
 
 VVS_USAF = [

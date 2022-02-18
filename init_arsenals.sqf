@@ -21,7 +21,7 @@
 
 [ _this,
 	ars_iron,
-	["Navy"],
+	["Cav"],
 	"Запросить арсенал AirCav",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
