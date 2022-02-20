@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={18688.582,75.267845,2125.7803};
-		dir[]={-0.12926868,-0.59608644,0.7924732};
-		up[]={-0.095968723,0.80291152,0.58832246};
-		aside[]={0.98697984,7.5704884e-007,0.16099748};
+		pos[]={18682.93,81.654724,2160.2383};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -78,14 +78,13 @@ addons[]=
 	"uns_oh6_c",
 	"uns_men_US_3FRC",
 	"uns_men_US_Arty",
-	"uns_Arty_c",
-	"uns_men_US_1AC_68"
+	"uns_Arty_c"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=44;
+		items=43;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -334,11 +333,6 @@ class AddonsMetaData
 		{
 			className="uns_Arty_c";
 			name="uns_Arty_c";
-		};
-		class Item43
-		{
-			className="uns_men_US_1AC_68";
-			name="uns_men_US_1AC_68";
 		};
 	};
 };
@@ -837,7 +831,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=107;
+		items=106;
 		class Item0
 		{
 			dataType="Logic";
@@ -21986,35 +21980,6 @@ class Mission
 		};
 		class Item99
 		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18676.99,3.0014348,2263.4529};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						isPlayer=1;
-					};
-					id=1532;
-					type="uns_men_US_1AC_68_AT";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1531;
-		};
-		class Item100
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -22030,7 +21995,7 @@ class Mission
 			id=1553;
 			type="LAND_t_sb_45_half";
 		};
-		class Item101
+		class Item100
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22047,7 +22012,7 @@ class Mission
 			id=1554;
 			type="LAND_t_sb_45_half";
 		};
-		class Item102
+		class Item101
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22064,7 +22029,7 @@ class Mission
 			id=1555;
 			type="LAND_t_sb_45_half";
 		};
-		class Item103
+		class Item102
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22081,7 +22046,7 @@ class Mission
 			id=1556;
 			type="LAND_t_sb_45_half";
 		};
-		class Item104
+		class Item103
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22098,7 +22063,7 @@ class Mission
 			id=1557;
 			type="LAND_t_sb_45_half";
 		};
-		class Item105
+		class Item104
 		{
 			dataType="Object";
 			class PositionInfo
@@ -22116,7 +22081,7 @@ class Mission
 			type="LAND_t_sb_45_half";
 			atlOffset=2.3841858e-007;
 		};
-		class Item106
+		class Item105
 		{
 			dataType="Group";
 			side="West";
