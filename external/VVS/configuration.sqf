@@ -24,7 +24,7 @@ ZONT_fnc_filterVVS = {
 ZONT_fnc_onSpawnVVS = {
   params ["_vehicle", "_class", "_mode"];
 
-/*
+
   private _fnc_class = switch (_class) do {
     case "OPTRE_M808S": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
@@ -64,7 +64,7 @@ ZONT_fnc_onSpawnVVS = {
     };
   };
 };
-*/
+
 
 VVS_HQ = [
 ];
