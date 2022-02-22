@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1691;
+		nextID=1693;
 	};
 	class MarkerIDProvider
 	{
@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={18663.914,17.075319,2382.5007};
-		dir[]={0.02877765,-0.75896531,-0.65051693};
-		up[]={0.033542473,0.6511271,-0.75822645};
-		aside[]={-0.99903744,4.4361514e-008,-0.044195239};
+		pos[]={18662.816,12.287063,2255.8943};
+		dir[]={0.11136137,-0.5833568,-0.80456483};
+		up[]={0.079982296,0.81220865,-0.57785726};
+		aside[]={-0.9905718,-3.1199306e-008,-0.13710666};
 	};
 };
 binarizationWanted=0;
@@ -5062,7 +5062,7 @@ class Mission
 										};
 										class value
 										{
-											items=462;
+											items=463;
 											class Item0
 											{
 												class data
@@ -11529,6 +11529,20 @@ class Mission
 														};
 													};
 													value="uns_simc_556_bandoleer";
+												};
+											};
+											class Item462
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="uns_m1911mag";
 												};
 											};
 										};
