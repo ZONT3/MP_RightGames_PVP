@@ -140,7 +140,7 @@ class CfgConsts {
 class CfgDiscordRichPresence {
 	applicationID="765658821909151805";
 	defaultDetails="Vietnam RP";
-	defaultState="https://discord.gg/6QpWF5s4aH";
+	defaultState="https://vk.com/rgssww";
 	defaultLargeImageKey="rgad";
 	defaultLargeImageText="Right Games";
 	defaultSmallImageKey="a3";
