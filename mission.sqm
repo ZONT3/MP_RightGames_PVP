@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1615;
+		nextID=1691;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=103;
+		nextID=109;
 	};
 	class Camera
 	{
-		pos[]={18659.195,14.988119,2226.3833};
-		dir[]={0.23938724,-0.49460816,0.83550912};
-		up[]={0.13623425,0.86911273,0.47548482};
-		aside[]={0.96132988,6.519258e-009,-0.27543753};
+		pos[]={18663.914,17.075319,2382.5007};
+		dir[]={0.02877765,-0.75896531,-0.65051693};
+		up[]={0.033542473,0.6511271,-0.75822645};
+		aside[]={-0.99903744,4.4361514e-008,-0.044195239};
 	};
 };
 binarizationWanted=0;
@@ -37,10 +37,6 @@ addons[]=
 	"cba_xeh",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Modules_F_Multiplayer",
-	"uns_men_US_1CAV",
-	"A3_Weapons_F",
-	"uns_weap_c",
-	"simc_mc_67_core",
 	"JDG_carrier",
 	"ttt_nimtech",
 	"TTT_NimitzElevator",
@@ -57,6 +53,9 @@ addons[]=
 	"ace_cargo",
 	"ace_repair",
 	"ace_refuel",
+	"uns_men_US_1CAV",
+	"uns_weap_c",
+	"A3_Weapons_F",
 	"uns_headgear_c",
 	"uns_uniforms_1stCavSubdFlak",
 	"A3_Weapons_F_Items",
@@ -78,13 +77,15 @@ addons[]=
 	"uns_oh6_c",
 	"uns_men_US_3FRC",
 	"uns_men_US_Arty",
-	"uns_Arty_c"
+	"uns_Arty_c",
+	"simc_uaf_67_core",
+	"simc_mc_67_core"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=43;
+		items=44;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -108,231 +109,236 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="uns_men_US_1CAV";
-			name="uns_men_US_1CAV";
-		};
-		class Item4
-		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item5
-		{
-			className="uns_weap_c";
-			name="uns_weap_c";
-		};
-		class Item6
-		{
-			className="simc_mc_67_core";
-			name="simc_mc_67_core";
-		};
-		class Item7
-		{
 			className="JDG_carrier";
 			name="JDG_carrier";
 			author="JDog, Odyseus, TeTeT";
 		};
-		class Item8
+		class Item4
 		{
 			className="ttt_nimtech";
 			name="ttt_nimtech";
 			author="TeTeT";
 		};
-		class Item9
+		class Item5
 		{
 			className="TTT_NimitzElevator";
 			name="TTT_NimitzElevator";
 		};
-		class Item10
+		class Item6
 		{
 			className="uns_flags";
 			name="uns_flags";
 		};
-		class Item11
+		class Item7
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item8
 		{
 			className="uns_F4e_c";
 			name="uns_F4e_c";
 		};
-		class Item13
+		class Item9
 		{
 			className="uns_A4_c";
 			name="uns_A4_c";
 		};
-		class Item14
+		class Item10
 		{
 			className="uns_f100_c";
 			name="uns_f100_c";
 		};
-		class Item15
+		class Item11
 		{
 			className="ttt_tilly_f";
 			name="ttt_tilly_f";
 			author="megadeth";
 		};
-		class Item16
+		class Item12
 		{
 			className="Peral_Airfield_Logistics";
 			name="Peral_Airfield_Logistics";
 		};
-		class Item17
+		class Item13
 		{
 			className="uns_m35_c";
 			name="uns_m35_c";
 		};
-		class Item18
+		class Item14
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item15
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item20
+		class Item16
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item21
+		class Item17
 		{
 			className="ace_repair";
 			name="ACE3 - Repair";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item22
+		class Item18
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item23
+		class Item19
+		{
+			className="uns_men_US_1CAV";
+			name="uns_men_US_1CAV";
+		};
+		class Item20
+		{
+			className="uns_weap_c";
+			name="uns_weap_c";
+		};
+		class Item21
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item22
 		{
 			className="uns_headgear_c";
 			name="uns_headgear_c";
 			author="unsung";
 		};
-		class Item24
+		class Item23
 		{
 			className="uns_uniforms_1stCavSubdFlak";
 			name="uns_uniforms_1stCavSubdFlak";
 		};
-		class Item25
+		class Item24
 		{
 			className="ace_medical_engine";
 			name="ACE3 - Medical Engine";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item26
+		class Item25
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item27
+		class Item26
 		{
 			className="uns_vests_c";
 			name="uns_vests_c";
 			author="UNSUNG";
 		};
-		class Item28
+		class Item27
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item28
 		{
 			className="uns_dc3_c";
 			name="uns_dc3_c";
 		};
-		class Item30
+		class Item29
 		{
 			className="uns_uh1d_c";
 			name="uns_uh1d_c";
 		};
-		class Item31
+		class Item30
 		{
 			className="CSJ_UH1Gun_c";
 			name="CSJ_UH1Gun_c";
 		};
-		class Item32
+		class Item31
 		{
 			className="UNS_A6_c";
 			name="UNS_A6_c";
 		};
-		class Item33
+		class Item32
 		{
 			className="uns_ch34_c";
 			name="uns_ch34_c";
 		};
-		class Item34
+		class Item33
 		{
 			className="uns_radio2_c";
 			name="uns_radio2_c";
 		};
-		class Item35
+		class Item34
 		{
 			className="uns_firebase";
 			name="uns_firebase";
 		};
-		class Item36
+		class Item35
 		{
 			className="UNS_Buildings";
 			name="UNS_Buildings";
 		};
-		class Item37
+		class Item36
 		{
 			className="ace_compat_unsung";
 			name="ACE3 - Unsung Compatibility";
 			author="TWiG - US420";
 		};
-		class Item38
+		class Item37
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item39
+		class Item38
 		{
 			className="uns_oh6_c";
 			name="uns_oh6_c";
 		};
-		class Item40
+		class Item39
 		{
 			className="uns_men_US_3FRC";
 			name="uns_men_US_3FRC";
 		};
-		class Item41
+		class Item40
 		{
 			className="uns_men_US_Arty";
 			name="uns_men_US_Arty";
 		};
-		class Item42
+		class Item41
 		{
 			className="uns_Arty_c";
 			name="uns_Arty_c";
+		};
+		class Item42
+		{
+			className="simc_uaf_67_core";
+			name="simc_uaf_67_core";
+		};
+		class Item43
+		{
+			className="simc_mc_67_core";
+			name="simc_mc_67_core";
 		};
 	};
 };
@@ -355,7 +361,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -652,7 +658,7 @@ class CustomAttributes
 		};
 		nAttributes=4;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -831,7 +837,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=106;
+		items=107;
 		class Item0
 		{
 			dataType="Logic";
@@ -1050,2534 +1056,11 @@ class Mission
 		{
 			dataType="Group";
 			side="West";
-			class Entities
-			{
-				items=48;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.121,3.0018394,2371.9434};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=119;
-					type="uns_US_1CAV_RF4";
-					atlOffset=7.1525574e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.07,3.00179,2370.8838};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=325;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.385,3.001744,2369.8311};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=327;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.561,3.0017283,2368.895};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=329;
-					type="uns_US_1CAV_RF4";
-					atlOffset=7.1525574e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.783,3.0017123,2368.0112};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=331;
-					type="uns_US_1CAV_RF4";
-					atlOffset=7.1525574e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18669.182,3.0016897,2366.8545};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=333;
-					type="uns_US_1CAV_RF4";
-					atlOffset=7.1525574e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18669.43,3.001668,2365.6208};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=335;
-					type="uns_US_1CAV_RF4";
-					atlOffset=7.1525574e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18669.676,3.0016479,2364.4939};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=337;
-					type="uns_US_1CAV_RF4";
-					atlOffset=7.1525574e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item8
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.129,3.0018411,2371.7102};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=341;
-					type="uns_US_1CAV_RF4";
-					atlOffset=2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.078,3.0017924,2370.6506};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=343;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item10
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.393,3.0017536,2369.5979};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=345;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item11
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.568,3.0017374,2368.6619};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=347;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item12
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.791,3.0017211,2367.7781};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=349;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item13
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.189,3.0016987,2366.6213};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=351;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item14
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.438,3.001677,2365.3877};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=353;
-					type="uns_US_1CAV_RF4";
-					atlOffset=2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item15
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.684,3.001657,2364.2607};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=355;
-					type="uns_US_1CAV_RF4";
-					atlOffset=2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item16
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18666.063,3.0018461,2371.5164};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=357;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item17
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18666.012,3.0017974,2370.4568};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=359;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item18
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18666.326,3.0017643,2369.4041};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=361;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item19
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18666.502,3.0017483,2368.468};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=363;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item20
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18666.725,3.0017321,2367.5842};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=365;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item21
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.123,3.0017099,2366.4275};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=367;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item22
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.371,3.001688,2365.1938};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=369;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item23
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.617,3.0016677,2364.0669};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=371;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item24
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18665.018,3.0018549,2371.417};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=373;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item25
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18664.967,3.0018065,2370.3574};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=375;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item26
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18665.281,3.0017767,2369.3047};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=377;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item27
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18665.457,3.0017605,2368.3687};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=379;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item28
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18665.68,3.0017445,2367.4849};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=381;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item29
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18666.078,3.0017219,2366.3281};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=383;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item30
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18666.326,3.0017002,2365.0945};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=385;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item31
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18666.572,3.0016799,2363.9675};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=387;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item32
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18663.979,3.001858,2371.178};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=389;
-					type="uns_US_1CAV_RF4";
-					atlOffset=2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item33
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18663.928,3.0018091,2370.1184};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=391;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item34
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18664.242,3.0017867,2369.0657};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=393;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item35
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18664.418,3.0017707,2368.1296};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=395;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item36
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18664.641,3.0017545,2367.2458};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=397;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item37
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18665.039,3.0017319,2366.0891};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=399;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item38
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18665.287,3.0017104,2364.8555};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=401;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item39
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18665.533,3.0016847,2363.7285};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=403;
-					type="uns_US_1CAV_RF4";
-					atlOffset=2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item40
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18662.963,3.0018663,2371.0698};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=405;
-					type="uns_US_1CAV_RF4";
-					atlOffset=2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item41
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18662.912,3.0018184,2370.0103};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=407;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item42
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18663.227,3.0017984,2368.9575};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=409;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item43
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18663.402,3.0017827,2368.0215};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=411;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item44
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18663.625,3.0017662,2367.1377};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=413;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item45
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18664.023,3.0017438,2365.981};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=415;
-					type="uns_US_1CAV_RF4";
-					atlOffset=2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item46
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18664.271,3.0017147,2364.7473};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=417;
-					type="uns_US_1CAV_RF4";
-					atlOffset=2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item47
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18664.518,3.0016882,2363.6204};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Боец";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=419;
-					type="uns_US_1CAV_RF4";
-					atlOffset=2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
 			class Attributes
 			{
 			};
 			id=118;
-			atlOffset=7.1525574e-007;
+			atlOffset=46.968479;
 		};
 		class Item4
 		{
@@ -21023,732 +18506,11 @@ class Mission
 		{
 			dataType="Group";
 			side="West";
-			class Entities
-			{
-				items=10;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.934,3.0016706,2361.719};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1424;
-					type="uns_US_1CAV_RF4";
-					atlOffset=5.5074692e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18669.156,3.0016541,2360.8352};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1425;
-					type="uns_US_1CAV_RF4";
-					atlOffset=5.531311e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18669.555,3.0016317,2359.6785};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1426;
-					type="uns_US_1CAV_RF4";
-					atlOffset=5.531311e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18669.803,3.0016026,2358.4448};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1427;
-					type="uns_US_1CAV_RF4";
-					atlOffset=3.6478043e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18670.049,3.0015762,2357.3179};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1428;
-					type="uns_US_1CAV_RF4";
-					atlOffset=1.9311905e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.629,3.0016177,2361.2749};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1610;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18667.852,3.0015965,2360.3911};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1611;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.25,3.0015807,2359.2344};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1612;
-					type="uns_US_1CAV_RF4";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item8
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.498,3.0015702,2358.0007};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1613;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18668.744,3.0015607,2356.8738};
-						angles[]={0,4.5038748,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						description="Медик";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_Simc_OG107_tee_MC_weiss";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=1614;
-					type="uns_US_1CAV_RF4";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=2;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
 			class Attributes
 			{
 			};
 			id=1423;
-			atlOffset=5.5074692e-005;
+			atlOffset=46.769096;
 		};
 		class Item83
 		{
@@ -22622,6 +19384,2867 @@ class Mission
 			id=1604;
 			type="Logic";
 			atlOffset=10.399727;
+		};
+		class Item106
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=40;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18665.32,3.0017152,2365.228};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1619;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18664.504,3.0017183,2364.989};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1622;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18663.553,3.0017221,2364.9141};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1624;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18662.326,3.0017271,2364.8149};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1626;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18660.83,3.0017357,2364.8062};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1628;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18659.629,3.00174,2364.5002};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1630;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18665.604,3.0017254,2366.1719};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1644;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18664.787,3.0017326,2365.9329};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1646;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18663.836,3.0017414,2365.8579};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1648;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18662.609,3.0017464,2365.7588};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1650;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18661.113,3.001755,2365.75};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1652;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18659.912,3.0017562,2365.4441};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1654;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18665.271,3.0017545,2367.7996};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1656;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18664.455,3.0017614,2367.5605};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1658;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18663.504,3.0017729,2367.4856};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1660;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18662.277,3.0017846,2367.3865};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1662;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item16
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18660.781,3.0017931,2367.3777};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1664;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item17
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18659.58,3.0017984,2367.0718};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1666;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item18
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18664.953,3.0017779,2369.0918};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1668;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item19
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18664.137,3.001785,2368.8528};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1670;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item20
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18663.186,3.0017962,2368.7778};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1672;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item21
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18661.959,3.001811,2368.6787};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1674;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item22
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18660.463,3.0018239,2368.6699};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1676;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item23
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18659.262,3.0018327,2368.364};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1678;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item24
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18664.885,3.0018041,2370.2871};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1680;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item25
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18664.068,3.0018039,2370.0481};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1682;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item26
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18663.117,3.0018151,2369.9731};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1684;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item27
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18661.891,3.0018299,2369.874};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1686;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item28
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18660.395,3.0018492,2369.8652};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1688;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item29
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18659.193,3.0018606,2369.5593};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Боец";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1690;
+					type="simc_tcu_mk3";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item30
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18663.797,3.0016785,2360.5288};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1424;
+					type="uns_US_1CAV_RF4";
+					atlOffset=5.531311e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item31
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18662.895,3.0016806,2360.395};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1425;
+					type="uns_US_1CAV_RF4";
+					atlOffset=5.531311e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item32
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18661.705,3.0016816,2360.1133};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1426;
+					type="uns_US_1CAV_RF4";
+					atlOffset=5.5551529e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item33
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18660.453,3.001668,2359.989};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1427;
+					type="uns_US_1CAV_RF4";
+					atlOffset=3.6478043e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item34
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18659.307,3.0016575,2359.856};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1428;
+					type="uns_US_1CAV_RF4";
+					atlOffset=1.9550323e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item35
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18663.484,3.0016549,2361.8711};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1610;
+					type="uns_US_1CAV_RF4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item36
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18662.582,3.0016572,2361.7373};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1611;
+					type="uns_US_1CAV_RF4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item37
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18661.393,3.001658,2361.4556};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1612;
+					type="uns_US_1CAV_RF4";
+					atlOffset=2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item38
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18660.141,3.0016625,2361.3313};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1613;
+					type="uns_US_1CAV_RF4";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item39
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18658.994,3.0016775,2361.1982};
+						angles[]={0,6.1741261,-0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Медик";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_Simc_OG107_tee_MC_weiss";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1614;
+					type="uns_US_1CAV_RF4";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1620;
+			atlOffset=-2.3841858e-007;
 		};
 	};
 	class Connections
