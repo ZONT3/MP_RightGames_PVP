@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1698;
+		nextID=1700;
 	};
 	class MarkerIDProvider
 	{
@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={18555.553,129.57942,1927.2766};
-		dir[]={0.71292645,-0.68424737,0.15365079};
-		up[]={0.6688987,0.72924131,0.14416118};
-		aside[]={0.21068951,4.3353066e-007,-0.97758406};
+		pos[]={18664.502,10.098906,2229.4839};
+		dir[]={-0.044853996,-0.46960479,0.88173717};
+		up[]={-0.023857981,0.88287652,0.46899867};
+		aside[]={0.99870914,-1.8393621e-008,0.050804384};
 	};
 };
 binarizationWanted=0;
@@ -370,7 +370,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -667,7 +667,7 @@ class CustomAttributes
 		};
 		nAttributes=4;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -5061,7 +5061,7 @@ class Mission
 										};
 										class value
 										{
-											items=463;
+											items=466;
 											class Item0
 											{
 												class data
@@ -11542,6 +11542,48 @@ class Mission
 														};
 													};
 													value="uns_m1911mag";
+												};
+											};
+											class Item463
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_Bandana_OD2";
+												};
+											};
+											class Item464
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_Bandana_OD3";
+												};
+											};
+											class Item465
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="UNS_Bandana_OD";
 												};
 											};
 										};
