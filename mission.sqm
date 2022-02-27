@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=147;
+		nextID=154;
 	};
 	class Camera
 	{
 		pos[]={15083.772,105.66581,1552.6392};
-		dir[]={0.10700046,-0.57264709,0.81279212};
-		up[]={0.07474187,0.81980032,0.56775039};
-		aside[]={0.99144846,-6.6174835e-008,-0.13051963};
+		dir[]={-0.42409328,-0.85842699,0.28853706};
+		up[]={-0.70973742,0.51293331,0.4828786};
+		aside[]={0.56251663,-1.7485581e-007,0.82679021};
 	};
 };
 binarizationWanted=0;
@@ -83,8 +83,7 @@ addons[]=
 	"uns_oh6_c",
 	"A3_Structures_F_Furniture",
 	"ace_sitting",
-	"uns_radio2_c",
-	"A3_Characters_F"
+	"uns_radio2_c"
 };
 class AddonsMetaData
 {
@@ -870,7 +869,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=126;
+		items=125;
 		class Item0
 		{
 			dataType="Logic";
@@ -22880,7 +22879,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={14973.344,8.8072815,1589.1909};
-										angles[]={-0,0.49127066,0};
+										angles[]={0,0.49127066,0};
 									};
 									side="Empty";
 									class Attributes
@@ -23042,7 +23041,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={14956.173,8.8666935,1562.4125};
-										angles[]={-0,3.6462562,0};
+										angles[]={0,3.6462562,0};
 									};
 									side="Empty";
 									flags=4;
@@ -23204,7 +23203,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={14970.379,8.8119221,1554.8604};
-										angles[]={-0,3.6462562,0};
+										angles[]={0,3.6462562,0};
 									};
 									side="Empty";
 									class Attributes
@@ -23836,7 +23835,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14971.555,11.377484,1590.6868};
-				angles[]={0,2.7718098,-0};
+				angles[]={0,2.7718098,0};
 			};
 			side="Empty";
 			class Attributes
@@ -23876,7 +23875,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14972.68,11.402634,1555.619};
-				angles[]={0,4.3660283,-0};
+				angles[]={0,4.3660283,0};
 			};
 			side="Empty";
 			class Attributes
@@ -24325,37 +24324,6 @@ class Mission
 		};
 		class Item123
 		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={15002.528,7.7728019,1560.3276};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						isPlayer=1;
-					};
-					id=2279;
-					type="B_Survivor_F";
-					atlOffset=4.7683716e-007;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=2278;
-			atlOffset=4.7683716e-007;
-		};
-		class Item124
-		{
 			dataType="Marker";
 			position[]={13851.519,6.3171253,1611.7651};
 			name="marker_19";
@@ -24364,7 +24332,7 @@ class Mission
 			id=2280;
 			atlOffset=-0.48892164;
 		};
-		class Item125
+		class Item124
 		{
 			dataType="Marker";
 			position[]={12614.614,6.7736344,1252.3376};
