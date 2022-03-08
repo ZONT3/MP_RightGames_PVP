@@ -106,8 +106,8 @@ if(isServer) then {
     GET_PARAM(GRLIB_cleanup_vehicles, "CleanupVehicles", 2);
     GET_PARAM_BOOL(GRLIB_introduction, "Introduction", 1);
     GET_PARAM_BOOL(GRLIB_deployment_cinematic, "DeploymentCinematic", 1);
-    GET_PARAM_BOOL(GRLIB_use_whitelist, "Whitelist", 3);
-    GET_PARAM(KP_liberation_restart, "ServerRestart", 0);
+    GET_PARAM_BOOL(GRLIB_use_whitelist, "Whitelist", 1);
+    GET_PARAM(KP_liberation_restart, "ServerRestart", 3);
 
     GREUH_allow_mapmarkers = KP_liberation_mapmarkers; publicVariable "GREUH_allow_mapmarkers";
     GREUH_allow_platoonview = KP_liberation_mapmarkers; publicVariable "GREUH_allow_platoonview";
