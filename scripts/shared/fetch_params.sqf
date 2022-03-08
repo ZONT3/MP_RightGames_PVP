@@ -112,7 +112,7 @@ if(isServer) then {
     GREUH_allow_mapmarkers = KP_liberation_mapmarkers; publicVariable "GREUH_allow_mapmarkers";
     GREUH_allow_platoonview = KP_liberation_mapmarkers; publicVariable "GREUH_allow_platoonview";
 
-    KP_serverParamsFetched = false;
+    KP_serverParamsFetched = true;
     publicVariable "KP_serverParamsFetched";
 
     [format ["----- Server finished parameter initialization - Time needed: %1 seconds", diag_ticktime - _start], "PARAM"] call KPLIB_fnc_log;
