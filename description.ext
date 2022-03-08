@@ -191,8 +191,7 @@ onLoadName = $STR_MISSION_TITLE;
 loadScreen = "pic\vn.jpg";
 
 // Displays a message while the mission is loading below the loadScreen picture.
-onLoadMission = "www.killahpotatoes.de";
-
+onLoadMission = "";
 
 /*
     ----- Respawn -----
@@ -349,17 +348,6 @@ taskManagement_drawDist = 5000;
 
 class CfgDebriefing {
     #include "KPLIB_debriefs.hpp"
-};
-
-class CfgDiscordRichPresence {
-    applicationID="698133766975258664";
-    defaultDetails="";
-    defaultState="Preparing...";
-    defaultLargeImageKey="liberation_logo";
-    defaultLargeImageText="KP Liberation";
-    defaultSmallImageKey="arma3_logo";
-    defaultSmallImageText="Arma 3";
-    useTimeElapsed=1;
 };
 
 class CfgFunctions {
