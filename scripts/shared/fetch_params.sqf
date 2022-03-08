@@ -16,7 +16,7 @@ KP_liberation_kill_debug = ["DebugKill", 0] call bis_fnc_getParamValue;
 KP_liberation_production_debug = ["DebugProduction", 0] call bis_fnc_getParamValue;
 KP_liberation_highcommand_debug = ["DebugHighCommand", 0] call bis_fnc_getParamValue;
 
-KP_load_params = ["LoadSaveParams", 2] call BIS_fnc_getParamValue;
+KP_load_params = ["LoadSaveParams", 0] call BIS_fnc_getParamValue;
 
 if(isServer) then {
     private _start = diag_tickTime;
