@@ -217,14 +217,14 @@ class CfgDebriefing {
 };
 
 class CfgDiscordRichPresence {
-	applicationID="765658821909151805";
-	defaultDetails="Vietnam";
-	defaultState="Preparing...";
-	defaultLargeImageKey="rgad";
-	defaultLargeImageText="Right Games";
-	defaultSmallImageKey="a3";
-	defaultSmallImageText="ArmA 3";
-	useTimeElapsed=1;
+    applicationID="698133766975258664";
+    defaultDetails="";
+    defaultState="Preparing...";
+    defaultLargeImageKey="liberation_logo";
+    defaultLargeImageText="KP Liberation";
+    defaultSmallImageKey="arma3_logo";
+    defaultSmallImageText="Arma 3";
+    useTimeElapsed=1;
 };
 
 class CfgFunctions {
@@ -247,3 +247,17 @@ class CfgTaskDescriptions {
 #include "GREUH\UI\GREUH_interface.hpp"
 #include "KP\KPGUI\KPGUI_defines.hpp"
 #include "KP\KPPLM\ui\KPPLM_dialog.hpp"
+
+//Discord info
+
+class CfgDiscordRichPresence {
+	applicationID="765658821909151805";
+	defaultDetails="Vietnam RP";
+	defaultState="https://vk.com/rgssww";
+	defaultLargeImageKey="rgad";
+	defaultLargeImageText="Right Games";
+	defaultSmallImageKey="a3";
+	defaultSmallImageText="ArmA 3";
+	useTimeElapsed=1;
+};
+
