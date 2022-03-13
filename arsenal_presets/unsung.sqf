@@ -1703,11 +1703,7 @@ GRLIB_arsenal_items = [
     "ItemMap",                                                      // Map
     "ItemRadio",                                                    // Radio
     "ItemWatch",                                                    // Watch
-    "Laserdesignator_01_khk_F",                                     // Laser Designator (Khaki)
-    "Laserdesignator_03",                                           // Laser Designator (Olive)
-    "Laserdesignator",                                              // Laser Designator (Sand)
     "Medikit",                                                      // Medikit
-    "Rangefinder",                                                  // Rangefinder
     "ToolKit",                                                      // Toolkit
     "U_B_FullGhillie_ard",                                          // Full Ghillie (Arid) [NATO]
     "U_B_FullGhillie_lsh",                                          // Full Ghillie (Lush) [NATO]
@@ -1757,11 +1753,6 @@ GRLIB_arsenal_items = [
     "ACE_muzzle_mzls_H",                                            // Flash Suppressor (6.5 mm)
     "ACE_muzzle_mzls_smg_01",                                       // FLash Suppressor (.45 ACP)
     "ACE_muzzle_mzls_smg_02",                                       // Flash Suppressor (9 mm)
-    "ACE_MX2A",                                                     // MX-2A
-    "ACE_NVG_Gen1",                                                 // NV Goggles (Gen1)
-    "ACE_NVG_Gen2",                                                 // NV Goggles (Gen2)
-    "ACE_NVG_Gen4",                                                 // NV Goggles (Gen4)
-    "ACE_NVG_Wide",                                                 // NV Goggles (Wide)
     "ACE_packingBandage",                                           // Bandage (Packing)
     "ACE_personalAidKit",                                           // Personal Aid Kit
     "ACE_plasmaIV_250",                                             // Plasma IV (250 ml)
@@ -1789,8 +1780,6 @@ GRLIB_arsenal_items = [
     "ACE_tourniquet",                                               // Tourniquet (CAT)
     "ACE_Tripod",                                                   // SSWT Kit
     "ACE_UAVBattery",                                               // UAV Battery
-    "ACE_Vector",                                                   // Vector 21 Nite
-    "ACE_VectorDay",                                                // Vector 21
     "ACE_VMH3",                                                     // VMH3
     "ACE_VMM3",                                                     // VMM3
     "ACE_wirecutter",                                               // Wirecutter
