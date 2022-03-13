@@ -1783,7 +1783,6 @@ GRLIB_arsenal_items = [
     "ACE_VMH3",                                                     // VMH3
     "ACE_VMM3",                                                     // VMM3
     "ACE_wirecutter",                                               // Wirecutter
-    "ACE_Yardage450",                                               // Yardage 450
 
     // ACRE Items
     "ACRE_PRC117F",                                                 // AN/PRC-117F
