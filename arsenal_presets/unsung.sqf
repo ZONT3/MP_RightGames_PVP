@@ -1707,14 +1707,6 @@ GRLIB_arsenal_items = [
     "Laserdesignator_03",                                           // Laser Designator (Olive)
     "Laserdesignator",                                              // Laser Designator (Sand)
     "Medikit",                                                      // Medikit
-    "MineDetector",                                                 // Mine Detector
-    "NVGoggles_INDEP",                                              // NV Goggles (Green)
-    "NVGoggles_OPFOR",                                              // NV Goggles (Black)
-    "NVGoggles_tna_F",                                              // NV Goggles (Tropic)
-    "NVGoggles",                                                    // NV Goggles (Brown)
-    "NVGogglesB_blk_F",                                             // ENVG-II (Black)
-    "NVGogglesB_grn_F",                                             // ENVG-II (Green)
-    "NVGogglesB_gry_F",                                             // ENVG-II (Grey)
     "Rangefinder",                                                  // Rangefinder
     "ToolKit",                                                      // Toolkit
     "U_B_FullGhillie_ard",                                          // Full Ghillie (Arid) [NATO]
