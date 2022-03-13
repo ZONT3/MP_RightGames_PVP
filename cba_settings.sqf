@@ -1443,3 +1443,12 @@ KPR_rank8 = 5120;
 KPR_rank9 = 6480;
 KPR_tkPenalty = 24;
 KPR_updateInterval = 1;
+
+// Wildfire
+force wildfire_main_burnBuildings = true;
+force wildfire_main_burnTime = 90;
+force wildfire_main_maxBurningObjects = 600;
+force wildfire_main_minDistanceToPlayer = 500;
+force wildfire_main_placeBurnedTrees = true;
+force wildfire_main_spreadDistance = 35;
+force wildfire_main_spreadSpeedKmh = 1;
