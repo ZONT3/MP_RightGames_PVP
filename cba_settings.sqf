@@ -102,8 +102,8 @@ force ace_explosives_punishNonSpecialists = false;
 force ace_explosives_requireSpecialist = false;
 
 // ACE Field Rations
-force acex_field_rations_affectAdvancedFatigue = true;
-force acex_field_rations_enabled = true;
+force acex_field_rations_affectAdvancedFatigue = false;
+force acex_field_rations_enabled = false;
 acex_field_rations_hudShowLevel = 0;
 acex_field_rations_hudTransparency = -1;
 acex_field_rations_hudType = 0;
