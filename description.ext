@@ -233,6 +233,57 @@ class CfgFunctions {
     #include "CfgFunctions.hpp"
     #include "KP\KPPLM\KPPLM_functions.hpp"
 };
+class ZONT {
+  class Functions {
+    file = "functions";
+    class remoteExecCallback { };
+    class giveZeus { };
+    class initTeleportTerminals { };
+    class addTeleportTerminal { };
+    class showTextLC { };
+    class showStructuredTextLC { };
+    class addChatCommand { };
+    class removeAllVars { };
+    class getConst { };
+    class forceExit { };
+    class addReverse { };
+    class initArsenals { };
+    class log { };
+    class initHookah { };
+    class hookahEffect { };
+    class setContainerGear { };
+    class getContainerGear { };
+    class ZZL_initServer { };
+    class ZZL_initPlayer { };
+  };
+  class Database {
+      file = "database_framework";
+      class bd_initBasic { };
+      class bd_initCustom { };
+      class bd_customRequest { };
+
+      class commitInfo { };
+      class retrieveCurators { };
+    };
+    class Profiles {
+      file = "profiles_framework";
+      class getRoles { };
+      class profilesGUI { };
+      class loadDone { };
+      class newProfile { };
+      class checkRole { };
+      class updProfile { };
+
+      class saveProfile { };
+      class loadProfile { };
+      class autoSaveInit { };
+      class attachArsenal { };
+    };
+    #include "dev\include.ext"
+  };
+  class CfgConsts {
+  ztt_terminals[] = {"aaaaaaa"};
+};
 
 class CfgRespawnTemplates {
 
@@ -249,5 +300,3 @@ class CfgTaskDescriptions {
 #include "GREUH\UI\GREUH_interface.hpp"
 #include "KP\KPGUI\KPGUI_defines.hpp"
 #include "KP\KPPLM\ui\KPPLM_dialog.hpp"
-
-

@@ -1,0 +1,11 @@
+
+class CfgRoles {
+  class Zeus         { id=1 ; hide=true; };
+
+  class HQ           { id=10; name="Headquarters"; };
+  class Training     { id=21; name="1st Cavalry Division"; free=true; };
+  class CD           { id=22; name="Armored Departament"; };
+  class USAF         { id=23; name="United States AirForce"; };
+  class Cav          { id=24; name="Air Cavalry regiment"; };
+
+};

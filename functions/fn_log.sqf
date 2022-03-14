@@ -32,4 +32,6 @@ private _msg = text ([
 
 diag_log _msg;
 
+diag_log str _this;
+
 true
