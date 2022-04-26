@@ -3,6 +3,8 @@
 #include "profiles_framework\roles.ext"
 /**********                       RSC includes                       **********/
 #include "external\VVS\menu.ext"
+/**********                       Money System                       **********/
+#include "external\money\moneymenu.hpp"
 
 /**********                        Properties                        **********/
 respawnOnStart = -1;
