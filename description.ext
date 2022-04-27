@@ -77,7 +77,7 @@ class CfgSounds {
 };
 
 author			  = "RG Team";
-onLoadName		= "Altis Revolution RP | Right Games";
+onLoadName		= "FIA Project RP | Right Games";
 onLoadMission	= "";
 loadScreen = "pic\vn.jpg";
 class Header {
