@@ -5,6 +5,7 @@
 #include "external\VVS\menu.ext"
 /**********                       Money System                       **********/
 #include "external\money\moneymenu.hpp"
+#include "external\money\Functions.ext"
 
 /**********                        Properties                        **********/
 respawnOnStart = -1;
@@ -69,7 +70,6 @@ class CfgFunctions {
   };
   #include "external\VVS\Functions.ext"
   #include "external\money\cfgFunctions.hpp"
-  #include "external\money\Functions.ext"
 };
 
 class CfgSounds {
