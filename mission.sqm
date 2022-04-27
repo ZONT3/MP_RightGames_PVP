@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=175;
+		nextID=182;
 	};
 	class Camera
 	{
@@ -34,7 +34,6 @@ binarizationWanted=0;
 sourceName="MP_RightGames_PVP";
 addons[]=
 {
-	"A3_Ui_F",
 	"A3_Modules_F",
 	"cba_xeh",
 	"A3_Modules_F_Multiplayer",
@@ -46,36 +45,29 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=5;
+		items=4;
 		class Item0
-		{
-			className="A3_Ui_F";
-			name="Arma 3 - User Interface";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item1
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item2
+		class Item1
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item3
+		class Item2
 		{
 			className="A3_Structures_F_EPC";
 			name="Arma 3 Win Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item3
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
@@ -578,35 +570,8 @@ class Mission
 	};
 	class Entities
 	{
-		items=11;
+		items=8;
 		class Item0
-		{
-			dataType="Marker";
-			position[]={1478.3149,84.751884,623.56079};
-			name="marker_4";
-			type="Faction_UNS_AUS";
-			id=307;
-			atlOffset=270.72189;
-		};
-		class Item1
-		{
-			dataType="Marker";
-			position[]={5724.7178,3,13482.201};
-			name="marker_5";
-			type="Faction_UNS_aircav";
-			id=308;
-			atlOffset=-100.62822;
-		};
-		class Item2
-		{
-			dataType="Marker";
-			position[]={16915.074,29.093155,12476.369};
-			name="marker_9";
-			type="Faction_UNS_USA";
-			id=321;
-			atlOffset=9.5698891;
-		};
-		class Item3
 		{
 			dataType="Layer";
 			name="AI Artillery with Spotter";
@@ -618,13 +583,13 @@ class Mission
 					dataType="Layer";
 					name="AI Mortars with Spotter";
 					id=1478;
-					atlOffset=362.20361;
+					atlOffset=185.97;
 				};
 			};
 			id=1496;
-			atlOffset=362.20361;
+			atlOffset=185.97;
 		};
-		class Item4
+		class Item1
 		{
 			dataType="Layer";
 			name="VIETNAM_Heli_Pad";
@@ -660,7 +625,7 @@ class Mission
 			id=2098;
 			atlOffset=185.97;
 		};
-		class Item5
+		class Item2
 		{
 			dataType="Layer";
 			name="скрыть";
@@ -895,7 +860,7 @@ class Mission
 			id=2209;
 			atlOffset=194.99591;
 		};
-		class Item6
+		class Item3
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -906,7 +871,7 @@ class Mission
 			id=2282;
 			type="VirtualAISquad";
 		};
-		class Item7
+		class Item4
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -1015,7 +980,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item8
+		class Item5
 		{
 			dataType="Group";
 			side="Independent";
@@ -1377,13 +1342,13 @@ class Mission
 			};
 			id=2284;
 		};
-		class Item9
+		class Item6
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={4929.3989,341.44275,21889.707};
-				angles[]={0,4.2857132,-0};
+				angles[]={0,4.2857132,0};
 			};
 			side="Empty";
 			flags=5;
@@ -1394,7 +1359,7 @@ class Mission
 			type="Land_Atm_01_F";
 			atlOffset=-0.17108154;
 		};
-		class Item10
+		class Item7
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1406,7 +1371,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[box2, ""76561198267425745""] call grad_moneymenu_fnc_setStorage;" \n "[box2, 2000] call grad_moneymenu_fnc_addFunds;";
+				init="[box2, ""76561198267425745""] call moneymenu_fnc_setStorage;" \n "[box2, 2000] call moneymenu_fnc_addFunds;";
 				name="box2";
 			};
 			id=2297;
