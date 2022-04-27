@@ -65,21 +65,11 @@ class CfgFunctions {
       class autoSaveInit { };
       class attachArsenal { };
     };
-    class CfgMoneymenu {
-    canGiveDefault = 1;
-    canTransferToSidesDefault[] = {"east","west","independent","civilian"};
-    canTakeFromDeadDefault = 1;
-    canSendDirectlyDefault = 0;
-    canTakeFromSurrenderedDefault = 1;
-    startMoney = 1000;
-    startBankBalance = 1000;
-    playersLoseMoneyOnDeath = 1;
-    atmObjects[] = {"Land_Atm_01_F"};
-    };
     #include "dev\include.ext"
   };
   #include "external\VVS\Functions.ext"
   #include "external\money\cfgFunctions.hpp"
+  #include "external\money\Functions.ext"
 };
 
 class CfgSounds {

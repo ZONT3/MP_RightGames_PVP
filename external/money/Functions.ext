@@ -1,0 +1,11 @@
+class CfgMoneymenu {
+canGiveDefault = 1;
+canTransferToSidesDefault[] = {"east","west","independent","civilian"};
+canTakeFromDeadDefault = 1;
+canSendDirectlyDefault = 0;
+canTakeFromSurrenderedDefault = 1;
+startMoney = 1000;
+startBankBalance = 1000;
+playersLoseMoneyOnDeath = 1;
+atmObjects[] = {"Land_Atm_01_F"};
+};
