@@ -1,4 +1,4 @@
-#include "dialog\defines.hpp";
+#include "\dialog\defines.hpp";
 disableSerialization;
 
 _target = uiNamespace getVariable "moneymenu_currentTarget";
