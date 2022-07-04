@@ -1,7 +1,3 @@
-#define PREFIX 
-#define COMPONENT moneymenu
-#include "\x\cba\addons\main\script_macros_mission.hpp"
-
 #include "..\dialog\defines.hpp";
 disableSerialization;
 
