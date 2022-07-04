@@ -4,8 +4,8 @@
 /**********                       RSC includes                       **********/
 #include "external\VVS\menu.ext"
 /**********                       Money System                       **********/
-#include "external\money\moneymenu.hpp"
-#include "external\money\Functions.ext"
+#include "money_framework\moneymenu.hpp"
+#include "money_framework\Functions.ext"
 
 /**********                        Properties                        **********/
 respawnOnStart = -1;
@@ -66,10 +66,40 @@ class CfgFunctions {
       class autoSaveInit { };
       class attachArsenal { };
     };
+    class Money {
+      file = "money_framework";
+      class loadMoney { };
+      class saveMoney { };
+
+      class addCheckAction {};
+      class addFunds {};
+      class addGiveAction {};
+      class addPlayerEHs {};
+      class addSendAction {};
+      class addTakeAction {};
+      class addTransferAction {};
+      class checkSend {};
+      class formattedHint {};
+      class getFunds {};
+      class getModuleRoot {};
+      class initModule {postInit = 1;};
+      class loadMenu {};
+      class receiveMoney {};
+      class sendMoney {};
+      class setCanGive {};
+      class setCanTakeFromDead {};
+      class setCanTakeFromSurrendered {};
+      class setFunds {};
+      class setStorage {};
+      class setTransferToSides {};
+      class updateMoney {};
+      class updatePlayerList {};
+    }
+    }
     #include "dev\include.ext"
   };
   #include "external\VVS\Functions.ext"
-  #include "external\money\cfgFunctions.hpp"
+  #include "money_framework\cfgFunctions.hpp"
 };
 
 class CfgSounds {
