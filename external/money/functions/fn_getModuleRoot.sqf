@@ -1,4 +1,4 @@
-/*  Я люблю запеченные мидии
+/*  Finds root directory of moneymenu
 *
 */
 
