@@ -1,4 +1,4 @@
-#include "dialog\defines.hpp"
+#include "\dialog\defines.hpp"
 disableSerialization;
 
 _dialog = findDisplay moneymenu_DIALOG;
