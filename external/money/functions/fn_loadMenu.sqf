@@ -1,4 +1,4 @@
-#include "..\dialog\defines.hpp"
+#include "external\money\dialog\defines.hpp"
 disableSerialization;
 
 params ["_target",["_mode","GIVE"]];

@@ -1,8 +1,4 @@
-#define PREFIX 
-#define COMPONENT moneymenu
-#include "\x\cba\addons\main\script_macros_mission.hpp"
-
-#include "..\dialog\defines.hpp";
+#include "external\money\dialog\defines.hpp";
 disableSerialization;
 
 _target = uiNamespace getVariable "moneymenu_currentTarget";
