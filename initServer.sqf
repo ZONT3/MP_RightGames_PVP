@@ -7,6 +7,8 @@ MPS_spawn_BDINIT = [] spawn {
       ["status"] call ZONT_fnc_bd_initCustom;
   MPS_BDL_lockers =
       ["lockers"] call ZONT_fnc_bd_initCustom;
+  MPS_BDL_money =
+      ["money"] call ZONT_fnc_bd_initCustom;
 };
 
 MPH_COMMITER = [{ [] call ZONT_fnc_commitInfo }, 20] call CBA_fnc_addPerFrameHandler;
