@@ -1,4 +1,4 @@
-#include "external\money\dialog\defines.hpp"
+#include "..\dialog\defines.hpp"
 disableSerialization;
 
 _dialog = findDisplay moneymenu_DIALOG;
@@ -24,4 +24,4 @@ if (lbSize _list > 0) then {_list lbSetCurSel 0};
 
 private _money = [MPS_BDL_money, "loadMoney", [getPlayerUID _player]] call ZONT_fnc_bd_customRequest;
 
-[MPS_BDL_money, "saveMoney", [getPlayerUID _player, _money]] call ZONT_fnc_bd_customRequest;
+[MPS_BDL_money, "saveMoney", [getPlayerUID _player, _money]] call ZONT_fnc_bd_customRequest
