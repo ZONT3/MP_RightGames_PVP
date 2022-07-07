@@ -12,8 +12,7 @@ if (!isNil "_owner") then {
 
     } else {
         _params = [_owner];
-        [MPS_BDL_money, "saveMoney", [getPlayerUID _player, _money]] call ZONT_fnc_bd_customRequest;
-        private _money = [MPS_BDL_money, "loadMoney", [getPlayerUID _player]] call ZONT_fnc_bd_customRequest;
+        [MPS_BDL_money, "saveMoney", [getPlayerUID _owner, _money]] call ZONT_fnc_bd_customRequest;
 
         // Владелец игрок
         if (isPlayer _owner) then {

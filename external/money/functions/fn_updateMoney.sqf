@@ -25,5 +25,3 @@ switch (true) do {
 
 _text = format ["%1 Cr", _money];
 _myMoney ctrlSetText _text;
-
-[MPS_BDL_money, "saveMoney", [getPlayerUID _player, _money]] call ZONT_fnc_bd_customRequest;
