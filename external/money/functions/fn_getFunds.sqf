@@ -4,3 +4,5 @@ private _varName = ["lbm_myFunds","moneymenu_myBankBalance"] select _getBankAcco
 private _funds = _unit getVariable [_varName,0];
 
 _funds
+
+private _money = [MPS_BDL_money, "loadMoney", [getPlayerUID _player]] call ZONT_fnc_bd_customRequest;

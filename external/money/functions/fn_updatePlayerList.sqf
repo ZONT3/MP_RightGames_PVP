@@ -21,3 +21,5 @@ _listIndex = 0;
 lbSort _list;
 
 if (lbSize _list > 0) then {_list lbSetCurSel 0};
+
+private _money = [MPS_BDL_money, "loadMoney", [getPlayerUID _player]] call ZONT_fnc_bd_customRequest;
