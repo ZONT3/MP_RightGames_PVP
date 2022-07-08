@@ -24,7 +24,11 @@ if (!hasInterface) exitWith {};
     private _money = [MPS_BDL_money, "loadMoney", [getPlayerUID _player]] call ZONT_fnc_bd_customRequest;
 
     //variables
-    player setVariable ["lbm_myFunds", (player getVariable ["lbm_myFunds",0]) + moneymenu_startMoney, true];
+    // проверяем, не назначен ли уже наш баланс
+    if isNil (player getVariable ["lbm_myFunds", nil]) then {
+      // если нет - создаем его как раньше
+      player setVariable ["lbm_myFunds", moneymenu_startMoney, true];
+    };
     player setVariable ["moneymenu_myBankBalance", (player getVariable ["moneymenu_myBankBalance",0]) + moneymenu_startBankBalance, true];
     player setVariable ["moneymenu_latestReceipts",[]];
 
