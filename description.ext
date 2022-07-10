@@ -93,6 +93,12 @@ class CfgDebriefing {
 		pictureBackground = "";
 		picture = "pic\monk.paa";
   };
+  class whitelist {
+    title = "Не в вайтлисте";
+		description = "У тебя нет ни одной роли на сервере, значит ты не в вайт-листе. Если ты считаешь, что должен быть в вайтлисте, свяжись со своим командиром, либо с администрацией.";
+		pictureBackground = "";
+		picture = "pic\monk.paa";
+  };
   class absrole {
     title = "Нет прав играть на этом слоте";
 		description = "Если ты считаешь, что можешь играть на этом слоте, свяжись со своим командиром, либо с администрацией.";

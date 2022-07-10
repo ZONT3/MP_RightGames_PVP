@@ -33,10 +33,16 @@ waitUntil {vehicle player == player};
   hintSilent parseText _str;
 }, 1] call CBA_fnc_addPerFrameHandler; */
 
+MPC_Whitelist = true; // кикать людей без роли
 
 private _fn_checkSlotPermission = {
   waituntil { sleep 0.1; !isNil 'ZPR_roles' };
-  if not ([[],[],_this] call ZONT_fnc_checkRole) then {
+
+  if (( isNil 'ZPR_roles' ) or { MPC_Whitelist and (count ZPR_roles) == 0 }) exitWith {
+    ["whitelist"] call ZONT_fnc_forceExit;
+  };
+
+  if not ([[],[],_this] call ZONT_fnc_checkRole) exitWith {
     ["absrole"] call ZONT_fnc_forceExit;
   };
 };
@@ -46,7 +52,7 @@ private _varg = group player getVariable ["ZPR_rr", ""];
 private _vars =       player getVariable ["ZPR_rr", ""];
 if (_varg != "") then { _var pushBack _varg };
 if (_vars != "") then { _var pushBack _vars };
-if (count _var > 0) then {
+if (MPC_Whitelist or { count _var > 0 }) then {
   _var spawn _fn_checkSlotPermission;
 };
 
