@@ -9,7 +9,13 @@ if (isNil "MPS_presistentCrates") then {
 };
 
 _hol allowDamage false;
-[_hol, _uid call ZONT_fnc_fetchPersonalLocker] call ZONT_fnc_setContainerGear;
 
-_hol setVariable ["presistentCrateId", _uid];
-MPS_presistentCrates pushBack _hol;
+[_hol, _uid] spawn {
+	params ["_hol", "_id"];
+	
+  	waituntil { sleep 0.1; !isNil 'MPS_BDL_lockers' };
+	[_hol, _uid call ZONT_fnc_fetchPersonalLocker] call ZONT_fnc_setContainerGear;
+
+	_hol setVariable ["presistentCrateId", _uid];
+	MPS_presistentCrates pushBack _hol;
+};
