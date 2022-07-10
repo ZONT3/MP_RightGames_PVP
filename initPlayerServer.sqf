@@ -46,7 +46,6 @@ private _n = [_player] spawn {
     // там moneymenu_startMoney на 0, если не хочешь, что бы игрокам постоянно при заходе давали деньги на руки
     _player setVariable ["lbm_myFunds", _money, true];
     diag_log format ["Fetched money for %1: %2", name _player, _money];
-  } else {
-    diag_log format ["Cannot fetch money for %1", name _player];
-  };
+  }
+  diag_log format ["Cannot fetch money for %1", name _player];
 };
