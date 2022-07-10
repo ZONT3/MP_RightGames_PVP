@@ -12,18 +12,18 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3006;
+		nextID=3007;
 	};
 	class LayerIndexProvider
 	{
-		nextID=133;
+		nextID=142;
 	};
 	class Camera
 	{
-		pos[]={6781.3208,1290.8715,20694.01};
-		dir[]={-0.7786842,-0.46533445,-0.42093769};
-		up[]={-0.40936682,0.8851313,-0.2212943};
-		aside[]={-0.47555873,-5.3580152e-008,0.87973106};
+		pos[]={4586.4448,307.49194,21437.58};
+		dir[]={-0.60997277,-0.57961756,0.54036319};
+		up[]={-0.43386227,0.8148874,0.38434911};
+		aside[]={0.6631099,2.1499e-007,0.74853373};
 	};
 };
 binarizationWanted=0;
@@ -162,13 +162,15 @@ addons[]=
 	"A3_Structures_F_Walls",
 	"A3_Structures_F_Orange_Humanitarian_Flags",
 	"A3_Structures_F_Mil_Flags",
-	"A3_Structures_F_Mil_Fortification"
+	"A3_Structures_F_Mil_Fortification",
+	"A3_Supplies_F_Orange_Ammoboxes",
+	"ace_rearm"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=87;
+		items=89;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -750,6 +752,20 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item87
+		{
+			className="A3_Supplies_F_Orange";
+			name="Arma 3 Orange - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item88
+		{
+			className="ace_rearm";
+			name="ACE3 - Rearm";
+			author="Команда ACE";
+			url="https://ace3.acemod.org/";
+		};
 	};
 };
 dlcs[]=
@@ -1241,7 +1257,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=252;
+		items=253;
 		class Item0
 		{
 			dataType="Layer";
@@ -27491,6 +27507,48 @@ class Mission
 			title="Штаб пиндосов";
 			id=2998;
 			atlOffset=3.5099831;
+		};
+		class Item252
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4580.5957,301.48026,21444.725};
+				angles[]={6.2259207,0,6.2631841};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this, ""ammo_rhbz""] call ZONT_fnc_addPresistentCrate";
+				name="ammo_rhbz";
+			};
+			id=3006;
+			type="Box_IDAP_AmmoOrd_F";
+			atlOffset=3.0517578e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
