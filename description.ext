@@ -42,6 +42,8 @@ class CfgFunctions {
       class fetchPersonalLocker { };
       class initPersonalLocker { };
       class updPersonalLocker { };
+      class initPresistentCrates { };
+      class addPresistentCrate { };
     };
     class Database {
       file = "database_framework";
