@@ -11,8 +11,8 @@ if (isNil "MPS_presistentCrates") then {
 _hol allowDamage false;
 
 [_hol, _uid] spawn {
-	params ["_hol", "_id"];
-	
+	params ["_hol", "_uid"];
+
   	waituntil { sleep 0.1; !isNil 'MPS_BDL_lockers' };
 	[_hol, _uid call ZONT_fnc_fetchPersonalLocker] call ZONT_fnc_setContainerGear;
 
