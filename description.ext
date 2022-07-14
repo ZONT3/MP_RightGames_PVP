@@ -61,6 +61,7 @@ class CfgFunctions {
       class loadDone { };
       class newProfile { };
       class checkRole { };
+      class restrictAccess { };
       class updProfile { };
 
       class saveProfile { };
