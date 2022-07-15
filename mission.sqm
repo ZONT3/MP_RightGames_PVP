@@ -27520,7 +27520,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, ""ammo_rhbz""] call ZONT_fnc_addPresistentCrate;" \n "[this, ['HQ']] call ZONT_fnc_restrictAccess;";
+				init="[this, ""ammo_rhbz""] call ZONT_fnc_addPresistentCrate;" \n "[this, ['FIA']] call ZONT_fnc_restrictAccess;";
 				name="ammo_rhbz";
 			};
 			id=3006;
