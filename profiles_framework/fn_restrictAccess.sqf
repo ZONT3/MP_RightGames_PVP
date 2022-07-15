@@ -1,7 +1,8 @@
 params ["_obj", "_access", "_fn_restriction", "_fn_allowance", ["_allowServer", false], ["_allowClient", true]];
 
-if (isServer and !hasInterface and !_allowServer) exitwith {};
-if (hasInterface and !_allowClient) exitwith {};
+if (!hasInterface and !isServer) exitWith {};
+if (isServer and !hasInterface and !_allowServer) exitWith {};
+if (hasInterface and !_allowClient) exitWith {};
 
 if (isNil "_obj" or {isNull _obj}) exitWith {};
 if (typeName _access != typeName []) exitWith {};
@@ -12,7 +13,7 @@ if (count _access > 0 and {typeName _access != typeName []}) then {
 if ((isNil "_fn_restriction") and (isNil "_fn_allowance")) then {
 	_fn_restriction = {
 		// здесь пытаемся заблокировать доступ. ящик - _this
-		_this lock true;
+		hideObject _this;
 	};
 };
 
