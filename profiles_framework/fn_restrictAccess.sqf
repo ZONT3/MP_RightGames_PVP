@@ -1,4 +1,7 @@
-params ["_obj", "_access", "_fn_restriction", "_fn_allowance"];
+params ["_obj", "_access", "_fn_restriction", "_fn_allowance", ["_allowServer", false], ["_allowClient", true]];
+
+if (isServer and !hasInterface and !_allowServer) exitwith {};
+if (hasInterface and !_allowClient) exitwith {};
 
 if (isNil "_obj" or {isNull _obj}) exitWith {};
 if (typeName _access != typeName []) exitWith {};
