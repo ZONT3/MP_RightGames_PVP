@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=142;
+		nextID=151;
 	};
 	class Camera
 	{
@@ -27520,7 +27520,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, ""ammo_rhbz""] call ZONT_fnc_addPresistentCrate";
+				init="[this, ""ammo_rhbz""] call ZONT_fnc_addPresistentCrate;" \n "[this, ['FIA']] call ZONT_fnc_restrictAccess;";
 				name="ammo_rhbz";
 			};
 			id=3006;
