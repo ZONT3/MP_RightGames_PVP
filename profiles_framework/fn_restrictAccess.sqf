@@ -21,7 +21,7 @@ if ((isNil "_fn_restriction") and (isNil "_fn_allowance")) then {
   	waituntil { sleep 0.1; !isNil "ZPR_roles" };
 	
 	private _chk = (_access call ZONT_fnc_checkRole);
-	diag_log format ["[ZPR] Restriction %1 - %2", str _obj, str _chk];
+	diag_log format ["[ZPR] Restriction %1 - %2", str _obj, str not _chk];
 
 	if not _chk then {
 		if (!isNil "_fn_restriction") then {
