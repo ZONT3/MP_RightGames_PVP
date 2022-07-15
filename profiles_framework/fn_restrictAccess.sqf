@@ -12,7 +12,7 @@ if (count _access > 0 and {typeName (_access select 0) != typeName []}) then {
 
 if ((isNil "_fn_restriction") and (isNil "_fn_allowance")) then {
 	_fn_restriction = {
-		diag_log format ["[ZPR] Restricting %1 for %2", str _this, (if not ((isNil player) or {isNull player}) then {str player} else {"UNKNOWN"})];
+		diag_log format ["[ZPR] Restricting %1 for %2", str _this, (if not ((isNil {player}) or {isNull player}) then {str player} else {"UNKNOWN"})];
 		_this lockInventory true;
 	};
 };
