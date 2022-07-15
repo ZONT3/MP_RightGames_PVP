@@ -12,7 +12,7 @@ if (count _access > 0 and {typeName _access != typeName []}) then {
 
 if ((isNil "_fn_restriction") and (isNil "_fn_allowance")) then {
 	_fn_restriction = {
-		diag_log format ["[ZPR] Restricting %1 for %2", str _this, (if not (isNil player and {not isNumm player}) then {str player} else {"UNKNOWN"})];
+		diag_log format ["[ZPR] Restricting %1 for %2", str _this, (if not (isNil player and {not isNull player}) then {str player} else {"UNKNOWN"})];
 		hideObject _this;
 	};
 };
