@@ -12,7 +12,7 @@ if (count _access > 0 and {typeName _access != typeName []}) then {
 if ((isNil "_fn_restriction") and (isNil "_fn_allowance")) then {
 	_fn_restriction = {
 		// здесь пытаемся заблокировать доступ. ящик - _this
-		_this lockInventory true;
+		_this lockCargo true;
 	};
 };
 
