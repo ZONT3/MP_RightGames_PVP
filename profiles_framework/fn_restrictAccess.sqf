@@ -6,14 +6,14 @@ if (hasInterface and !_allowClient) exitWith {};
 
 if (isNil "_obj" or {isNull _obj}) exitWith {};
 if (typeName _access != typeName []) exitWith {};
-if (count _access > 0 and {typeName _access != typeName []}) then {
+if (count _access > 0 and {typeName (_access select 0) != typeName []}) then {
 	_access = [_access];
 };
 
 if ((isNil "_fn_restriction") and (isNil "_fn_allowance")) then {
 	_fn_restriction = {
 		diag_log format ["[ZPR] Restricting %1 for %2", str _this, (if not ((isNil player) or {isNull player}) then {str player} else {"UNKNOWN"})];
-		hideObject _this;
+		_this lockInventory true;
 	};
 };
 
