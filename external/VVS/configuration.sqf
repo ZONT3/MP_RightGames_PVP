@@ -32,6 +32,9 @@ ZONT_fnc_onSpawnVVS = {
     case "OPTRE_M808B2": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
     };
+    case "OPTRE_M808BM_UNSC": {
+      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+    };
     case "OPTRE_M808B_UNSC": {
       [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
     };
@@ -62,6 +65,27 @@ ZONT_fnc_onSpawnVVS = {
     case "OPTRE_M494": {
       [_vehicle, "colordes"] call BIS_fnc_initVehicle;
     };
+    case "SC_Mantis": {
+      [_vehicle, "DesertCamo"] call BIS_fnc_initVehicle;
+    };
+    case "SC_EXT_Scorpion": {
+      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
+    };
+    case "SC_EXT_Ant_SE": {
+      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
+    };
+    case "SCEXT_Gator_Logistics_SE": {
+      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
+    };
+    case "SC_Gator_TO_SE": {
+      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
+    };
+    case "SCEXT_Gator_TC_A_SE": {
+      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
+    };
+    case "SCEXT_Gator_Flatbed_Trans_SE": {
+      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
+    };
   };
 };
 
@@ -73,9 +97,10 @@ VVS_Wheeled = [
 ];
 
 VVS_CD = [
-  "uns_M113_M2",
-  "uns_M113A1_M2",
-  "uns_m551"
+  "SC_EXT_Scorpion",
+  "SC_EXT_Ant_SE",
+  "OPTRE_M808B2",
+  "OPTRE_M808BM_UNSC"
 ];
 
 VVS_A124 = [
@@ -85,16 +110,19 @@ VVS_Wheeled_Spec = [
 ];
 
 VVS_BMO = [
-  "uns_willysmg50",
-  "uns_willys_2",
-  "uns_willys",
-  "uns_m37b1",
-  "uns_m37b1_m1919",
-  "uns_M35A2",
-  "uns_M35A2_Open",
-  "uns_M35A2_fueltanker",
-  "uns_M35A2_ammo",
-  "uns_M35A2_repair"
+  "OPTRE_M412_IFV_UNSC",
+  "OPTRE_M813_TT",
+  "OPTRE_m1087_stallion_unsc_resupply",
+  "OPTRE_m1087_stallion_cover_unsc",
+  "OPTRE_m1087_stallion_unsc_refuel",
+  "OPTRE_m1087_stallion_unsc_repair",
+  "OPTRE_m1087_stallion_unsc_medical",
+  "OPTRE_M12_FAV_APC_MED",
+  "OPTRE_M12_FAV_APC",
+  "OPTRE_M12_LRV",
+  "OPTRE_M12R_AA",
+  "OPTRE_M12A1_LRV",
+  "SC_SaurusAPC_SE"
 ];
 
 VVS_USAF = [

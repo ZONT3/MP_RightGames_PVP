@@ -80,9 +80,9 @@ class CfgSounds {
 };
 
 author			  = "RG Team";
-onLoadName		= "FIA Project RP | Right Games";
+onLoadName		= "Scin Conflict | Right Games";
 onLoadMission	= "";
-loadScreen = "pic\vn.jpg";
+loadScreen = "pic\vn.png";
 class Header {
 	gameType   = RPG;
 	minPlayers =   0;
@@ -152,7 +152,7 @@ class CfgConsts {
 
 class CfgDiscordRichPresence {
 	applicationID="765658821909151805";
-	defaultDetails="FIA Project RP";
+	defaultDetails="Scion Conflict";
 	defaultState="https://vk.com/rgssww";
 	defaultLargeImageKey="rgad";
 	defaultLargeImageText="Right Games";

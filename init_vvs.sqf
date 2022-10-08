@@ -25,14 +25,14 @@ _this addAction [
 ];
 
 _this addAction [
-  "Запрос Техники Tank Departament",
+  "Запрос Техники 2nd Armored Squad",
   VVS_fnc_openVVS,
   [VVS_west_Land,"CD"],
   6,
   true,
   true,
   "",
-  "[['CD']] call ZONT_fnc_checkRole",
+  "[['AF']] call ZONT_fnc_checkRole",
   5
 ];
 

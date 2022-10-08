@@ -3,7 +3,16 @@ class CfgRoles {
   class Zeus         { id=1 ; hide=true; };
 
   class HQ           { id=10; name="Headquarters"; };
-  class FIA          { id=31; name="Freedom and Independence Army"; free=true; };
-  class CTRG         { id=32; name="Combat Technology Research Group"; };
+  class Train        { id=11; name="Conscript Unit"; free=true; };
+  class Marine       { id=12; name="13th Front Marine Corp"; };
+  class Med          { id=13; name="13th Front Marine Corp(Med.squad)"; };
+  class GF           { id=14; name="27th Griffin Wing"; };
+  class AF           { id=15; name="2nd Armored Squad"; };
+  class SWAT         { id=16; name="SPMMP SWAT"; };
+  class CBRN         { id=17; name="CBRN Unit"; };
+  class Supp         { id=18; name="15th Engeneering Support Cavalry"; };
+  class Mar          { id=19; name="1st Maradeur Corp"; };
+  class MDF          { id=20; name="MDF Deimos"; };
+  class IST          { id=21; name="3rd Imperial Schock Troopers"; };
 
 };
