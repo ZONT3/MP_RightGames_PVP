@@ -21,7 +21,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=678;
+		nextID=716;
 	};
 	class Camera
 	{
@@ -2860,7 +2860,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={20078.516,205.73248,18721.654};
-						angles[]={-0,5.3865066,0};
+						angles[]={0,5.3865066,0};
 					};
 					areaSize[]={0.16741931,0,0.22664329};
 					flags=1;
@@ -2903,7 +2903,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={20078.555,205.73248,18719.08};
-						angles[]={-0,5.3865066,0};
+						angles[]={0,5.3865066,0};
 					};
 					areaSize[]={0.16741931,0,0.22664329};
 					flags=1;
@@ -23710,7 +23710,7 @@ class Mission
 			};
 			id=9508;
 			type="OPTRE_Objects_Wreck_Hornet";
-			atlOffset=0.0020599365;
+			atlOffset=0.062667847;
 		};
 		class Item156
 		{

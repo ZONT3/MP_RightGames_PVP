@@ -82,7 +82,7 @@ class CfgSounds {
 author			  = "RG Team";
 onLoadName		= "Scin Conflict | Right Games";
 onLoadMission	= "";
-loadScreen = "pic\pzdc.png";
+loadScreen = "pic\pzdc.jpg";
 class Header {
 	gameType   = RPG;
 	minPlayers =   0;
