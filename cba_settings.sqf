@@ -1,13 +1,3 @@
-// A3TI
-A3TI_ACE_JAVELIN = false;
-A3TI_ALLOW_TANK_DRIVER = false;
-A3TI_ALLOW_VANILLA_TI = true;
-A3TI_ENABLE_ZEUS = true;
-A3TI_HD_VISION_FIGHTER = truea;
-A3TI_HD_VISION_LANDVEH = true;
-A3TI_HD_VISION_SHIP = false;
-A3TI_HD_VISION_UAV = true;
-A3TI_REMOVE_FILMGRAIN_RHS = true;
 
 // ACE Advanced Ballistics
 force ace_advanced_ballistics_ammoTemperatureEnabled = true;
@@ -99,7 +89,7 @@ ace_explosives_customTimerDefault = 30;
 force ace_explosives_customTimerMax = 900;
 force ace_explosives_customTimerMin = 5;
 force ace_explosives_explodeOnDefuse = true;
-force ace_explosives_punishNonSpecialists = false;
+force ace_explosives_punishNonSpecialists = true;
 force ace_explosives_requireSpecialist = false;
 
 // ACE Field Rations
@@ -111,8 +101,8 @@ acex_field_rations_hudType = 0;
 force acex_field_rations_hungerSatiated = 3.5;
 force acex_field_rations_terrainObjectActions = true;
 force acex_field_rations_thirstQuenched = 3.5;
-force acex_field_rations_timeWithoutFood = 2;
-force acex_field_rations_timeWithoutWater = 2;
+force acex_field_rations_timeWithoutFood = 3;
+force acex_field_rations_timeWithoutWater = 3;
 force acex_field_rations_waterSourceActions = 2;
 
 // ACE Fire
@@ -128,7 +118,7 @@ force acex_fortify_settingHint = 2;
 force ace_frag_enabled = true;
 force ace_frag_maxTrack = 10;
 force ace_frag_maxTrackPerFrame = 10;
-force ace_frag_reflectionsEnabled = false;
+force ace_frag_reflectionsEnabled = true;
 force ace_frag_spallEnabled = true;
 
 // ACE G-Forces
@@ -229,8 +219,8 @@ force ace_map_DefaultChannel = -1;
 force ace_map_mapGlow = true;
 force ace_map_mapIllumination = true;
 force ace_map_mapLimitZoom = false;
-force ace_map_mapShake = true;
-force ace_map_mapShowCursorCoordinates = false;
+force ace_map_mapShake = false;
+force ace_map_mapShowCursorCoordinates = true;
 force ace_markers_moveRestriction = 0;
 ace_markers_timestampEnabled = true;
 ace_markers_timestampFormat = "HH:MM";
@@ -288,7 +278,7 @@ ace_medical_gui_damageColor_6 = [0.37,0.47,1,1];
 ace_medical_gui_damageColor_7 = [0.31,0.36,1,1];
 ace_medical_gui_damageColor_8 = [0.22,0.23,1,1];
 ace_medical_gui_damageColor_9 = [0,0,1,1];
-ace_medical_gui_enableActions = 0;
+ace_medical_gui_enableActions = 1;
 ace_medical_gui_enableMedicalMenu = 1;
 ace_medical_gui_enableSelfActions = true;
 ace_medical_gui_interactionMenuShowTriage = 1;
@@ -340,8 +330,8 @@ force ace_medical_treatment_treatmentTimeCPR = 15;
 force ace_medical_treatment_treatmentTimeIV = 12;
 force ace_medical_treatment_treatmentTimeSplint = 7;
 force ace_medical_treatment_treatmentTimeTourniquet = 7;
-force ace_medical_treatment_woundReopenChance = 0.1;
-force ace_medical_treatment_woundStitchTime = 2;
+force ace_medical_treatment_woundReopenChance = 0.2;
+force ace_medical_treatment_woundStitchTime = 1;
 
 // ACE Name Tags
 ace_nametags_ambientBrightnessAffectViewDist = 1;
@@ -528,7 +518,7 @@ acex_viewrestriction_preserveView = false;
 // ACE Volume
 force acex_volume_enabled = true;
 force acex_volume_fadeDelay = 0;
-acex_volume_lowerInVehicles = false;
+acex_volume_lowerInVehicles = true;
 force acex_volume_reduction = 8;
 acex_volume_remindIfLowered = false;
 acex_volume_showNotification = true;
@@ -548,7 +538,7 @@ force ace_weather_windSimulation = true;
 
 // ACE Wind Deflection
 force ace_winddeflection_enabled = true;
-force ace_winddeflection_simulationInterval = 0.0111914;
+force ace_winddeflection_simulationInterval = 0.05;
 force ace_winddeflection_vehicleEnabled = true;
 
 // ACE Zeus
