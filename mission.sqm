@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1091;
+		nextID=1146;
 	};
 	class Camera
 	{
-		pos[]={20009.176,243.09009,18797.299};
-		dir[]={0.68822044,-0.57795906,0.43861774};
-		up[]={0.48740232,0.81605959,0.31063205};
-		aside[]={0.53746891,-7.1007526e-007,-0.84332383};
+		pos[]={20018.475,281.50266,18742.027};
+		dir[]={0.4264707,-0.58007467,0.6940639};
+		up[]={0.3036924,0.81455213,0.49424651};
+		aside[]={0.85204732,-7.5914431e-007,-0.5235427};
 	};
 };
 binarizationWanted=0;
@@ -94323,7 +94323,7 @@ class Mission
 			fillName="DiagGrid";
 			a=35.279907;
 			b=1153.4193;
-			angle=48.999985;
+			angle=48.999981;
 			id=23233;
 			atlOffset=-5.058672;
 		};
@@ -94368,7 +94368,7 @@ class Mission
 			fillName="DiagGrid";
 			a=35.279907;
 			b=1153.4193;
-			angle=353.99988;
+			angle=353.99985;
 			id=23236;
 			atlOffset=10.003807;
 		};
@@ -107303,7 +107303,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="pic/gun.paa";
+							value="pic\gun.paa";
 						};
 					};
 				};
@@ -107336,7 +107336,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="pic/camp.paa";
+							value="pic\camp.paa";
 						};
 					};
 				};
@@ -107369,7 +107369,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="pic/med.paa";
+							value="pic\med.paa";
 						};
 					};
 				};
@@ -107402,7 +107402,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="pic/car.paa";
+							value="pic\car.paa";
 						};
 					};
 				};
