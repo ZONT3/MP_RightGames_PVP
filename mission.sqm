@@ -13,7 +13,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=22275;
+		nextID=22277;
 	};
 	class MarkerIDProvider
 	{
@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=791;
+		nextID=828;
 	};
 	class Camera
 	{
-		pos[]={20018.906,241.27519,18271.039};
-		dir[]={-0.72782779,-0.65832782,0.19202776};
-		up[]={-0.6365459,0.75272971,0.16794397};
-		aside[]={0.25510705,-4.5634806e-008,0.96691257};
+		pos[]={20119.902,335.12189,18341.967};
+		dir[]={-0.62145561,-0.74679297,-0.23685232};
+		up[]={-0.69783157,0.66505438,-0.26596069};
+		aside[]={-0.35613695,-9.7206794e-008,0.9344365};
 	};
 };
 binarizationWanted=0;
@@ -726,7 +726,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category2
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -888,7 +888,7 @@ class CustomAttributes
 		};
 		nAttributes=3;
 	};
-	class Category3
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -6214,7 +6214,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_UNSC_VX16_Helmet_MaskV_des";
+													value="G_Balaclava_TI_G_blk_F";
 												};
 											};
 											class Item62
@@ -6222,7 +6222,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="G_Balaclava_TI_G_blk_F";
+													value="G_Bandanna_blk";
 												};
 											};
 											class Item63
@@ -6230,7 +6230,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="G_Bandanna_blk";
+													value="SC_35Rnd_762x51_Mag";
 												};
 											};
 											class Item64
@@ -6238,7 +6238,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SC_35Rnd_762x51_Mag";
+													value="H_Booniehat_khk";
 												};
 											};
 											class Item65
@@ -6246,7 +6246,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="H_Booniehat_khk";
+													value="H_Cap_blk";
 												};
 											};
 											class Item66
@@ -6254,7 +6254,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="H_Cap_blk";
+													value="Tactical_Glasses_Black_EPSM";
 												};
 											};
 											class Item67
@@ -6262,7 +6262,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="Tactical_Glasses_Black_EPSM";
+													value="ACE_MRE_CreamChickenSoup";
 												};
 											};
 											class Item68
@@ -6270,7 +6270,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_MRE_CreamChickenSoup";
+													value="ACE_MRE_ChickenTikkaMasala";
 												};
 											};
 											class Item69
@@ -6278,7 +6278,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_MRE_ChickenTikkaMasala";
+													value="ACE_MRE_ChickenHerbDumplings";
 												};
 											};
 											class Item70
@@ -6286,7 +6286,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_MRE_ChickenHerbDumplings";
+													value="ACE_MRE_MeatballsPasta";
 												};
 											};
 											class Item71
@@ -6294,7 +6294,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_MRE_MeatballsPasta";
+													value="ACE_MRE_SteakVegetables";
 												};
 											};
 											class Item72
@@ -6302,7 +6302,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_MRE_SteakVegetables";
+													value="ACE_MRE_CreamTomatoSoup";
 												};
 											};
 											class Item73
@@ -6310,7 +6310,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_MRE_CreamTomatoSoup";
+													value="ACE_MRE_BeefStew";
 												};
 											};
 											class Item74
@@ -6318,7 +6318,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_MRE_BeefStew";
+													value="ACE_MRE_LambCurry";
 												};
 											};
 											class Item75
@@ -6326,7 +6326,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_MRE_LambCurry";
+													value="ACE_Canteen";
 												};
 											};
 											class Item76
@@ -6334,7 +6334,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_Canteen";
+													value="G_Balaclava_TI_blk_F";
 												};
 											};
 											class Item77
@@ -6342,7 +6342,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="G_Balaclava_TI_blk_F";
+													value="SC_Uniform_Short_Black";
 												};
 											};
 											class Item78
@@ -6350,7 +6350,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SC_Uniform_Short_Black";
+													value="SC_Uniform_Black";
 												};
 											};
 											class Item79
@@ -6358,7 +6358,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SC_Uniform_Black";
+													value="OPTRE_UNSC_VX16_HelmetNV_des";
 												};
 											};
 										};
@@ -61928,12 +61928,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20082.625,205.73279,18330.551};
+				position[]={20082.625,203.51004,18330.551};
 			};
 			areaSize[]={1,-1,1};
 			id=12539;
 			type="ModuleEditTerrainObject_F";
-			atlOffset=1.1462402;
 			class CustomAttributes
 			{
 				class Attribute0
