@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1256;
+		nextID=1311;
 	};
 	class Camera
 	{
-		pos[]={19987.893,207.66136,18278.096};
-		dir[]={-0.53509736,-0.419507,-0.73335755};
-		up[]={-0.24729632,0.90773261,-0.33892313};
-		aside[]={-0.80786854,-5.7919533e-007,0.58946472};
+		pos[]={20089.553,363.46466,18416.227};
+		dir[]={-0.72319198,-0.67287946,-0.15606567};
+		up[]={-0.65775412,0.73973894,-0.14194451};
+		aside[]={-0.21095771,-5.8626756e-007,0.9775573};
 	};
 };
 binarizationWanted=0;
@@ -882,7 +882,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category2
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -1044,7 +1044,7 @@ class CustomAttributes
 		};
 		nAttributes=3;
 	};
-	class Category3
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -1946,7 +1946,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=528;
+		items=527;
 		class Item0
 		{
 			dataType="Comment";
@@ -107409,16 +107409,6 @@ class Mission
 				};
 				nAttributes=1;
 			};
-		};
-		class Item527
-		{
-			dataType="Group";
-			side="West";
-			class Attributes
-			{
-			};
-			id=23987;
-			atlOffset=-489.65417;
 		};
 	};
 };
