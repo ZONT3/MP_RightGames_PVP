@@ -13,8 +13,6 @@ waitUntil {vehicle player == player};
 
 [] execVM "initPlayerAfterRespawn.sqf";
 
-[] execVM "external\PTracker\QS_icons.sqf";
-
 /******                            Zeus list                             ******/
 /* MCH_ZEUS_LIST = [{
   if (isnull (finddisplay 312)) exitWith {};
