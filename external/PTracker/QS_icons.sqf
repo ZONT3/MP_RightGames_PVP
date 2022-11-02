@@ -57,7 +57,7 @@ _QS_ST_friendlySides_RESISTANCE = [							// ARRAY (NUMBER). Uncomment the relev
 	3						//RESISTANCE is friendly to CIVILIAN
 ];
 _QS_ST_friendlySides_CIVILIAN = [							// ARRAY (NUMBER). Uncomment the relevant number(s). Remove comma after last used entry (important!).
-	0,						//CIVILIAN is friendly to EAST
+	0						//CIVILIAN is friendly to EAST
 	//1,					//CIVILIAN is friendly to WEST
 	//2						//CIVILIAN is friendly to INDEP/RESISTANCE
 ];
@@ -72,7 +72,7 @@ _QS_ST_iconColor_UNKNOWN = [0.7,0.6,0,0.5];						// ARRAY (NUMBER). RGBA color c
 
 //================= MEDICAL
 
-_QS_ST_showMedicalWounded = false;								// Отображать раненных на карте и GPS
+_QS_ST_showMedicalWounded = true;								// Отображать раненных на карте и GPS
 _QS_ST_MedicalSystem = [										// ARRAY(STRING). The Active Medical System. Uncomment ONLY ONE. FIRST UNCOMMENTED ONE WILL BE USED. Comment the rest out as shown. Do not add commas and only allow 1 to be uncommented.
 	//'BIS'														// BIS Revive.
 	//'BTC'														// BTC Revive.
@@ -88,10 +88,10 @@ _QS_ST_colorInjured = [0.75,0.55,0,0.75];						// ARRAY (NUMBER). RGBA color cod
 //=========================== конфиг маркеров ===================//
 //==================================================================================//
 
-_QS_ST_showFactionOnly = true;									// показать только фракцию игроко - true, показывать дружественные фракции и игроков - false
+_QS_ST_showFactionOnly = false;									// показать только фракцию игроко - true, показывать дружественные фракции и игроков - false
 _QS_ST_showAI = true;											// Показывать ботов на карте?
-_QS_ST_AINames = true;											// BOOL. Set TRUE to show human names for AI with the map/vehicle icons. Set FALSE and will be named 'AI'. Default FALSE.
-_QS_ST_showCivilianIcons = true;								// показывать гражданских
+_QS_ST_AINames = false;											// BOOL. Set TRUE to show human names for AI with the map/vehicle icons. Set FALSE and will be named 'AI'. Default FALSE.
+_QS_ST_showCivilianIcons = false;								// показывать гражданских
 _QS_ST_iconMapText = true;										// BOOL. TRUE to show unit/vehicle icon text on the map. FALSE to only show the icon and NO text (name/class). Default TRUE.
 _QS_ST_showMOS = true;											// показывать класс ТС, роль и т.д.
 _QS_ST_showMOS_range = 3500;									// дистанция для отображения роли и т.д.. Default 3500.
@@ -140,15 +140,15 @@ _QS_ST_showGroupMapIcons = true;								// BOOL. Group icons displayed on map. D
 _QS_ST_showGroupHudIcons = false;								// BOOL. Group icons displayed on player 3D HUD. Default FALSE.
 _QS_ST_showAIGroups = true;										// BOOL. Show Groups with AI leaders. Default TRUE.
 _QS_ST_showAINames = true;										// BOOL. Show AI Names. If FALSE, when names are listed with Group features, will only display as '[AI]'. Default FALSE.
-_QS_ST_groupInteractiveIcons = true;							// BOOL. Group icons are interactable (mouse hover and mouse click for group details). Default TRUE.
+_QS_ST_groupInteractiveIcons = true;	 					// BOOL. Group icons are interactable (mouse hover and mouse click for group details). Default TRUE.
 _QS_ST_groupInteractiveIcons_showClass = true;					// BOOL. TRUE to show units vehicle class when revealing group details with interactive map group click. Default TRUE.
-_QS_ST_dynamicGroupID = false;									// BOOL. If TRUE, Script tries to utilize BIS-Dynamic-Groups Group Name for group info display (only available with QS_ST_groupInteractiveIcons), if available. Default TRUE.
+_QS_ST_dynamicGroupID = true;									// BOOL. If TRUE, Script tries to utilize BIS-Dynamic-Groups Group Name for group info display (only available with QS_ST_groupInteractiveIcons), if available. Default TRUE.
 _QS_ST_showGroupMapText = true;									// BOOL. TRUE to show Group Name on the map. If FALSE, name can still be seen by clicking on the group icon, if QS_ST_groupInteractiveIcons = TRUE. Default FALSE.
 _QS_ST_groupIconScale = 0.75;										// NUMBER. Group Icon Scale. Default = 0.75
 _QS_ST_groupIconOffset = [0.65,0.65];							// ARRAY (NUMBERS). [X,Y], offset position of icon from group leaders position. Can be positive or negative numbers. Default = [0.65,0.65];
 _QS_ST_groupTextFactionOnly = true;								// BOOL. TRUE to show group icon text from ONLY the PLAYERS faction. FALSE will show text for all friendly/revealed factions. Default TRUE.
 _QS_ST_showCivilianGroups = false;								// BOOL. TRUE to show Civilian groups. Must be whitelisted above in friendlySides. Default FALSE.
-_QS_ST_showOwnGroup = false;									// BOOL. TRUE to show the Players own group icon. Default FALSE.
+_QS_ST_showOwnGroup = true;									// BOOL. TRUE to show the Players own group icon. Default FALSE.
 _QS_ST_GRPrequireGPSItem = false;								// BOOL. TRUE to require player have GPS in his assigned items. Default FALSE.
 
 //==================================================================================//
@@ -920,9 +920,6 @@ _QS_fnc_iconDrawMap = {
 				if (alive _ve) then {
 					_po = [_ve,1,_de] call (_QS_ST_X select 44);
 					_is = [_ve,1,_QS_ST_X] call (_QS_ST_X select 43);
-					if (_ve isEqualTo (vehicle _player)) then {
-						_m drawIcon ['a3\ui_f\data\igui\cfg\islandmap\iconplayer_ca.paa',[1,0,0,0.75],(_po select 0),24,24,(_po select 1),'',0,0.03,_tf,_to];
-					};
 					_m drawIcon [
 						([_ve,1,_QS_ST_X] call (_QS_ST_X select 42)),
 						([_ve,1,_QS_ST_X,_ms] call (_QS_ST_X select 41)),

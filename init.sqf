@@ -26,5 +26,3 @@ east setFriend [west, 0];
 east setFriend [resistance, 0];
 resistance setFriend [west, 0];
 resistance setFriend [east, 0];
-
-[] execVM "external\PTracker\QS_icons.sqf";
