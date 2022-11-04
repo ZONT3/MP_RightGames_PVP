@@ -11,7 +11,7 @@ if (_med) then
  player setVariable ["ace_medical_medicclass", 2, true];
 };
 
-
+player embaleStamina false;
 
 
 /*
