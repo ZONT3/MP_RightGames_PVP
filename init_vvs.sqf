@@ -3,7 +3,7 @@ _this disableAI "move"; _this disableAI "radioprotocol"; _this disableAI "autoco
 _this addAction [
   "Запрос Техники БМО",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"BMO"],
+  [VVS_east_Land,"BMO"],
   6,
   true,
   true,
@@ -15,7 +15,7 @@ _this addAction [
 _this addAction [
   "Запрос специальной колесной техники",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"SWheeled"],
+  [VVS_east_Land,"SWheeled"],
   6,
   true,
   true,
@@ -27,7 +27,7 @@ _this addAction [
 _this addAction [
   "Запрос Техники 2nd Armored Squad",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"CD"],
+  [VVS_east_Land,"CD"],
   6,
   true,
   true,
@@ -39,7 +39,7 @@ _this addAction [
 _this addAction [
   "Запрос Техники Штаба",
   VVS_fnc_openVVS,
-  [VVS_west_Land,"HQ"],
+  [VVS_east_Land,"HQ"],
   6,
   true,
   true,
