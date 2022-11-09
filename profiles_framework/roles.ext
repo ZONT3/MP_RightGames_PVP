@@ -12,7 +12,8 @@ class CfgRoles {
   class CBRN         { id=17; name="CBRN Unit"; };
   class Supp         { id=18; name="15th Engeneering Support Cavalry"; };
   class Mar          { id=19; name="1st Maradeur Corp"; };
-  class MDF          { id=20; name="MDF Deimos"; };
-  class IST          { id=21; name="3rd Imperial Schock Troopers"; };
+  class MDF          { id=20; name="MDF Horus"; };
+  class MDFM         { id=21; name="MDF Horus, Medic"; };
+  class IST          { id=22; name="3rd Imperial Schock Troopers"; };
 
 };
