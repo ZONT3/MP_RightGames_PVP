@@ -47,3 +47,15 @@ _this addAction [
   "[['HQ']] call ZONT_fnc_checkRole",
   5
 ];
+
+_this addAction [
+  "Запрос Техники 13th Marine Corp",
+  VVS_fnc_openVVS,
+  [VVS_east_Land,"Marine"],
+  6,
+  true,
+  true,
+  "",
+  "[['Marine']] call ZONT_fnc_checkRole",
+  5
+];

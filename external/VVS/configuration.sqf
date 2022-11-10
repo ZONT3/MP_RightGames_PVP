@@ -10,7 +10,7 @@ ZONT_fnc_filterVVS = {
   switch(_this) do {
   	case "HQ": { VVS_HQ + VVS_Wheeled };
   	case "BMO": { VVS_BMO };
-  	case "A10": { VVS_A10 };
+  	case "Marine": { VVS_A10 };
   	case "Wheeled": { VVS_Wheeled };
   	case "SWheeled": { VVS_Wheeled_Spec };
   	case "CD": { VVS_CD };
@@ -103,14 +103,14 @@ VVS_CD = [
   "OPTRE_M808BM_UNSC"
 ];
 
-VVS_A124 = [
+VVS_A10 = [
+  "OPTRE_M412_IFV_UNSC"
 ];
 
 VVS_Wheeled_Spec = [
 ];
 
 VVS_BMO = [
-  "OPTRE_M412_IFV_UNSC",
   "OPTRE_M813_TT",
   "OPTRE_m1087_stallion_unsc_resupply",
   "OPTRE_m1087_stallion_cover_unsc",
