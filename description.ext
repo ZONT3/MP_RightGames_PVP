@@ -79,8 +79,8 @@ class CfgSounds {
   sounds[] = {};
 };
 
-author			  = "RG Team";
-onLoadName		= "Scin Conflict | Right Games";
+author			  = "UMS Team";
+onLoadName		= "Scin Conflict | UMS";
 onLoadMission	= "";
 loadScreen = "pic\mp.jpg";
 class Header {
