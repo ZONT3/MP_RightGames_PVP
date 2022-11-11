@@ -62,11 +62,11 @@ private _fn_moveToCustomSpawn = {
   params ['_player','_fn_moveToSpawn'];
   waituntil { sleep 0.1; !isNil 'ZPR_roles' };
 
-  private _train = [["Training"]] call ZONT_fnc_checkRole;
+  private _train = [["Train"]] call ZONT_fnc_checkRole;
   if _train exitWith { [_player, true, 'MP_spawn_train'] call _fn_moveToSpawn };
   private _mdf = [["MDF"]] call Zont_fnc_checkrole;
   private _mdfm = [["MDFM"]] call Zont_fnc_checkrole;
-  if _mdf or _mdfm exitwith { [_player, true, 'MP_spawn_usaf'] call _fn_moveToSpawn };
+  if _mdf or _mdfm exitwith { [_player, true, 'MP_spawn_mdf'] call _fn_moveToSpawn };
 };
 
 private _fn_moveToSpawn = {
