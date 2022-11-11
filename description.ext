@@ -155,7 +155,7 @@ class CfgDiscordRichPresence {
 	defaultDetails="Scion Conflict";
 	defaultState="https://vk.com/rgssww";
 	defaultLargeImageKey="rgad";
-	defaultLargeImageText="Right Games";
+	defaultLargeImageText="UMS";
 	defaultSmallImageKey="a3";
 	defaultSmallImageText="ArmA 3";
 	useTimeElapsed=1;

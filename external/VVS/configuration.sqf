@@ -86,6 +86,9 @@ ZONT_fnc_onSpawnVVS = {
     case "SCEXT_Gator_Flatbed_Trans_SE": {
       [_vehicle, "Tan"] call BIS_fnc_initVehicle;
     };
+	case "OPTRE_M875_SPH": {
+      [_vehicle, "colortan"] call BIS_fnc_initVehicle;
+    };
   };
 };
 
@@ -100,7 +103,8 @@ VVS_CD = [
   "SC_EXT_Scorpion",
   "SC_EXT_Ant_SE",
   "OPTRE_M808B2",
-  "OPTRE_M808BM_UNSC"
+  "OPTRE_M808BM_UNSC",
+  "OPTRE_M875_SPH"
 ];
 
 VVS_A10 = [
