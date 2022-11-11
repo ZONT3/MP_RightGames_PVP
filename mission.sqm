@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2620;
+		nextID=2684;
 	};
 	class Camera
 	{
-		pos[]={19862.055,237.51833,18630.717};
-		dir[]={0.28236324,-0.51644301,-0.80849439};
-		up[]={0.17029579,0.8562901,-0.48760438};
-		aside[]={-0.94412822,8.4750354e-007,-0.32973596};
+		pos[]={19856.539,215.50381,18634.984};
+		dir[]={0.56293267,-0.72998148,-0.38773751};
+		up[]={0.60119033,0.68344218,-0.41408631};
+		aside[]={-0.56727201,-2.6077032e-008,-0.82359362};
 	};
 };
 binarizationWanted=0;
@@ -65473,8 +65473,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={19856.111,205.73248,18615.236};
-				angles[]={0,3.0194197,0};
+				position[]={19862.621,205.73248,18632.131};
+				angles[]={0,5.2708945,-0};
 			};
 			id=15411;
 			type="ModuleRespawnPosition_F";
@@ -132826,6 +132826,7 @@ class Mission
 			};
 			id=35571;
 			type="SC_Flag_SE";
+			atlOffset=7.6293945e-006;
 		};
 		class Item655
 		{
@@ -132842,6 +132843,7 @@ class Mission
 			};
 			id=35572;
 			type="OPTRE_Objects_Wreck_Hornet";
+			atlOffset=-0.0065040588;
 		};
 		class Item656
 		{
@@ -132849,7 +132851,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14020.894,35.033886,17098.109};
-				angles[]={0,1.1677293,-0};
+				angles[]={0,1.1677293,0};
 			};
 			side="Empty";
 			class Attributes
@@ -132866,7 +132868,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14024.389,35.033886,17096.299};
-				angles[]={0,4.3611913,-0};
+				angles[]={0,4.3611913,0};
 			};
 			side="Empty";
 			class Attributes
@@ -132885,13 +132887,14 @@ class Mission
 				position[]={13892.683,42.603127,17060.639};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
 				dynamicSimulation=1;
 			};
 			id=35578;
 			type="SC_Flag_SE";
+			atlOffset=4.1907654;
 		};
 		class Item659
 		{
@@ -132899,7 +132902,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={19878.17,203.09305,18566.973};
-				angles[]={0,6.2133722,-0};
+				angles[]={0,6.2133722,0};
 			};
 			side="Empty";
 			flags=1;
