@@ -25,7 +25,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={19970.4,260.03629,18676.656};
+		pos[]={20120.695,357.96005,18652.203};
 		dir[]={-0.78239548,-0.60141337,-0.16189688};
 		up[]={-0.58895063,0.7989282,-0.12186842};
 		aside[]={-0.20263842,4.778849e-008,0.97927946};
@@ -1277,7 +1277,7 @@ class CustomAttributes
 								singleType="ARRAY";
 								class value
 								{
-									items=25;
+									items=26;
 									class Item0
 									{
 										class data
@@ -1478,6 +1478,14 @@ class CustomAttributes
 											value="dcoexcludeplayergroups";
 										};
 									};
+									class Item25
+									{
+										class data
+										{
+											singleType="STRING";
+											value="sfsm_flinchstopdodge";
+										};
+									};
 								};
 							};
 						};
@@ -1488,7 +1496,7 @@ class CustomAttributes
 								singleType="ARRAY";
 								class value
 								{
-									items=25;
+									items=26;
 									class Item0
 									{
 										class data
@@ -2138,6 +2146,33 @@ class CustomAttributes
 										};
 									};
 									class Item24
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item25
 									{
 										class data
 										{
