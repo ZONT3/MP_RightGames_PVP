@@ -7,14 +7,15 @@ private _med = [["Med"]] call ZONT_fnc_checkRole;
 private _mdfm = [["MDFM"]] call ZONT_fnc_checkRole;
 
 
-if (_med or _mdfm) then 
+if (_med) then 
 {
  player setVariable ["ace_medical_medicclass", 2, true];
 };
 
-player enableStamina false;
-player enableFatigue false;
-
+if (_mdfm) then 
+{
+ player setVariable ["ace_medical_medicclass", 2, true];
+};
 
 /*
 private _mechanicus = [["Mechanicus"]] call ZONT_fnc_checkRole;
