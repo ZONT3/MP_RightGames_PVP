@@ -13,7 +13,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=35603;
+		nextID=35605;
 	};
 	class MarkerIDProvider
 	{
@@ -21,14 +21,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2940;
+		nextID=3004;
 	};
 	class Camera
 	{
-		pos[]={19782.67,296.15237,18644.117};
-		dir[]={0.67070735,-0.70263666,-0.23760168};
-		up[]={0.66230643,0.71154791,-0.23462567};
-		aside[]={-0.33392191,5.8091246e-008,-0.94260162};
+		pos[]={17271.484,258.99176,16064.429};
+		dir[]={-0.85018241,-0.51130491,-0.12592381};
+		up[]={-0.50582254,0.85937697,-0.074918658};
+		aside[]={-0.14652239,-4.3492764e-007,0.98926234};
 	};
 };
 binarizationWanted=0;
@@ -2379,7 +2379,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=662;
+		items=663;
 		class Item0
 		{
 			dataType="Comment";
@@ -57073,12 +57073,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20082.625,205.73279,18330.551};
+				position[]={20082.625,203.51004,18330.551};
 			};
 			areaSize[]={1,-1,1};
 			id=12539;
 			type="ModuleEditTerrainObject_F";
-			atlOffset=1.1462402;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -129410,7 +129409,7 @@ class Mission
 			};
 			id=35423;
 			type="Land_Wall_Military_NoText";
-			atlOffset=-0.30575025;
+			atlOffset=-0.30575037;
 		};
 		class Item626
 		{
@@ -129444,7 +129443,7 @@ class Mission
 			};
 			id=35425;
 			type="Land_Wall_Military_NoText";
-			atlOffset=-1.1821035;
+			atlOffset=-1.1821036;
 		};
 		class Item628
 		{
@@ -132973,6 +132972,23 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item662
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19925.525,206.929,18767.256};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this call ZONT_fnc_initHookah";
+			};
+			id=35604;
+			type="jbad_water_pipe";
+			atlOffset=0.00033569336;
 		};
 	};
 	class Connections
