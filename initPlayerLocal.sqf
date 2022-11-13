@@ -66,7 +66,7 @@ private _fn_moveToCustomSpawn = {
   if _train exitWith { [_player, true, 'MP_spawn_train'] call _fn_moveToSpawn };
   private _mdf = [["MDF"]] call Zont_fnc_checkrole;
   private _mdfm = [["MDFM"]] call Zont_fnc_checkrole;
-  if _mdf or _mdfm exitwith { [_player, true, 'MP_spawn_mdf'] call _fn_moveToSpawn };
+  if _mdf exitwith { [_player, true, 'MP_spawn_mdf'] call _fn_moveToSpawn };
 };
 
 private _fn_moveToSpawn = {
