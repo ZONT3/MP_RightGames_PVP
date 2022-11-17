@@ -8,7 +8,7 @@ force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
 force ace_advanced_ballistics_simulationInterval = 0;
 
 // ACE Advanced Fatigue
-force ace_advanced_fatigue_enabled = false;
+force ace_advanced_fatigue_enabled = true;
 force ace_advanced_fatigue_enableStaminaBar = true;
 ace_advanced_fatigue_fadeStaminaBar = true;
 force ace_advanced_fatigue_loadFactor = 0.1;
@@ -194,7 +194,7 @@ force ace_repair_autoShutOffEngineWhenStartingRepair = true;
 force ace_repair_consumeItem_toolKit = 0;
 force ace_repair_displayTextOnRepair = true;
 force ace_repair_engineerSetting_fullRepair = 1;
-force ace_repair_engineerSetting_repair = 1;
+force ace_repair_engineerSetting_repair = 0;
 force ace_repair_engineerSetting_wheel = 0;
 force ace_repair_fullRepairLocation = 3;
 force ace_repair_fullRepairRequiredItems = ["ToolKit"];

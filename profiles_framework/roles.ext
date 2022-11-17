@@ -3,8 +3,8 @@ class CfgRoles {
   class Zeus         { id=1 ; hide=true; };
 
   class HQ           { id=10; name="Headquarters"; };
-  class Train        { id=11; name="Conscript Unit"; };
-  class Marine       { id=12; name="13th Front Marine Corp"; free=true };
+  class Train        { id=11; name="Conscript Unit"; free=true };
+  class Marine       { id=12; name="13th Front Marine Corp"; };
   class Med          { id=13; name="13th Front Marine Corp(Med.squad)"; };
   class GF           { id=14; name="27th Griffin Wing"; };
   class AF           { id=15; name="2nd Armored Squad"; };
@@ -15,5 +15,6 @@ class CfgRoles {
   class MDF          { id=20; name="MDF Horus"; };
   class MDFM         { id=21; name="MDF Horus, Medic"; };
   class IST          { id=22; name="3rd Imperial Schock Troopers"; };
+  class HTM          { id=23; name="PMC Hatiman"; };
 
 };

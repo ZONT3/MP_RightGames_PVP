@@ -17,9 +17,6 @@ if (_mdfm) then
  player setVariable ["ace_medical_medicclass", 2, true];
 };
 
-enableFatigue false;
-enableStamina false;
-
 /*
 private _mechanicus = [["Mechanicus"]] call ZONT_fnc_checkRole;
 private _inqusition = [["Inqusition"]] call ZONT_fnc_checkRole;

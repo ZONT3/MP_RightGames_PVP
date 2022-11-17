@@ -27,67 +27,46 @@ ZONT_fnc_onSpawnVVS = {
 
   private _fnc_class = switch (_class) do {
     case "OPTRE_M808S": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle; 
     };
     case "OPTRE_M808B2": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M808BM_UNSC": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorwhite"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M808B_UNSC": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorwhite"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M813_TT": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M12A1_LRV": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M12R_AA": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M12G1_LRV": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M12_FAV_APC": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M12_LRV": {
-      [_vehicle, "colorsand"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M412_IFV_UNSC": {
-      [_vehicle, "colortan"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M413_MGS_UNSC": {
-      [_vehicle, "colortan"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M494": {
-      [_vehicle, "colordes"] call BIS_fnc_initVehicle;
-    };
-    case "SC_Mantis": {
-      [_vehicle, "DesertCamo"] call BIS_fnc_initVehicle;
-    };
-    case "SC_EXT_Scorpion": {
-      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
-    };
-    case "SC_EXT_Ant_SE": {
-      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
-    };
-    case "SCEXT_Gator_Logistics_SE": {
-      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
-    };
-    case "SC_Gator_TO_SE": {
-      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
-    };
-    case "SCEXT_Gator_TC_A_SE": {
-      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
-    };
-    case "SCEXT_Gator_Flatbed_Trans_SE": {
-      [_vehicle, "Tan"] call BIS_fnc_initVehicle;
+      [_vehicle, "colortund"] call BIS_fnc_initVehicle;
     };
 	case "OPTRE_M875_SPH": {
-      [_vehicle, "colortan"] call BIS_fnc_initVehicle;
+      [_vehicle, "colorwhite"] call BIS_fnc_initVehicle;
     };
   };
 };
@@ -100,11 +79,14 @@ VVS_Wheeled = [
 ];
 
 VVS_CD = [
-  "SC_EXT_Scorpion",
-  "SC_EXT_Ant_SE",
+  "SC_EXT_Scorpion_White",
+  "SC_EXT_Ant_White",
   "OPTRE_M808B2",
   "OPTRE_M808BM_UNSC",
-  "OPTRE_M875_SPH"
+  "OPTRE_M875_SPH",
+  "OPTRE_M413_MGS_UNSC", 
+  "OPTRE_M412_IFV_UNSC", 
+  "OPTRE_M494"
 ];
 
 VVS_A10 = [
@@ -126,7 +108,7 @@ VVS_BMO = [
   "OPTRE_M12_LRV",
   "OPTRE_M12R_AA",
   "OPTRE_M12A1_LRV",
-  "SC_SaurusAPC_SE"
+  "SC_SaurusAPC_APC_White"
 ];
 
 VVS_USAF = [

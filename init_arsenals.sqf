@@ -53,3 +53,10 @@
 	"Запросить арсенал MDF",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
+
+[ _this,
+	ars_hatiman,
+	["HTM"],
+	"Запросить арсенал Hatiman",
+	[["Здарова", "Hello"], ["Бб", "Бывай"]]
+] call ZONT_fnc_attachArsenal;
