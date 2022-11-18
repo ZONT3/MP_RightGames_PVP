@@ -68,10 +68,11 @@ private _fn_moveToCustomSpawn = {
   private _mdfm = [["MDFM"]] call Zont_fnc_checkrole;
   if _mdf exitwith { [_player, true, 'MP_spawn_mdf'] call _fn_moveToSpawn };
   private _atlaso = [["Off"]] call Zont_fnc_checkrole;
+  if _atlaso exitWith { [_player, true, 'MP_spawn_atlas'] call _fn_moveToSpawn };
   private _atlasi = [["Inf"]] call Zont_fnc_checkrole;
+  if _atlasi exitWith { [_player, true, 'MP_spawn_atlas'] call _fn_moveToSpawn };
   private _atlasr = [["Rec"]] call Zont_fnc_checkrole;
-  if _atlaso or _atlasi or _atlasr exitwith { [_player, true, 'MP_spawn_atlas'] call _fn_moveToSpawn };
-};
+  if _atlasr exitWith { [_player, true, 'MP_spawn_atlas'] call _fn_moveToSpawn };
 
 private _fn_moveToSpawn = {
   params ["_player", "_cg", '_spawnName'];

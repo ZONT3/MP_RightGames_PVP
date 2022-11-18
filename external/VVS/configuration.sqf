@@ -124,7 +124,7 @@ VVS_Atlas = [
   "SCEXT_Gator_APC_AC",
   "SCEXT_Gator_TC_A_AC",
   "SC_Gator_TO_AC"
-]
+];
 
 
 VVS_Car = [];
