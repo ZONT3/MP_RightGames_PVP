@@ -16,6 +16,7 @@ ZONT_fnc_filterVVS = {
   	case "CD": { VVS_CD };
     case "USAF": { VVS_USAF };
     case "CBRN": { VVS_CBRN };
+    case "Atlas": { VVS_Atlas };
 
   	default {[]};
   };
@@ -27,7 +28,7 @@ ZONT_fnc_onSpawnVVS = {
 
   private _fnc_class = switch (_class) do {
     case "OPTRE_M808S": {
-      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle; 
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
     case "OPTRE_M808B2": {
       [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
@@ -84,8 +85,8 @@ VVS_CD = [
   "OPTRE_M808B2",
   "OPTRE_M808BM_UNSC",
   "OPTRE_M875_SPH",
-  "OPTRE_M413_MGS_UNSC", 
-  "OPTRE_M412_IFV_UNSC", 
+  "OPTRE_M413_MGS_UNSC",
+  "OPTRE_M412_IFV_UNSC",
   "OPTRE_M494"
 ];
 
@@ -117,6 +118,13 @@ VVS_USAF = [
 
 VVS_CBRN = [
 ];
+
+VVS_Atlas = [
+  "SC_Ferret_AC",
+  "SCEXT_Gator_APC_AC",
+  "SCEXT_Gator_TC_A_AC",
+  "SC_Gator_TO_AC"
+]
 
 
 VVS_Car = [];

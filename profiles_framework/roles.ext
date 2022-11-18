@@ -17,4 +17,8 @@ class CfgRoles {
   class IST          { id=22; name="3rd Imperial Schock Troopers"; };
   class HTM          { id=23; name="PMC Hatiman"; };
 
+  class Off          { id=24; name="Atlas Corporation, Officer"; };
+  class Inf          { id=25; name="Atlas Corporation, Infantry"; };
+  class Rec          { id=26; name="Atlas Corporation, Recon"; };
+
 };
