@@ -73,6 +73,7 @@ private _fn_moveToCustomSpawn = {
   if _atlasi exitWith { [_player, true, 'MP_spawn_atlas'] call _fn_moveToSpawn };
   private _atlasr = [["Rec"]] call Zont_fnc_checkrole;
   if _atlasr exitWith { [_player, true, 'MP_spawn_atlas'] call _fn_moveToSpawn };
+};
 
 private _fn_moveToSpawn = {
   params ["_player", "_cg", '_spawnName'];
