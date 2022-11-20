@@ -57,6 +57,9 @@ ZONT_fnc_onSpawnVVS = {
     case "OPTRE_M12_LRV": {
       [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
+	case "OPTRE_M12_FAV": {
+      [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
+    };
     case "OPTRE_M412_IFV_UNSC": {
       [_vehicle, "colorsnow"] call BIS_fnc_initVehicle;
     };
@@ -123,7 +126,10 @@ VVS_Atlas = [
   "SC_Ferret_AC",
   "SCEXT_Gator_APC_AC",
   "SCEXT_Gator_TC_A_AC",
-  "SC_Gator_TO_AC"
+  "SC_Gator_TO_AC",
+  "SRV_WINTER", 
+  "OPTRE_M12_FAV", 
+  "B_Quadbike_01_F"
 ];
 
 
