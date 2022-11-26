@@ -17,8 +17,6 @@ if (_mdfm) then
  player setVariable ["ace_medical_medicclass", 2, true];
 };
 
-player setVariable ["IMS_StaminaRegenerationParam",0.5];
-
 /*
 private _mechanicus = [["Mechanicus"]] call ZONT_fnc_checkRole;
 private _inqusition = [["Inqusition"]] call ZONT_fnc_checkRole;
