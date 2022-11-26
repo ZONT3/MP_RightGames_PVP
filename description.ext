@@ -153,7 +153,7 @@ class CfgConsts {
 class CfgDiscordRichPresence {
 	applicationID="1041326066419109899";
 	defaultDetails="Scion Conflict";
-	defaultState="https://vk.com/rgssww";
+	defaultState="https://discord.gg/6QpWF5s4aH";
 	defaultLargeImageKey="u";
 	defaultLargeImageText="UMS";
 	defaultSmallImageKey="a3";
