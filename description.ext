@@ -3,9 +3,6 @@
 #include "profiles_framework\roles.ext"
 /**********                       RSC includes                       **********/
 #include "external\VVS\menu.ext"
-/**********                       Money System                       **********/
-#include "external\money\moneymenu.hpp"
-#include "external\money\Functions.ext"
 
 /**********                        Properties                        **********/
 respawnOnStart = -1;
@@ -82,7 +79,7 @@ class CfgSounds {
 author			  = "UMS Team";
 onLoadName		= "Scin Conflict | UMS";
 onLoadMission	= "";
-loadScreen = "pic\mp.jpg";
+loadScreen = "pic\loading.paa";
 class Header {
 	gameType   = RPG;
 	minPlayers =   0;
