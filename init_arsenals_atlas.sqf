@@ -7,7 +7,7 @@
 
 [ _this,
 	ars_inf,
-	["Inf", "Off"],
+	["HQ"],
 	"Запросить арсенал Atlas Inf",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;

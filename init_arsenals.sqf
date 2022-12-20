@@ -14,15 +14,15 @@
 
 [ _this,
 	ars_gf,
-	["GF" , "Supp"],
-	"Запросить арсенал 27th Griffin Wing",
+	["GF" , "Supp", "AF"],
+	"Запросить арсенал летного состава",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
 [ _this,
 	ars_af,
-	["AF" , "Supp"],
-	"Запросить арсенал 2nd Armored Squad",
+	["AF" , "Supp", "GF"],
+	"Запросить арсенал танкового состава",
 	[["Здарова", "Hello"], ["Бб", "Бывай"]]
 ] call ZONT_fnc_attachArsenal;
 
